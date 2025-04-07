@@ -1,1 +1,4 @@
 /experiment1/data
+/experiment1/checkpoints
+/experiment1/wandb
+/experiment1/__pycache__
