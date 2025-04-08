@@ -14,9 +14,11 @@ print(f"使用设备: {device}")
 
 
 
-def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100, val_acc_threshold=0.9):
+def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100, val_acc_threshold=0.99):
     best_val_acc = 0
     best_model_path = None
+    # 将阈值转换为百分比形式
+    val_acc_threshold_percent = val_acc_threshold * 100
     for epoch in range(num_epochs):
         model.train()
         running_loss = 0.0
@@ -56,35 +58,35 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler
         epoch_loss = running_loss / len(train_loader)
         epoch_acc = 100 * correct / total
         print(f'Epoch [{epoch+1}/{num_epochs}] - Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.2f}%')
-        if epoch % 2 == 0:
-            print('starting validation......')
-            val_loss, val_acc = evaluate_model(model, val_loader, criterion)
-            wandb.log({
-                "val_loss": val_loss,
-                "val_acc": val_acc
-            })
-            print(f"Epoch {epoch+1}/{num_epochs}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%")
-            wandb.log({
-                "val_loss": val_loss,
-                "val_acc": val_acc
-            })
+        # if epoch % 2 == 0:
+        print('starting validation......')
+        val_loss, val_acc = evaluate_model(model, val_loader, criterion)
+        wandb.log({
+            "val_loss": val_loss,
+            "val_acc": val_acc
+        })
+        print(f"Epoch {epoch+1}/{num_epochs}, Val Loss: {val_loss:.4f}, Val Acc: {val_acc:.2f}%")
+        wandb.log({
+            "val_loss": val_loss,
+            "val_acc": val_acc
+        })
 
-            os.makedirs("./checkpoints", exist_ok=True)
-            if val_acc > best_val_acc:
-                if best_model_path is not None and os.path.exists(best_model_path):
-                    try:
-                        os.remove(best_model_path)
-                        print(f'删除旧的最佳模型: {best_model_path}')
-                    except Exception as e:
-                        print(f'删除旧模型失败: {e}')
-                best_val_acc = val_acc
-                new_model_path = f"./checkpoints/Cancer_Val_Epoch{epoch+1}_Acc{val_acc:.2f}.pth"
-                torch.save(model.state_dict(), new_model_path)
-                print(f'save model to {new_model_path}')
-                best_model_path = new_model_path
-            if val_acc > val_acc_threshold:
-                print(f'达到验证集准确率阈值，结束训练')
-                break
+        os.makedirs("./checkpoints", exist_ok=True)
+        if val_acc > best_val_acc:
+            if best_model_path is not None and os.path.exists(best_model_path):
+                try:
+                    os.remove(best_model_path)
+                    print(f'删除旧的最佳模型: {best_model_path}')
+                except Exception as e:
+                    print(f'删除旧模型失败: {e}')
+            best_val_acc = val_acc
+            new_model_path = f"./checkpoints/Cancer_Val_Epoch{epoch+1}_Acc{val_acc:.2f}.pth"
+            torch.save(model.state_dict(), new_model_path)
+            print(f'save model to {new_model_path}')
+            best_model_path = new_model_path
+        if val_acc >= val_acc_threshold_percent:
+            print(f'验证集准确率 ({val_acc:.2f}%) 已达到阈值 ({val_acc_threshold_percent:.2f}%)，提前结束训练')
+            break
     wandb.finish()
     return best_val_acc
 
