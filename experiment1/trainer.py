@@ -12,7 +12,9 @@ import os
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"使用设备: {device}")
 
-def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100):
+
+
+def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100, val_acc_threshold=0.9):
     best_val_acc = 0
     best_model_path = None
     for epoch in range(num_epochs):
@@ -80,6 +82,9 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler
                 torch.save(model.state_dict(), new_model_path)
                 print(f'save model to {new_model_path}')
                 best_model_path = new_model_path
+            if val_acc > val_acc_threshold:
+                print(f'达到验证集准确率阈值，结束训练')
+                break
     wandb.finish()
     return best_val_acc
 

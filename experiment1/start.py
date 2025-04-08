@@ -23,7 +23,7 @@ if __name__ == "__main__":
     num_epochs = 100
     warmup_ratio = 0.1
     wandb.login()
-    wandb.init(project='ResNext50-MNIST',name='ResNext50-using-pretrain-model-MNIST')
+    wandb.init(project='ResNext50-MNIST-250407',name='ResNext50-MNIST-250407')
 
     train_loader, val_loader = load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False)
     # 不使用预训练模型
