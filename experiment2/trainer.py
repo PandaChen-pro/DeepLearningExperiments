@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
-from model import ResNext50
+from model import ViT
 from dataset_loader import load_dataset
 import wandb
 from timm.scheduler.cosine_lr import CosineLRScheduler
@@ -14,7 +14,7 @@ print(f"使用设备: {device}")
 
 
 
-def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100, val_acc_threshold=0.99):
+def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler, num_epochs=100, val_acc_threshold=0.9):
     best_val_acc = 0
     best_model_path = None
     # 将阈值转换为百分比形式

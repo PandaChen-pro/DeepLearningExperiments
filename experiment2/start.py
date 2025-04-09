@@ -10,6 +10,8 @@ import os
 from model import ViT
 import timm
 
+from torchvision.models import ViT_B_16_Weights, vit_b_16
+
 os.environ['http_proxy'] = 'http://172.17.0.2:7532'
 os.environ['https_proxy'] = 'http://172.17.0.2:7532'
 
@@ -24,18 +26,18 @@ if __name__ == "__main__":
     num_epochs = 100
     warmup_ratio = 0.1
     wandb.login()
-    wandb.init(project='ViT-CIFAR10', name='ViT-CIFAR10-Experiment')
+    wandb.init(project='ViT-CIFAR10-original', name='ViT-CIFAR10-original-Experiment')
 
-    train_loader, val_loader = load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False)
+    train_loader, val_loader = load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False,num_workers=4)
     # 不使用预训练模型
     model = ViT(
-        img_size=32,
-        patch_size=4,
+        img_size=224,
+        patch_size=16,
         in_channels=3,
         num_classes=10,
-        embed_dim=192,
+        embed_dim=768,
         depth=12,
-        num_heads=8,
+        num_heads=12,
         mlp_ratio=4,
         qkv_bias=True,
         drop_rate=0.1,
@@ -43,17 +45,25 @@ if __name__ == "__main__":
     )
 
     # 使用预训练模型
-    model = timm.create_model(
-        'vit_base_patch16_224',  # 选择你想要的模型架构
-        pretrained=True,          # 使用预训练权重
-        num_classes=num_classes   # 设置输出类别数
+    model = vit_b_16(ViT_B_16_Weights.IMAGENET1K_V1)
+    
+    model.heads = nn.Sequential(
+        nn.Linear(model.heads.head.in_features, num_classes)
     )
+    for param in model.parameters():
+        param.requires_grad = False
+    
+    for param in model.encoder.layers[-1].parameters():
+        param.requires_grad = True
+    for param in model.heads.parameters():
+        param.requires_grad = True
+    model.to(device)
 
     # 加载上一个checkpoint继续训练，/home/code/experiment/modal/resnext/checkpoints/Cancer_Val_Epoch23_Acc79.69.pth
     # checkpoint_path = "/home/code/experiment/modal/resnext/checkpoints/Cancer_Val_Epoch23_Acc79.69.pth"
     # checkpoint = torch.load(checkpoint_path, map_location=device)
     # model.load_state_dict(checkpoint['model_state_dict'] if 'model_state_dict' in checkpoint else checkpoint)
-    model.to(device)
+    
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.05)
     # if 'optimizer_state_dict' in checkpoint:

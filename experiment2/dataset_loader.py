@@ -11,7 +11,7 @@ os.environ['https_proxy'] = 'http://172.17.0.2:7532'
 
 torch.manual_seed(3407)
 
-def load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False):
+def load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False,num_workers=0):
     
     train_transform = transforms.Compose([
         transforms.Resize((224, 224)),  
@@ -32,8 +32,8 @@ def load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_s
     val_dataset = datasets.CIFAR10(root=val_dataset_path, train=False, 
                                   transform=val_transform, download=True)    
 
-    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=is_train_shuffle)
-    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=is_val_shuffle)
+    train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=is_train_shuffle,num_workers=num_workers)
+    val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=is_val_shuffle,num_workers=num_workers)
 
     return train_loader, val_loader
 
