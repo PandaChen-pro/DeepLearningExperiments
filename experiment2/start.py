@@ -8,6 +8,7 @@ import torchvision.models as models
 import wandb
 import os
 from model import ViT
+import timm
 
 os.environ['http_proxy'] = 'http://172.17.0.2:7532'
 os.environ['https_proxy'] = 'http://172.17.0.2:7532'
@@ -24,7 +25,7 @@ if __name__ == "__main__":
     warmup_ratio = 0.1
     wandb.login()
     wandb.init(project='ViT-CIFAR10', name='ViT-CIFAR10-Experiment')
-    
+
     train_loader, val_loader = load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_shuffle=True, is_val_shuffle=False)
     # 不使用预训练模型
     model = ViT(
@@ -42,9 +43,11 @@ if __name__ == "__main__":
     )
 
     # 使用预训练模型
-    # model = models.resnext50_32x4d(pretrained=True)
-    # model.conv1 = nn.Conv2d(1, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
-    # model.fc = nn.Linear(model.fc.in_features, num_classes)
+    model = timm.create_model(
+        'vit_base_patch16_224',  # 选择你想要的模型架构
+        pretrained=True,          # 使用预训练权重
+        num_classes=num_classes   # 设置输出类别数
+    )
 
     # 加载上一个checkpoint继续训练，/home/code/experiment/modal/resnext/checkpoints/Cancer_Val_Epoch23_Acc79.69.pth
     # checkpoint_path = "/home/code/experiment/modal/resnext/checkpoints/Cancer_Val_Epoch23_Acc79.69.pth"
