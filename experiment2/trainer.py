@@ -130,9 +130,9 @@ def train_model(model, train_loader, val_loader, criterion, optimizer, scheduler
             # 不重置计数器，因为我们主要关注准确率
         
         # 检查是否满足早停条件
-        if counter >= patience:
-            print(f'验证准确率连续 {patience} 个epoch未提升，触发早停')
-            break
+        # if counter >= patience:
+        #     print(f'验证准确率连续 {patience} 个epoch未提升，触发早停')
+        #     break
             
         # 检查是否达到准确率阈值
         if val_acc >= val_acc_threshold_percent:

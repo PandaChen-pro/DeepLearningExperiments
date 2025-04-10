@@ -16,8 +16,8 @@ def load_dataset(train_dataset_path, val_dataset_path, batch_size=32, is_train_s
     train_transform = transforms.Compose([
         transforms.RandomResizedCrop(224, scale=(0.8, 1.0)),
         transforms.RandomHorizontalFlip(),
-        transforms.RandomVerticalFlip(p=0.1),  # 添加垂直翻转
-        transforms.RandomRotation(15),         # 添加随机旋转
+        transforms.RandomVerticalFlip(p=0.1),  # 垂直翻转
+        transforms.RandomRotation(15),         # 随机旋转
         transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.1),  # 颜色抖动
         # transforms.RandomGrayscale(p=0.05),    # 随机灰度
         # transforms.RandomErasing(p=0.2),       # 随机擦除
