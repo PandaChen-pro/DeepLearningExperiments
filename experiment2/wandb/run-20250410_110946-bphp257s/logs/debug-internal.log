@@ -1,0 +1,16 @@
+{"time":"2025-04-10T11:09:46.088112912+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/data/coding/deep_learning_experiments/experiment2/wandb/run-20250410_110946-bphp257s/logs/debug-core.log"}
+{"time":"2025-04-10T11:09:46.787464816+08:00","level":"INFO","msg":"created new stream","id":"bphp257s"}
+{"time":"2025-04-10T11:09:46.787550461+08:00","level":"INFO","msg":"stream: started","id":"bphp257s"}
+{"time":"2025-04-10T11:09:46.787578241+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"bphp257s"}
+{"time":"2025-04-10T11:09:46.787636685+08:00","level":"INFO","msg":"handler: started","stream_id":"bphp257s"}
+{"time":"2025-04-10T11:09:46.787656278+08:00","level":"INFO","msg":"sender: started","stream_id":"bphp257s"}
+{"time":"2025-04-10T11:09:47.195725927+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T16:18:05.941080563+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T16:18:05.941197604+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-10T16:18:06.948131896+08:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.469968091,"progress":"140.3KB/140.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.469947244,"progress":"263B/263B"},{"desc":"uploading config.yaml","runtime_seconds":0.222562009,"progress":"588B/588B"}],"total_operations":3}}
+{"time":"2025-04-10T16:18:08.454792479+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-10T16:18:09.220529404+08:00","level":"INFO","msg":"stream: closing","id":"bphp257s"}
+{"time":"2025-04-10T16:18:09.220562159+08:00","level":"INFO","msg":"handler: closed","stream_id":"bphp257s"}
+{"time":"2025-04-10T16:18:09.220578993+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bphp257s"}
+{"time":"2025-04-10T16:18:09.220599141+08:00","level":"INFO","msg":"sender: closed","stream_id":"bphp257s"}
+{"time":"2025-04-10T16:18:09.220688055+08:00","level":"INFO","msg":"stream: closed","id":"bphp257s"}

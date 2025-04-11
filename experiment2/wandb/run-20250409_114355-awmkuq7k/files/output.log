@@ -1,0 +1,14 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/train/cifar-10-python.tar.gz
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170498071/170498071 [00:13<00:00, 13039616.15it/s]
+Extracting /home/code/experiment/deeplearningExperiment/experiment1/data/train/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/train
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/val/cifar-10-python.tar.gz
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170498071/170498071 [00:12<00:00, 13205023.49it/s]
+Extracting /home/code/experiment/deeplearningExperiment/experiment1/data/val/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/val
+Downloading: "https://download.pytorch.org/models/vit_b_16-c867db91.pth" to /root/.cache/torch/hub/checkpoints/vit_b_16-c867db91.pth
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 330M/330M [00:06<00:00, 55.0MB/s]
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 49, in <module>
+    model.head = nn.Linear(model.head.in_features, num_classes)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'VisionTransformer' object has no attribute 'head'

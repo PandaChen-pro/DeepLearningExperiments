@@ -1,0 +1,31 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/train/cifar-10-python.tar.gz
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170498071/170498071 [00:12<00:00, 13304743.22it/s]
+Extracting /home/code/experiment/deeplearningExperiment/experiment1/data/train/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/train
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/val/cifar-10-python.tar.gz
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 170498071/170498071 [00:13<00:00, 12203233.82it/s]
+Extracting /home/code/experiment/deeplearningExperiment/experiment1/data/val/cifar-10-python.tar.gz to /home/code/experiment/deeplearningExperiment/experiment1/data/val
+Epoch 1/100:   0%|                                                                                                                                                | 0/98 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 83, in <module>
+    train_model(model, train_loader, val_loader, criterion, optimizer, scheduler,num_epochs)
+  File "/data/coding/deep_learning_experiments/experiment2/trainer.py", line 35, in train_model
+    outputs = model(images)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/coding/deep_learning_experiments/experiment2/model.py", line 82, in forward
+    x = block(x)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/coding/deep_learning_experiments/experiment2/model.py", line 108, in forward
+    x = x + self.attn(self.norm1(x))
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/coding/deep_learning_experiments/experiment2/model.py", line 41, in forward
+    attn = (q @ k.transpose(-2, -1)) * self.scale
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 910.00 MiB. GPU 0 has a total capacity of 31.73 GiB of which 112.44 MiB is free. Process 26543 has 31.62 GiB memory in use. Of the allocated memory 30.92 GiB is allocated by PyTorch, and 339.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

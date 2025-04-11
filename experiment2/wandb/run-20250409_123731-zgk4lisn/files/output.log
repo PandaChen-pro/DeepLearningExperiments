@@ -1,0 +1,615 @@
+Files already downloaded and verified
+Files already downloaded and verified
+/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/models/_utils.py:135: UserWarning: Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+  warnings.warn(
+Epoch 1/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.12it/s]
+Epoch 1, Batch 0, Loss: 2.2879, learning_rate: 0.000001
+Epoch 1, Batch 30, Loss: 2.2317, learning_rate: 0.000004
+Epoch 1, Batch 60, Loss: 2.0380, learning_rate: 0.000007
+Epoch 1, Batch 90, Loss: 1.7002, learning_rate: 0.000010
+Epoch [1/100] - Loss: 2.0644, Accuracy: 33.19%
+starting validation......
+Validation Loss: 1.5639, Validation Accuracy: 71.57%
+Epoch 1/100, Val Loss: 1.5639, Val Acc: 71.57%
+save model to ./checkpoints/Cancer_Val_Epoch1_Acc71.57.pth
+Epoch 2/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 2, Batch 0, Loss: 1.5565, learning_rate: 0.000011
+Epoch 2, Batch 30, Loss: 0.9623, learning_rate: 0.000014
+Epoch 2, Batch 60, Loss: 0.6083, learning_rate: 0.000017
+Epoch 2, Batch 90, Loss: 0.3846, learning_rate: 0.000020
+Epoch [2/100] - Loss: 0.8207, Accuracy: 86.88%
+Epoch 3/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 3, Batch 0, Loss: 0.3502, learning_rate: 0.000021
+Epoch 3, Batch 30, Loss: 0.3356, learning_rate: 0.000024
+Epoch 3, Batch 60, Loss: 0.2339, learning_rate: 0.000027
+Epoch 3, Batch 90, Loss: 0.2305, learning_rate: 0.000030
+Epoch [3/100] - Loss: 0.2706, Accuracy: 93.21%
+starting validation......
+Validation Loss: 0.2163, Validation Accuracy: 93.68%
+Epoch 3/100, Val Loss: 0.2163, Val Acc: 93.68%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch1_Acc71.57.pth
+save model to ./checkpoints/Cancer_Val_Epoch3_Acc93.68.pth
+Epoch 4/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:29<00:00,  1.10it/s]
+Epoch 4, Batch 0, Loss: 0.2287, learning_rate: 0.000031
+Epoch 4, Batch 30, Loss: 0.1687, learning_rate: 0.000034
+Epoch 4, Batch 60, Loss: 0.1789, learning_rate: 0.000037
+Epoch 4, Batch 90, Loss: 0.1294, learning_rate: 0.000040
+Epoch [4/100] - Loss: 0.1822, Accuracy: 94.57%
+Epoch 5/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:29<00:00,  1.10it/s]
+Epoch 5, Batch 0, Loss: 0.1515, learning_rate: 0.000041
+Epoch 5, Batch 30, Loss: 0.1481, learning_rate: 0.000044
+Epoch 5, Batch 60, Loss: 0.1408, learning_rate: 0.000047
+Epoch 5, Batch 90, Loss: 0.1073, learning_rate: 0.000050
+Epoch [5/100] - Loss: 0.1466, Accuracy: 95.35%
+starting validation......
+Validation Loss: 0.1469, Validation Accuracy: 95.17%
+Epoch 5/100, Val Loss: 0.1469, Val Acc: 95.17%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch3_Acc93.68.pth
+save model to ./checkpoints/Cancer_Val_Epoch5_Acc95.17.pth
+Epoch 6/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 6, Batch 0, Loss: 0.1459, learning_rate: 0.000051
+Epoch 6, Batch 30, Loss: 0.1458, learning_rate: 0.000054
+Epoch 6, Batch 60, Loss: 0.1685, learning_rate: 0.000057
+Epoch 6, Batch 90, Loss: 0.1080, learning_rate: 0.000060
+Epoch [6/100] - Loss: 0.1241, Accuracy: 95.99%
+Epoch 7/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 7, Batch 0, Loss: 0.1173, learning_rate: 0.000060
+Epoch 7, Batch 30, Loss: 0.0968, learning_rate: 0.000063
+Epoch 7, Batch 60, Loss: 0.1181, learning_rate: 0.000066
+Epoch 7, Batch 90, Loss: 0.1070, learning_rate: 0.000069
+Epoch [7/100] - Loss: 0.1066, Accuracy: 96.54%
+starting validation......
+Validation Loss: 0.1246, Validation Accuracy: 95.80%
+Epoch 7/100, Val Loss: 0.1246, Val Acc: 95.80%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch5_Acc95.17.pth
+save model to ./checkpoints/Cancer_Val_Epoch7_Acc95.80.pth
+Epoch 8/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 8, Batch 0, Loss: 0.0893, learning_rate: 0.000070
+Epoch 8, Batch 30, Loss: 0.0795, learning_rate: 0.000073
+Epoch 8, Batch 60, Loss: 0.0813, learning_rate: 0.000076
+Epoch 8, Batch 90, Loss: 0.0777, learning_rate: 0.000079
+Epoch [8/100] - Loss: 0.0917, Accuracy: 97.02%
+Epoch 9/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 9, Batch 0, Loss: 0.1024, learning_rate: 0.000080
+Epoch 9, Batch 30, Loss: 0.0679, learning_rate: 0.000083
+Epoch 9, Batch 60, Loss: 0.0940, learning_rate: 0.000086
+Epoch 9, Batch 90, Loss: 0.0673, learning_rate: 0.000089
+Epoch [9/100] - Loss: 0.0793, Accuracy: 97.49%
+starting validation......
+Validation Loss: 0.1178, Validation Accuracy: 96.00%
+Epoch 9/100, Val Loss: 0.1178, Val Acc: 96.00%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch7_Acc95.80.pth
+save model to ./checkpoints/Cancer_Val_Epoch9_Acc96.00.pth
+Epoch 10/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 10, Batch 0, Loss: 0.0407, learning_rate: 0.000090
+Epoch 10, Batch 30, Loss: 0.0628, learning_rate: 0.000093
+Epoch 10, Batch 60, Loss: 0.0505, learning_rate: 0.000096
+Epoch 10, Batch 90, Loss: 0.1106, learning_rate: 0.000099
+Epoch [10/100] - Loss: 0.0664, Accuracy: 97.91%
+Epoch 11/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 11, Batch 0, Loss: 0.0663, learning_rate: 0.000100
+Epoch 11, Batch 30, Loss: 0.0353, learning_rate: 0.000100
+Epoch 11, Batch 60, Loss: 0.0641, learning_rate: 0.000100
+Epoch 11, Batch 90, Loss: 0.0557, learning_rate: 0.000100
+Epoch [11/100] - Loss: 0.0534, Accuracy: 98.42%
+starting validation......
+Validation Loss: 0.1178, Validation Accuracy: 96.18%
+Epoch 11/100, Val Loss: 0.1178, Val Acc: 96.18%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch9_Acc96.00.pth
+save model to ./checkpoints/Cancer_Val_Epoch11_Acc96.18.pth
+Epoch 12/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 12, Batch 0, Loss: 0.0299, learning_rate: 0.000100
+Epoch 12, Batch 30, Loss: 0.0315, learning_rate: 0.000100
+Epoch 12, Batch 60, Loss: 0.0452, learning_rate: 0.000100
+Epoch 12, Batch 90, Loss: 0.0553, learning_rate: 0.000100
+Epoch [12/100] - Loss: 0.0411, Accuracy: 98.82%
+Epoch 13/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 13, Batch 0, Loss: 0.0345, learning_rate: 0.000100
+Epoch 13, Batch 30, Loss: 0.0414, learning_rate: 0.000100
+Epoch 13, Batch 60, Loss: 0.0324, learning_rate: 0.000100
+Epoch 13, Batch 90, Loss: 0.0524, learning_rate: 0.000100
+Epoch [13/100] - Loss: 0.0303, Accuracy: 99.28%
+starting validation......
+Validation Loss: 0.1204, Validation Accuracy: 96.27%
+Epoch 13/100, Val Loss: 0.1204, Val Acc: 96.27%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch11_Acc96.18.pth
+save model to ./checkpoints/Cancer_Val_Epoch13_Acc96.27.pth
+Epoch 14/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 14, Batch 0, Loss: 0.0286, learning_rate: 0.000100
+Epoch 14, Batch 30, Loss: 0.0199, learning_rate: 0.000100
+Epoch 14, Batch 60, Loss: 0.0159, learning_rate: 0.000100
+Epoch 14, Batch 90, Loss: 0.0318, learning_rate: 0.000100
+Epoch [14/100] - Loss: 0.0217, Accuracy: 99.55%
+Epoch 15/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 15, Batch 0, Loss: 0.0105, learning_rate: 0.000100
+Epoch 15, Batch 30, Loss: 0.0116, learning_rate: 0.000100
+Epoch 15, Batch 60, Loss: 0.0220, learning_rate: 0.000100
+Epoch 15, Batch 90, Loss: 0.0107, learning_rate: 0.000099
+Epoch [15/100] - Loss: 0.0147, Accuracy: 99.75%
+starting validation......
+Validation Loss: 0.1260, Validation Accuracy: 96.27%
+Epoch 15/100, Val Loss: 0.1260, Val Acc: 96.27%
+Epoch 16/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 16, Batch 0, Loss: 0.0084, learning_rate: 0.000099
+Epoch 16, Batch 30, Loss: 0.0085, learning_rate: 0.000099
+Epoch 16, Batch 60, Loss: 0.0102, learning_rate: 0.000099
+Epoch 16, Batch 90, Loss: 0.0212, learning_rate: 0.000099
+Epoch [16/100] - Loss: 0.0103, Accuracy: 99.86%
+Epoch 17/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 17, Batch 0, Loss: 0.0087, learning_rate: 0.000099
+Epoch 17, Batch 30, Loss: 0.0070, learning_rate: 0.000099
+Epoch 17, Batch 60, Loss: 0.0066, learning_rate: 0.000099
+Epoch 17, Batch 90, Loss: 0.0056, learning_rate: 0.000099
+Epoch [17/100] - Loss: 0.0073, Accuracy: 99.93%
+starting validation......
+Validation Loss: 0.1329, Validation Accuracy: 96.13%
+Epoch 17/100, Val Loss: 0.1329, Val Acc: 96.13%
+Epoch 18/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 18, Batch 0, Loss: 0.0037, learning_rate: 0.000099
+Epoch 18, Batch 30, Loss: 0.0047, learning_rate: 0.000099
+Epoch 18, Batch 60, Loss: 0.0035, learning_rate: 0.000099
+Epoch 18, Batch 90, Loss: 0.0044, learning_rate: 0.000099
+Epoch [18/100] - Loss: 0.0051, Accuracy: 99.97%
+Epoch 19/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 19, Batch 0, Loss: 0.0044, learning_rate: 0.000099
+Epoch 19, Batch 30, Loss: 0.0037, learning_rate: 0.000098
+Epoch 19, Batch 60, Loss: 0.0040, learning_rate: 0.000098
+Epoch 19, Batch 90, Loss: 0.0036, learning_rate: 0.000098
+Epoch [19/100] - Loss: 0.0038, Accuracy: 99.98%
+starting validation......
+Validation Loss: 0.1398, Validation Accuracy: 96.25%
+Epoch 19/100, Val Loss: 0.1398, Val Acc: 96.25%
+Epoch 20/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 20, Batch 0, Loss: 0.0023, learning_rate: 0.000098
+Epoch 20, Batch 30, Loss: 0.0026, learning_rate: 0.000098
+Epoch 20, Batch 60, Loss: 0.0038, learning_rate: 0.000098
+Epoch 20, Batch 90, Loss: 0.0019, learning_rate: 0.000098
+Epoch [20/100] - Loss: 0.0031, Accuracy: 99.98%
+Epoch 21/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 21, Batch 0, Loss: 0.0021, learning_rate: 0.000098
+Epoch 21, Batch 30, Loss: 0.0019, learning_rate: 0.000098
+Epoch 21, Batch 60, Loss: 0.0036, learning_rate: 0.000098
+Epoch 21, Batch 90, Loss: 0.0030, learning_rate: 0.000097
+Epoch [21/100] - Loss: 0.0023, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1445, Validation Accuracy: 96.27%
+Epoch 21/100, Val Loss: 0.1445, Val Acc: 96.27%
+Epoch 22/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 22, Batch 0, Loss: 0.0021, learning_rate: 0.000097
+Epoch 22, Batch 30, Loss: 0.0020, learning_rate: 0.000097
+Epoch 22, Batch 60, Loss: 0.0019, learning_rate: 0.000097
+Epoch 22, Batch 90, Loss: 0.0026, learning_rate: 0.000097
+Epoch [22/100] - Loss: 0.0018, Accuracy: 100.00%
+Epoch 23/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 23, Batch 0, Loss: 0.0014, learning_rate: 0.000097
+Epoch 23, Batch 30, Loss: 0.0016, learning_rate: 0.000097
+Epoch 23, Batch 60, Loss: 0.0016, learning_rate: 0.000097
+Epoch 23, Batch 90, Loss: 0.0015, learning_rate: 0.000096
+Epoch [23/100] - Loss: 0.0014, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1504, Validation Accuracy: 96.21%
+Epoch 23/100, Val Loss: 0.1504, Val Acc: 96.21%
+Epoch 24/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 24, Batch 0, Loss: 0.0010, learning_rate: 0.000096
+Epoch 24, Batch 30, Loss: 0.0013, learning_rate: 0.000096
+Epoch 24, Batch 60, Loss: 0.0013, learning_rate: 0.000096
+Epoch 24, Batch 90, Loss: 0.0015, learning_rate: 0.000096
+Epoch [24/100] - Loss: 0.0012, Accuracy: 100.00%
+Epoch 25/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 25, Batch 0, Loss: 0.0009, learning_rate: 0.000096
+Epoch 25, Batch 30, Loss: 0.0012, learning_rate: 0.000096
+Epoch 25, Batch 60, Loss: 0.0010, learning_rate: 0.000095
+Epoch 25, Batch 90, Loss: 0.0009, learning_rate: 0.000095
+Epoch [25/100] - Loss: 0.0010, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1556, Validation Accuracy: 96.31%
+Epoch 25/100, Val Loss: 0.1556, Val Acc: 96.31%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch13_Acc96.27.pth
+save model to ./checkpoints/Cancer_Val_Epoch25_Acc96.31.pth
+Epoch 26/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 26, Batch 0, Loss: 0.0009, learning_rate: 0.000095
+Epoch 26, Batch 30, Loss: 0.0010, learning_rate: 0.000095
+Epoch 26, Batch 60, Loss: 0.0008, learning_rate: 0.000095
+Epoch 26, Batch 90, Loss: 0.0009, learning_rate: 0.000094
+Epoch [26/100] - Loss: 0.0009, Accuracy: 100.00%
+Epoch 27/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 27, Batch 0, Loss: 0.0008, learning_rate: 0.000094
+Epoch 27, Batch 30, Loss: 0.0010, learning_rate: 0.000094
+Epoch 27, Batch 60, Loss: 0.0007, learning_rate: 0.000094
+Epoch 27, Batch 90, Loss: 0.0009, learning_rate: 0.000094
+Epoch [27/100] - Loss: 0.0008, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1595, Validation Accuracy: 96.28%
+Epoch 27/100, Val Loss: 0.1595, Val Acc: 96.28%
+Epoch 28/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:29<00:00,  1.10it/s]
+Epoch 28, Batch 0, Loss: 0.0006, learning_rate: 0.000094
+Epoch 28, Batch 30, Loss: 0.0006, learning_rate: 0.000094
+Epoch 28, Batch 60, Loss: 0.0007, learning_rate: 0.000093
+Epoch 28, Batch 90, Loss: 0.0007, learning_rate: 0.000093
+Epoch [28/100] - Loss: 0.0007, Accuracy: 100.00%
+Epoch 29/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 29, Batch 0, Loss: 0.0007, learning_rate: 0.000093
+Epoch 29, Batch 30, Loss: 0.0007, learning_rate: 0.000093
+Epoch 29, Batch 60, Loss: 0.0007, learning_rate: 0.000093
+Epoch 29, Batch 90, Loss: 0.0004, learning_rate: 0.000092
+Epoch [29/100] - Loss: 0.0006, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1634, Validation Accuracy: 96.29%
+Epoch 29/100, Val Loss: 0.1634, Val Acc: 96.29%
+Epoch 30/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 30, Batch 0, Loss: 0.0006, learning_rate: 0.000092
+Epoch 30, Batch 30, Loss: 0.0007, learning_rate: 0.000092
+Epoch 30, Batch 60, Loss: 0.0005, learning_rate: 0.000092
+Epoch 30, Batch 90, Loss: 0.0005, learning_rate: 0.000091
+Epoch [30/100] - Loss: 0.0006, Accuracy: 100.00%
+Epoch 31/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 31, Batch 0, Loss: 0.0005, learning_rate: 0.000091
+Epoch 31, Batch 30, Loss: 0.0005, learning_rate: 0.000091
+Epoch 31, Batch 60, Loss: 0.0005, learning_rate: 0.000091
+Epoch 31, Batch 90, Loss: 0.0004, learning_rate: 0.000091
+Epoch [31/100] - Loss: 0.0005, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1666, Validation Accuracy: 96.32%
+Epoch 31/100, Val Loss: 0.1666, Val Acc: 96.32%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch25_Acc96.31.pth
+save model to ./checkpoints/Cancer_Val_Epoch31_Acc96.32.pth
+Epoch 32/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 32, Batch 0, Loss: 0.0006, learning_rate: 0.000091
+Epoch 32, Batch 30, Loss: 0.0004, learning_rate: 0.000090
+Epoch 32, Batch 60, Loss: 0.0004, learning_rate: 0.000090
+Epoch 32, Batch 90, Loss: 0.0005, learning_rate: 0.000090
+Epoch [32/100] - Loss: 0.0005, Accuracy: 100.00%
+Epoch 33/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 33, Batch 0, Loss: 0.0005, learning_rate: 0.000090
+Epoch 33, Batch 30, Loss: 0.0004, learning_rate: 0.000089
+Epoch 33, Batch 60, Loss: 0.0004, learning_rate: 0.000089
+Epoch 33, Batch 90, Loss: 0.0003, learning_rate: 0.000089
+Epoch [33/100] - Loss: 0.0004, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1699, Validation Accuracy: 96.34%
+Epoch 33/100, Val Loss: 0.1699, Val Acc: 96.34%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch31_Acc96.32.pth
+save model to ./checkpoints/Cancer_Val_Epoch33_Acc96.34.pth
+Epoch 34/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 34, Batch 0, Loss: 0.0004, learning_rate: 0.000089
+Epoch 34, Batch 30, Loss: 0.0004, learning_rate: 0.000088
+Epoch 34, Batch 60, Loss: 0.0004, learning_rate: 0.000088
+Epoch 34, Batch 90, Loss: 0.0004, learning_rate: 0.000088
+Epoch [34/100] - Loss: 0.0004, Accuracy: 100.00%
+Epoch 35/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 35, Batch 0, Loss: 0.0005, learning_rate: 0.000088
+Epoch 35, Batch 30, Loss: 0.0004, learning_rate: 0.000088
+Epoch 35, Batch 60, Loss: 0.0004, learning_rate: 0.000087
+Epoch 35, Batch 90, Loss: 0.0003, learning_rate: 0.000087
+Epoch [35/100] - Loss: 0.0004, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1731, Validation Accuracy: 96.35%
+Epoch 35/100, Val Loss: 0.1731, Val Acc: 96.35%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch33_Acc96.34.pth
+save model to ./checkpoints/Cancer_Val_Epoch35_Acc96.35.pth
+Epoch 36/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 36, Batch 0, Loss: 0.0003, learning_rate: 0.000087
+Epoch 36, Batch 30, Loss: 0.0004, learning_rate: 0.000087
+Epoch 36, Batch 60, Loss: 0.0003, learning_rate: 0.000086
+Epoch 36, Batch 90, Loss: 0.0003, learning_rate: 0.000086
+Epoch [36/100] - Loss: 0.0003, Accuracy: 100.00%
+Epoch 37/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 37, Batch 0, Loss: 0.0003, learning_rate: 0.000086
+Epoch 37, Batch 30, Loss: 0.0004, learning_rate: 0.000085
+Epoch 37, Batch 60, Loss: 0.0003, learning_rate: 0.000085
+Epoch 37, Batch 90, Loss: 0.0003, learning_rate: 0.000085
+Epoch [37/100] - Loss: 0.0003, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1756, Validation Accuracy: 96.30%
+Epoch 37/100, Val Loss: 0.1756, Val Acc: 96.30%
+Epoch 38/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 38, Batch 0, Loss: 0.0002, learning_rate: 0.000085
+Epoch 38, Batch 30, Loss: 0.0003, learning_rate: 0.000084
+Epoch 38, Batch 60, Loss: 0.0003, learning_rate: 0.000084
+Epoch 38, Batch 90, Loss: 0.0002, learning_rate: 0.000084
+Epoch [38/100] - Loss: 0.0003, Accuracy: 100.00%
+Epoch 39/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 39, Batch 0, Loss: 0.0003, learning_rate: 0.000084
+Epoch 39, Batch 30, Loss: 0.0002, learning_rate: 0.000083
+Epoch 39, Batch 60, Loss: 0.0003, learning_rate: 0.000083
+Epoch 39, Batch 90, Loss: 0.0003, learning_rate: 0.000083
+Epoch [39/100] - Loss: 0.0003, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1786, Validation Accuracy: 96.32%
+Epoch 39/100, Val Loss: 0.1786, Val Acc: 96.32%
+Epoch 40/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 40, Batch 0, Loss: 0.0003, learning_rate: 0.000083
+Epoch 40, Batch 30, Loss: 0.0002, learning_rate: 0.000082
+Epoch 40, Batch 60, Loss: 0.0002, learning_rate: 0.000082
+Epoch 40, Batch 90, Loss: 0.0004, learning_rate: 0.000082
+Epoch [40/100] - Loss: 0.0003, Accuracy: 100.00%
+Epoch 41/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 41, Batch 0, Loss: 0.0002, learning_rate: 0.000081
+Epoch 41, Batch 30, Loss: 0.0002, learning_rate: 0.000081
+Epoch 41, Batch 60, Loss: 0.0002, learning_rate: 0.000081
+Epoch 41, Batch 90, Loss: 0.0002, learning_rate: 0.000080
+Epoch [41/100] - Loss: 0.0002, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1814, Validation Accuracy: 96.37%
+Epoch 41/100, Val Loss: 0.1814, Val Acc: 96.37%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch35_Acc96.35.pth
+save model to ./checkpoints/Cancer_Val_Epoch41_Acc96.37.pth
+Epoch 42/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 42, Batch 0, Loss: 0.0002, learning_rate: 0.000080
+Epoch 42, Batch 30, Loss: 0.0002, learning_rate: 0.000080
+Epoch 42, Batch 60, Loss: 0.0002, learning_rate: 0.000080
+Epoch 42, Batch 90, Loss: 0.0002, learning_rate: 0.000079
+Epoch [42/100] - Loss: 0.0002, Accuracy: 100.00%
+Epoch 43/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 43, Batch 0, Loss: 0.0002, learning_rate: 0.000079
+Epoch 43, Batch 30, Loss: 0.0002, learning_rate: 0.000079
+Epoch 43, Batch 60, Loss: 0.0002, learning_rate: 0.000078
+Epoch 43, Batch 90, Loss: 0.0002, learning_rate: 0.000078
+Epoch [43/100] - Loss: 0.0002, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1840, Validation Accuracy: 96.35%
+Epoch 43/100, Val Loss: 0.1840, Val Acc: 96.35%
+Epoch 44/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:29<00:00,  1.10it/s]
+Epoch 44, Batch 0, Loss: 0.0002, learning_rate: 0.000078
+Epoch 44, Batch 30, Loss: 0.0001, learning_rate: 0.000078
+Epoch 44, Batch 60, Loss: 0.0002, learning_rate: 0.000077
+Epoch 44, Batch 90, Loss: 0.0002, learning_rate: 0.000077
+Epoch [44/100] - Loss: 0.0002, Accuracy: 100.00%
+Epoch 45/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 45, Batch 0, Loss: 0.0002, learning_rate: 0.000077
+Epoch 45, Batch 30, Loss: 0.0002, learning_rate: 0.000076
+Epoch 45, Batch 60, Loss: 0.0002, learning_rate: 0.000076
+Epoch 45, Batch 90, Loss: 0.0002, learning_rate: 0.000076
+Epoch [45/100] - Loss: 0.0002, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1859, Validation Accuracy: 96.35%
+Epoch 45/100, Val Loss: 0.1859, Val Acc: 96.35%
+Epoch 46/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 46, Batch 0, Loss: 0.0001, learning_rate: 0.000075
+Epoch 46, Batch 30, Loss: 0.0001, learning_rate: 0.000075
+Epoch 46, Batch 60, Loss: 0.0002, learning_rate: 0.000075
+Epoch 46, Batch 90, Loss: 0.0001, learning_rate: 0.000074
+Epoch [46/100] - Loss: 0.0002, Accuracy: 100.00%
+Epoch 47/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 47, Batch 0, Loss: 0.0002, learning_rate: 0.000074
+Epoch 47, Batch 30, Loss: 0.0002, learning_rate: 0.000074
+Epoch 47, Batch 60, Loss: 0.0002, learning_rate: 0.000073
+Epoch 47, Batch 90, Loss: 0.0001, learning_rate: 0.000073
+Epoch [47/100] - Loss: 0.0002, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1882, Validation Accuracy: 96.34%
+Epoch 47/100, Val Loss: 0.1882, Val Acc: 96.34%
+Epoch 48/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.10it/s]
+Epoch 48, Batch 0, Loss: 0.0002, learning_rate: 0.000073
+Epoch 48, Batch 30, Loss: 0.0002, learning_rate: 0.000072
+Epoch 48, Batch 60, Loss: 0.0002, learning_rate: 0.000072
+Epoch 48, Batch 90, Loss: 0.0002, learning_rate: 0.000072
+Epoch [48/100] - Loss: 0.0002, Accuracy: 100.00%
+Epoch 49/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 49, Batch 0, Loss: 0.0002, learning_rate: 0.000072
+Epoch 49, Batch 30, Loss: 0.0001, learning_rate: 0.000071
+Epoch 49, Batch 60, Loss: 0.0002, learning_rate: 0.000071
+Epoch 49, Batch 90, Loss: 0.0001, learning_rate: 0.000070
+Epoch [49/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1906, Validation Accuracy: 96.36%
+Epoch 49/100, Val Loss: 0.1906, Val Acc: 96.36%
+Epoch 50/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 50, Batch 0, Loss: 0.0002, learning_rate: 0.000070
+Epoch 50, Batch 30, Loss: 0.0001, learning_rate: 0.000070
+Epoch 50, Batch 60, Loss: 0.0001, learning_rate: 0.000069
+Epoch 50, Batch 90, Loss: 0.0001, learning_rate: 0.000069
+Epoch [50/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 51/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.12it/s]
+Epoch 51, Batch 0, Loss: 0.0001, learning_rate: 0.000069
+Epoch 51, Batch 30, Loss: 0.0001, learning_rate: 0.000068
+Epoch 51, Batch 60, Loss: 0.0001, learning_rate: 0.000068
+Epoch 51, Batch 90, Loss: 0.0001, learning_rate: 0.000068
+Epoch [51/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1924, Validation Accuracy: 96.35%
+Epoch 51/100, Val Loss: 0.1924, Val Acc: 96.35%
+Epoch 52/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 52, Batch 0, Loss: 0.0001, learning_rate: 0.000068
+Epoch 52, Batch 30, Loss: 0.0002, learning_rate: 0.000067
+Epoch 52, Batch 60, Loss: 0.0002, learning_rate: 0.000067
+Epoch 52, Batch 90, Loss: 0.0001, learning_rate: 0.000066
+Epoch [52/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 53/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 53, Batch 0, Loss: 0.0001, learning_rate: 0.000066
+Epoch 53, Batch 30, Loss: 0.0001, learning_rate: 0.000066
+Epoch 53, Batch 60, Loss: 0.0001, learning_rate: 0.000065
+Epoch 53, Batch 90, Loss: 0.0001, learning_rate: 0.000065
+Epoch [53/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1943, Validation Accuracy: 96.37%
+Epoch 53/100, Val Loss: 0.1943, Val Acc: 96.37%
+Epoch 54/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 54, Batch 0, Loss: 0.0001, learning_rate: 0.000065
+Epoch 54, Batch 30, Loss: 0.0001, learning_rate: 0.000064
+Epoch 54, Batch 60, Loss: 0.0001, learning_rate: 0.000064
+Epoch 54, Batch 90, Loss: 0.0001, learning_rate: 0.000064
+Epoch [54/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 55/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 55, Batch 0, Loss: 0.0001, learning_rate: 0.000063
+Epoch 55, Batch 30, Loss: 0.0001, learning_rate: 0.000063
+Epoch 55, Batch 60, Loss: 0.0001, learning_rate: 0.000063
+Epoch 55, Batch 90, Loss: 0.0001, learning_rate: 0.000062
+Epoch [55/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1963, Validation Accuracy: 96.33%
+Epoch 55/100, Val Loss: 0.1963, Val Acc: 96.33%
+Epoch 56/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 56, Batch 0, Loss: 0.0001, learning_rate: 0.000062
+Epoch 56, Batch 30, Loss: 0.0001, learning_rate: 0.000062
+Epoch 56, Batch 60, Loss: 0.0001, learning_rate: 0.000061
+Epoch 56, Batch 90, Loss: 0.0001, learning_rate: 0.000061
+Epoch [56/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 57/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 57, Batch 0, Loss: 0.0001, learning_rate: 0.000061
+Epoch 57, Batch 30, Loss: 0.0001, learning_rate: 0.000060
+Epoch 57, Batch 60, Loss: 0.0001, learning_rate: 0.000060
+Epoch 57, Batch 90, Loss: 0.0001, learning_rate: 0.000059
+Epoch [57/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.1985, Validation Accuracy: 96.37%
+Epoch 57/100, Val Loss: 0.1985, Val Acc: 96.37%
+Epoch 58/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.13it/s]
+Epoch 58, Batch 0, Loss: 0.0001, learning_rate: 0.000059
+Epoch 58, Batch 30, Loss: 0.0001, learning_rate: 0.000059
+Epoch 58, Batch 60, Loss: 0.0001, learning_rate: 0.000058
+Epoch 58, Batch 90, Loss: 0.0001, learning_rate: 0.000058
+Epoch [58/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 59/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.13it/s]
+Epoch 59, Batch 0, Loss: 0.0001, learning_rate: 0.000058
+Epoch 59, Batch 30, Loss: 0.0001, learning_rate: 0.000057
+Epoch 59, Batch 60, Loss: 0.0001, learning_rate: 0.000057
+Epoch 59, Batch 90, Loss: 0.0001, learning_rate: 0.000057
+Epoch [59/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2002, Validation Accuracy: 96.39%
+Epoch 59/100, Val Loss: 0.2002, Val Acc: 96.39%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch41_Acc96.37.pth
+save model to ./checkpoints/Cancer_Val_Epoch59_Acc96.39.pth
+Epoch 60/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 60, Batch 0, Loss: 0.0001, learning_rate: 0.000056
+Epoch 60, Batch 30, Loss: 0.0001, learning_rate: 0.000056
+Epoch 60, Batch 60, Loss: 0.0001, learning_rate: 0.000056
+Epoch 60, Batch 90, Loss: 0.0001, learning_rate: 0.000055
+Epoch [60/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 61/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.12it/s]
+Epoch 61, Batch 0, Loss: 0.0001, learning_rate: 0.000055
+Epoch 61, Batch 30, Loss: 0.0001, learning_rate: 0.000055
+Epoch 61, Batch 60, Loss: 0.0001, learning_rate: 0.000054
+Epoch 61, Batch 90, Loss: 0.0001, learning_rate: 0.000054
+Epoch [61/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2018, Validation Accuracy: 96.36%
+Epoch 61/100, Val Loss: 0.2018, Val Acc: 96.36%
+Epoch 62/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:27<00:00,  1.13it/s]
+Epoch 62, Batch 0, Loss: 0.0001, learning_rate: 0.000054
+Epoch 62, Batch 30, Loss: 0.0001, learning_rate: 0.000053
+Epoch 62, Batch 60, Loss: 0.0001, learning_rate: 0.000053
+Epoch 62, Batch 90, Loss: 0.0001, learning_rate: 0.000052
+Epoch [62/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 63/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 63, Batch 0, Loss: 0.0001, learning_rate: 0.000052
+Epoch 63, Batch 30, Loss: 0.0001, learning_rate: 0.000052
+Epoch 63, Batch 60, Loss: 0.0001, learning_rate: 0.000051
+Epoch 63, Batch 90, Loss: 0.0001, learning_rate: 0.000051
+Epoch [63/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2037, Validation Accuracy: 96.34%
+Epoch 63/100, Val Loss: 0.2037, Val Acc: 96.34%
+Epoch 64/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 64, Batch 0, Loss: 0.0001, learning_rate: 0.000051
+Epoch 64, Batch 30, Loss: 0.0001, learning_rate: 0.000050
+Epoch 64, Batch 60, Loss: 0.0001, learning_rate: 0.000050
+Epoch 64, Batch 90, Loss: 0.0001, learning_rate: 0.000049
+Epoch [64/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 65/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 65, Batch 0, Loss: 0.0001, learning_rate: 0.000049
+Epoch 65, Batch 30, Loss: 0.0001, learning_rate: 0.000049
+Epoch 65, Batch 60, Loss: 0.0001, learning_rate: 0.000049
+Epoch 65, Batch 90, Loss: 0.0001, learning_rate: 0.000048
+Epoch [65/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2055, Validation Accuracy: 96.34%
+Epoch 65/100, Val Loss: 0.2055, Val Acc: 96.34%
+Epoch 66/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 66, Batch 0, Loss: 0.0001, learning_rate: 0.000048
+Epoch 66, Batch 30, Loss: 0.0001, learning_rate: 0.000048
+Epoch 66, Batch 60, Loss: 0.0001, learning_rate: 0.000047
+Epoch 66, Batch 90, Loss: 0.0001, learning_rate: 0.000047
+Epoch [66/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 67/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 67, Batch 0, Loss: 0.0001, learning_rate: 0.000047
+Epoch 67, Batch 30, Loss: 0.0001, learning_rate: 0.000046
+Epoch 67, Batch 60, Loss: 0.0001, learning_rate: 0.000046
+Epoch 67, Batch 90, Loss: 0.0000, learning_rate: 0.000045
+Epoch [67/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2072, Validation Accuracy: 96.36%
+Epoch 67/100, Val Loss: 0.2072, Val Acc: 96.36%
+Epoch 68/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:25<00:00,  1.14it/s]
+Epoch 68, Batch 0, Loss: 0.0001, learning_rate: 0.000045
+Epoch 68, Batch 30, Loss: 0.0001, learning_rate: 0.000045
+Epoch 68, Batch 60, Loss: 0.0001, learning_rate: 0.000044
+Epoch 68, Batch 90, Loss: 0.0001, learning_rate: 0.000044
+Epoch [68/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 69/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 69, Batch 0, Loss: 0.0001, learning_rate: 0.000044
+Epoch 69, Batch 30, Loss: 0.0001, learning_rate: 0.000043
+Epoch 69, Batch 60, Loss: 0.0001, learning_rate: 0.000043
+Epoch 69, Batch 90, Loss: 0.0001, learning_rate: 0.000043
+Epoch [69/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2084, Validation Accuracy: 96.39%
+Epoch 69/100, Val Loss: 0.2084, Val Acc: 96.39%
+Epoch 70/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 70, Batch 0, Loss: 0.0001, learning_rate: 0.000042
+Epoch 70, Batch 30, Loss: 0.0001, learning_rate: 0.000042
+Epoch 70, Batch 60, Loss: 0.0001, learning_rate: 0.000042
+Epoch 70, Batch 90, Loss: 0.0001, learning_rate: 0.000041
+Epoch [70/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 71/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 71, Batch 0, Loss: 0.0000, learning_rate: 0.000041
+Epoch 71, Batch 30, Loss: 0.0001, learning_rate: 0.000041
+Epoch 71, Batch 60, Loss: 0.0001, learning_rate: 0.000040
+Epoch 71, Batch 90, Loss: 0.0001, learning_rate: 0.000040
+Epoch [71/100] - Loss: 0.0001, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2099, Validation Accuracy: 96.36%
+Epoch 71/100, Val Loss: 0.2099, Val Acc: 96.36%
+Epoch 72/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 72, Batch 0, Loss: 0.0001, learning_rate: 0.000040
+Epoch 72, Batch 30, Loss: 0.0000, learning_rate: 0.000039
+Epoch 72, Batch 60, Loss: 0.0000, learning_rate: 0.000039
+Epoch 72, Batch 90, Loss: 0.0001, learning_rate: 0.000039
+Epoch [72/100] - Loss: 0.0001, Accuracy: 100.00%
+Epoch 73/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.14it/s]
+Epoch 73, Batch 0, Loss: 0.0001, learning_rate: 0.000038
+Epoch 73, Batch 30, Loss: 0.0000, learning_rate: 0.000038
+Epoch 73, Batch 60, Loss: 0.0001, learning_rate: 0.000038
+Epoch 73, Batch 90, Loss: 0.0001, learning_rate: 0.000037
+Epoch [73/100] - Loss: 0.0000, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2118, Validation Accuracy: 96.39%
+Epoch 73/100, Val Loss: 0.2118, Val Acc: 96.39%
+Epoch 74/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 74, Batch 0, Loss: 0.0001, learning_rate: 0.000037
+Epoch 74, Batch 30, Loss: 0.0000, learning_rate: 0.000037
+Epoch 74, Batch 60, Loss: 0.0001, learning_rate: 0.000036
+Epoch 74, Batch 90, Loss: 0.0000, learning_rate: 0.000036
+Epoch [74/100] - Loss: 0.0000, Accuracy: 100.00%
+Epoch 75/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 75, Batch 0, Loss: 0.0001, learning_rate: 0.000036
+Epoch 75, Batch 30, Loss: 0.0000, learning_rate: 0.000035
+Epoch 75, Batch 60, Loss: 0.0000, learning_rate: 0.000035
+Epoch 75, Batch 90, Loss: 0.0000, learning_rate: 0.000035
+Epoch [75/100] - Loss: 0.0000, Accuracy: 100.00%
+starting validation......
+Validation Loss: 0.2132, Validation Accuracy: 96.34%
+Epoch 75/100, Val Loss: 0.2132, Val Acc: 96.34%
+Epoch 76/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:26<00:00,  1.13it/s]
+Epoch 76, Batch 0, Loss: 0.0001, learning_rate: 0.000035
+Epoch 76, Batch 30, Loss: 0.0000, learning_rate: 0.000034
+Epoch 76, Batch 60, Loss: 0.0000, learning_rate: 0.000034
+Epoch 76, Batch 90, Loss: 0.0000, learning_rate: 0.000033
+Epoch [76/100] - Loss: 0.0000, Accuracy: 100.00%
+Epoch 77/100:  62%|████████████████████████████████████████████████████████████████████████████████████                                                   | 61/98 [00:54<00:33,  1.11it/s]
+Epoch 77, Batch 0, Loss: 0.0000, learning_rate: 0.000033
+Epoch 77, Batch 30, Loss: 0.0001, learning_rate: 0.000033
+Epoch 77, Batch 60, Loss: 0.0001, learning_rate: 0.000033
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 83, in <module>
+    train_model(model, train_loader, val_loader, criterion, optimizer, scheduler,num_epochs)
+  File "/data/coding/deep_learning_experiments/experiment2/trainer.py", line 37, in train_model
+    loss.backward()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

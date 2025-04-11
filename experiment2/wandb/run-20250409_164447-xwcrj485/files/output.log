@@ -1,0 +1,1797 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 1, Batch 0, Loss: 2.5435, learning_rate: 0.000001
+Epoch 1, Batch 30, Loss: 1.9557, learning_rate: 0.000002
+Epoch 1, Batch 60, Loss: 2.0491, learning_rate: 0.000003
+Epoch 1, Batch 90, Loss: 1.9511, learning_rate: 0.000003
+Epoch 1, Batch 120, Loss: 2.0366, learning_rate: 0.000004
+Epoch 1, Batch 150, Loss: 1.9403, learning_rate: 0.000005
+Epoch 1, Batch 180, Loss: 1.7506, learning_rate: 0.000006
+Epoch 1, Batch 210, Loss: 2.0410, learning_rate: 0.000006
+Epoch 1, Batch 240, Loss: 1.9755, learning_rate: 0.000007
+Epoch 1, Batch 270, Loss: 1.8787, learning_rate: 0.000008
+Epoch 1, Batch 300, Loss: 1.8212, learning_rate: 0.000009
+Epoch 1, Batch 330, Loss: 1.9000, learning_rate: 0.000009
+Epoch 1, Batch 360, Loss: 1.7129, learning_rate: 0.000010
+Epoch 1, Batch 390, Loss: 1.7245, learning_rate: 0.000011
+Epoch [1/100] - Loss: 1.9459, Accuracy: 28.32%
+starting validation......
+Validation Loss: 1.7635, Validation Accuracy: 34.45%
+Epoch 1/100, Val Loss: 1.7635, Val Acc: 34.45%
+save model to ./checkpoints/ViT_Original_Val_Epoch1_Acc34.45.pth
+Epoch 2/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 2, Batch 0, Loss: 1.7501, learning_rate: 0.000011
+Epoch 2, Batch 30, Loss: 1.8203, learning_rate: 0.000012
+Epoch 2, Batch 60, Loss: 1.5826, learning_rate: 0.000012
+Epoch 2, Batch 90, Loss: 1.7493, learning_rate: 0.000013
+Epoch 2, Batch 120, Loss: 1.5668, learning_rate: 0.000014
+Epoch 2, Batch 150, Loss: 1.7338, learning_rate: 0.000015
+Epoch 2, Batch 180, Loss: 1.6381, learning_rate: 0.000015
+Epoch 2, Batch 210, Loss: 1.5562, learning_rate: 0.000016
+Epoch 2, Batch 240, Loss: 1.5251, learning_rate: 0.000017
+Epoch 2, Batch 270, Loss: 1.5690, learning_rate: 0.000018
+Epoch 2, Batch 300, Loss: 1.6949, learning_rate: 0.000018
+Epoch 2, Batch 330, Loss: 1.4340, learning_rate: 0.000019
+Epoch 2, Batch 360, Loss: 1.5753, learning_rate: 0.000020
+Epoch 2, Batch 390, Loss: 1.5423, learning_rate: 0.000021
+Epoch [2/100] - Loss: 1.6401, Accuracy: 39.31%
+Epoch 3/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 3, Batch 0, Loss: 1.5374, learning_rate: 0.000021
+Epoch 3, Batch 30, Loss: 1.4858, learning_rate: 0.000022
+Epoch 3, Batch 60, Loss: 1.3839, learning_rate: 0.000022
+Epoch 3, Batch 90, Loss: 1.3959, learning_rate: 0.000023
+Epoch 3, Batch 120, Loss: 1.4381, learning_rate: 0.000024
+Epoch 3, Batch 150, Loss: 1.4663, learning_rate: 0.000025
+Epoch 3, Batch 180, Loss: 1.4894, learning_rate: 0.000025
+Epoch 3, Batch 210, Loss: 1.4590, learning_rate: 0.000026
+Epoch 3, Batch 240, Loss: 1.4311, learning_rate: 0.000027
+Epoch 3, Batch 270, Loss: 1.3563, learning_rate: 0.000028
+Epoch 3, Batch 300, Loss: 1.4371, learning_rate: 0.000028
+Epoch 3, Batch 330, Loss: 1.5848, learning_rate: 0.000029
+Epoch 3, Batch 360, Loss: 1.5973, learning_rate: 0.000030
+Epoch 3, Batch 390, Loss: 1.2865, learning_rate: 0.000031
+Epoch [3/100] - Loss: 1.4574, Accuracy: 46.77%
+starting validation......
+Validation Loss: 1.3615, Validation Accuracy: 51.14%
+Epoch 3/100, Val Loss: 1.3615, Val Acc: 51.14%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch1_Acc34.45.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch3_Acc51.14.pth
+Epoch 4/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 4, Batch 0, Loss: 1.2221, learning_rate: 0.000031
+Epoch 4, Batch 30, Loss: 1.2986, learning_rate: 0.000031
+Epoch 4, Batch 60, Loss: 1.3053, learning_rate: 0.000032
+Epoch 4, Batch 90, Loss: 1.3014, learning_rate: 0.000033
+Epoch 4, Batch 120, Loss: 1.1816, learning_rate: 0.000034
+Epoch 4, Batch 150, Loss: 1.1672, learning_rate: 0.000034
+Epoch 4, Batch 180, Loss: 1.3939, learning_rate: 0.000035
+Epoch 4, Batch 210, Loss: 1.2813, learning_rate: 0.000036
+Epoch 4, Batch 240, Loss: 1.2452, learning_rate: 0.000037
+Epoch 4, Batch 270, Loss: 1.2511, learning_rate: 0.000038
+Epoch 4, Batch 300, Loss: 1.2985, learning_rate: 0.000038
+Epoch 4, Batch 330, Loss: 1.2685, learning_rate: 0.000039
+Epoch 4, Batch 360, Loss: 1.4440, learning_rate: 0.000040
+Epoch 4, Batch 390, Loss: 1.0864, learning_rate: 0.000041
+Epoch [4/100] - Loss: 1.3176, Accuracy: 52.33%
+Epoch 5/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:21<00:00,  1.28s/it]
+Epoch 5, Batch 0, Loss: 1.2062, learning_rate: 0.000041
+Epoch 5, Batch 30, Loss: 1.2798, learning_rate: 0.000041
+Epoch 5, Batch 60, Loss: 1.1940, learning_rate: 0.000042
+Epoch 5, Batch 90, Loss: 1.3799, learning_rate: 0.000043
+Epoch 5, Batch 120, Loss: 1.2269, learning_rate: 0.000044
+Epoch 5, Batch 150, Loss: 1.2649, learning_rate: 0.000044
+Epoch 5, Batch 180, Loss: 1.3445, learning_rate: 0.000045
+Epoch 5, Batch 210, Loss: 1.1708, learning_rate: 0.000046
+Epoch 5, Batch 240, Loss: 1.3080, learning_rate: 0.000047
+Epoch 5, Batch 270, Loss: 1.2209, learning_rate: 0.000047
+Epoch 5, Batch 300, Loss: 1.2569, learning_rate: 0.000048
+Epoch 5, Batch 330, Loss: 1.2195, learning_rate: 0.000049
+Epoch 5, Batch 360, Loss: 1.0670, learning_rate: 0.000050
+Epoch 5, Batch 390, Loss: 1.1001, learning_rate: 0.000050
+Epoch [5/100] - Loss: 1.2229, Accuracy: 55.62%
+starting validation......
+Validation Loss: 1.2146, Validation Accuracy: 55.77%
+Epoch 5/100, Val Loss: 1.2146, Val Acc: 55.77%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch3_Acc51.14.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch5_Acc55.77.pth
+Epoch 6/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 6, Batch 0, Loss: 1.2793, learning_rate: 0.000051
+Epoch 6, Batch 30, Loss: 1.0964, learning_rate: 0.000051
+Epoch 6, Batch 60, Loss: 1.0353, learning_rate: 0.000052
+Epoch 6, Batch 90, Loss: 1.1096, learning_rate: 0.000053
+Epoch 6, Batch 120, Loss: 1.1353, learning_rate: 0.000054
+Epoch 6, Batch 150, Loss: 1.2464, learning_rate: 0.000054
+Epoch 6, Batch 180, Loss: 1.0716, learning_rate: 0.000055
+Epoch 6, Batch 210, Loss: 1.1878, learning_rate: 0.000056
+Epoch 6, Batch 240, Loss: 1.4328, learning_rate: 0.000057
+Epoch 6, Batch 270, Loss: 1.1629, learning_rate: 0.000057
+Epoch 6, Batch 300, Loss: 1.2107, learning_rate: 0.000058
+Epoch 6, Batch 330, Loss: 1.0809, learning_rate: 0.000059
+Epoch 6, Batch 360, Loss: 1.0593, learning_rate: 0.000060
+Epoch 6, Batch 390, Loss: 1.0494, learning_rate: 0.000060
+Epoch [6/100] - Loss: 1.1403, Accuracy: 58.63%
+Epoch 7/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:22<00:00,  1.28s/it]
+Epoch 7, Batch 0, Loss: 1.0977, learning_rate: 0.000060
+Epoch 7, Batch 30, Loss: 0.9355, learning_rate: 0.000061
+Epoch 7, Batch 60, Loss: 1.1473, learning_rate: 0.000062
+Epoch 7, Batch 90, Loss: 0.9963, learning_rate: 0.000063
+Epoch 7, Batch 120, Loss: 1.1154, learning_rate: 0.000063
+Epoch 7, Batch 150, Loss: 1.0591, learning_rate: 0.000064
+Epoch 7, Batch 180, Loss: 0.8952, learning_rate: 0.000065
+Epoch 7, Batch 210, Loss: 1.2073, learning_rate: 0.000066
+Epoch 7, Batch 240, Loss: 1.3272, learning_rate: 0.000066
+Epoch 7, Batch 270, Loss: 1.0093, learning_rate: 0.000067
+Epoch 7, Batch 300, Loss: 1.1231, learning_rate: 0.000068
+Epoch 7, Batch 330, Loss: 1.0870, learning_rate: 0.000069
+Epoch 7, Batch 360, Loss: 0.9835, learning_rate: 0.000070
+Epoch 7, Batch 390, Loss: 1.1386, learning_rate: 0.000070
+Epoch [7/100] - Loss: 1.0699, Accuracy: 61.48%
+starting validation......
+Validation Loss: 1.1564, Validation Accuracy: 58.97%
+Epoch 7/100, Val Loss: 1.1564, Val Acc: 58.97%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch5_Acc55.77.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch7_Acc58.97.pth
+Epoch 8/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:21<00:00,  1.28s/it]
+Epoch 8, Batch 0, Loss: 0.9660, learning_rate: 0.000070
+Epoch 8, Batch 30, Loss: 0.8952, learning_rate: 0.000071
+Epoch 8, Batch 60, Loss: 1.1051, learning_rate: 0.000072
+Epoch 8, Batch 90, Loss: 1.0444, learning_rate: 0.000073
+Epoch 8, Batch 120, Loss: 0.9433, learning_rate: 0.000073
+Epoch 8, Batch 150, Loss: 1.0217, learning_rate: 0.000074
+Epoch 8, Batch 180, Loss: 1.2665, learning_rate: 0.000075
+Epoch 8, Batch 210, Loss: 0.9349, learning_rate: 0.000076
+Epoch 8, Batch 240, Loss: 1.0825, learning_rate: 0.000076
+Epoch 8, Batch 270, Loss: 0.9661, learning_rate: 0.000077
+Epoch 8, Batch 300, Loss: 0.9514, learning_rate: 0.000078
+Epoch 8, Batch 330, Loss: 0.9369, learning_rate: 0.000079
+Epoch 8, Batch 360, Loss: 0.9825, learning_rate: 0.000079
+Epoch 8, Batch 390, Loss: 0.9771, learning_rate: 0.000080
+Epoch [8/100] - Loss: 1.0149, Accuracy: 63.44%
+Epoch 9/100: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 9, Batch 0, Loss: 0.7531, learning_rate: 0.000080
+Epoch 9, Batch 30, Loss: 0.9942, learning_rate: 0.000081
+Epoch 9, Batch 60, Loss: 0.8593, learning_rate: 0.000082
+Epoch 9, Batch 90, Loss: 1.0028, learning_rate: 0.000082
+Epoch 9, Batch 120, Loss: 0.9199, learning_rate: 0.000083
+Epoch 9, Batch 150, Loss: 0.8876, learning_rate: 0.000084
+Epoch 9, Batch 180, Loss: 0.9741, learning_rate: 0.000085
+Epoch 9, Batch 210, Loss: 0.8052, learning_rate: 0.000086
+Epoch 9, Batch 240, Loss: 0.9904, learning_rate: 0.000086
+Epoch 9, Batch 270, Loss: 0.9267, learning_rate: 0.000087
+Epoch 9, Batch 300, Loss: 0.9365, learning_rate: 0.000088
+Epoch 9, Batch 330, Loss: 0.7998, learning_rate: 0.000089
+Epoch 9, Batch 360, Loss: 1.0321, learning_rate: 0.000089
+Epoch 9, Batch 390, Loss: 1.0801, learning_rate: 0.000090
+Epoch [9/100] - Loss: 0.9565, Accuracy: 65.65%
+starting validation......
+Validation Loss: 1.0443, Validation Accuracy: 63.03%
+Epoch 9/100, Val Loss: 1.0443, Val Acc: 63.03%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch7_Acc58.97.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch9_Acc63.03.pth
+Epoch 10/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 10, Batch 0, Loss: 1.0110, learning_rate: 0.000090
+Epoch 10, Batch 30, Loss: 0.9651, learning_rate: 0.000091
+Epoch 10, Batch 60, Loss: 0.9351, learning_rate: 0.000092
+Epoch 10, Batch 90, Loss: 0.8658, learning_rate: 0.000092
+Epoch 10, Batch 120, Loss: 0.8506, learning_rate: 0.000093
+Epoch 10, Batch 150, Loss: 0.7806, learning_rate: 0.000094
+Epoch 10, Batch 180, Loss: 0.8226, learning_rate: 0.000095
+Epoch 10, Batch 210, Loss: 0.8679, learning_rate: 0.000095
+Epoch 10, Batch 240, Loss: 0.9655, learning_rate: 0.000096
+Epoch 10, Batch 270, Loss: 0.8956, learning_rate: 0.000097
+Epoch 10, Batch 300, Loss: 0.8767, learning_rate: 0.000098
+Epoch 10, Batch 330, Loss: 0.8832, learning_rate: 0.000098
+Epoch 10, Batch 360, Loss: 0.7498, learning_rate: 0.000099
+Epoch 10, Batch 390, Loss: 0.7749, learning_rate: 0.000100
+Epoch [10/100] - Loss: 0.9243, Accuracy: 67.08%
+Epoch 11/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.27s/it]
+Epoch 11, Batch 0, Loss: 0.7842, learning_rate: 0.000100
+Epoch 11, Batch 30, Loss: 0.8235, learning_rate: 0.000100
+Epoch 11, Batch 60, Loss: 0.9141, learning_rate: 0.000100
+Epoch 11, Batch 90, Loss: 1.0453, learning_rate: 0.000100
+Epoch 11, Batch 120, Loss: 0.7615, learning_rate: 0.000100
+Epoch 11, Batch 150, Loss: 1.0219, learning_rate: 0.000100
+Epoch 11, Batch 180, Loss: 0.7477, learning_rate: 0.000100
+Epoch 11, Batch 210, Loss: 0.7936, learning_rate: 0.000100
+Epoch 11, Batch 240, Loss: 0.9529, learning_rate: 0.000100
+Epoch 11, Batch 270, Loss: 0.9125, learning_rate: 0.000100
+Epoch 11, Batch 300, Loss: 0.8288, learning_rate: 0.000100
+Epoch 11, Batch 330, Loss: 0.8328, learning_rate: 0.000100
+Epoch 11, Batch 360, Loss: 0.8585, learning_rate: 0.000100
+Epoch 11, Batch 390, Loss: 0.8653, learning_rate: 0.000100
+Epoch [11/100] - Loss: 0.8627, Accuracy: 69.27%
+starting validation......
+Validation Loss: 1.0412, Validation Accuracy: 64.01%
+Epoch 11/100, Val Loss: 1.0412, Val Acc: 64.01%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch9_Acc63.03.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch11_Acc64.01.pth
+Epoch 12/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 12, Batch 0, Loss: 0.6547, learning_rate: 0.000100
+Epoch 12, Batch 30, Loss: 0.8627, learning_rate: 0.000100
+Epoch 12, Batch 60, Loss: 0.7145, learning_rate: 0.000100
+Epoch 12, Batch 90, Loss: 0.8771, learning_rate: 0.000100
+Epoch 12, Batch 120, Loss: 0.8875, learning_rate: 0.000100
+Epoch 12, Batch 150, Loss: 0.9738, learning_rate: 0.000100
+Epoch 12, Batch 180, Loss: 0.9119, learning_rate: 0.000100
+Epoch 12, Batch 210, Loss: 0.8384, learning_rate: 0.000100
+Epoch 12, Batch 240, Loss: 0.7334, learning_rate: 0.000100
+Epoch 12, Batch 270, Loss: 0.8635, learning_rate: 0.000100
+Epoch 12, Batch 300, Loss: 0.7937, learning_rate: 0.000100
+Epoch 12, Batch 330, Loss: 0.7262, learning_rate: 0.000100
+Epoch 12, Batch 360, Loss: 0.7583, learning_rate: 0.000100
+Epoch 12, Batch 390, Loss: 0.8417, learning_rate: 0.000100
+Epoch [12/100] - Loss: 0.7985, Accuracy: 71.62%
+Epoch 13/100: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 13, Batch 0, Loss: 0.8800, learning_rate: 0.000100
+Epoch 13, Batch 30, Loss: 0.7533, learning_rate: 0.000100
+Epoch 13, Batch 60, Loss: 0.6975, learning_rate: 0.000100
+Epoch 13, Batch 90, Loss: 0.8309, learning_rate: 0.000100
+Epoch 13, Batch 120, Loss: 0.8079, learning_rate: 0.000100
+Epoch 13, Batch 150, Loss: 0.8023, learning_rate: 0.000100
+Epoch 13, Batch 180, Loss: 0.8069, learning_rate: 0.000100
+Epoch 13, Batch 210, Loss: 0.7288, learning_rate: 0.000100
+Epoch 13, Batch 240, Loss: 0.7443, learning_rate: 0.000100
+Epoch 13, Batch 270, Loss: 0.7644, learning_rate: 0.000100
+Epoch 13, Batch 300, Loss: 0.7425, learning_rate: 0.000100
+Epoch 13, Batch 330, Loss: 0.8476, learning_rate: 0.000100
+Epoch 13, Batch 360, Loss: 0.7226, learning_rate: 0.000100
+Epoch 13, Batch 390, Loss: 0.5958, learning_rate: 0.000100
+Epoch [13/100] - Loss: 0.7466, Accuracy: 73.22%
+starting validation......
+Validation Loss: 0.9083, Validation Accuracy: 68.41%
+Epoch 13/100, Val Loss: 0.9083, Val Acc: 68.41%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch11_Acc64.01.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch13_Acc68.41.pth
+Epoch 14/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:18<00:00,  1.28s/it]
+Epoch 14, Batch 0, Loss: 0.4565, learning_rate: 0.000100
+Epoch 14, Batch 30, Loss: 0.6799, learning_rate: 0.000100
+Epoch 14, Batch 60, Loss: 0.7592, learning_rate: 0.000100
+Epoch 14, Batch 90, Loss: 0.6311, learning_rate: 0.000100
+Epoch 14, Batch 120, Loss: 0.7575, learning_rate: 0.000100
+Epoch 14, Batch 150, Loss: 0.7698, learning_rate: 0.000100
+Epoch 14, Batch 180, Loss: 0.6224, learning_rate: 0.000100
+Epoch 14, Batch 210, Loss: 0.6072, learning_rate: 0.000100
+Epoch 14, Batch 240, Loss: 0.6772, learning_rate: 0.000100
+Epoch 14, Batch 270, Loss: 0.7292, learning_rate: 0.000100
+Epoch 14, Batch 300, Loss: 0.5358, learning_rate: 0.000100
+Epoch 14, Batch 330, Loss: 0.7021, learning_rate: 0.000100
+Epoch 14, Batch 360, Loss: 0.8907, learning_rate: 0.000100
+Epoch 14, Batch 390, Loss: 0.7645, learning_rate: 0.000100
+Epoch [14/100] - Loss: 0.6926, Accuracy: 75.25%
+Epoch 15/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 15, Batch 0, Loss: 0.6533, learning_rate: 0.000100
+Epoch 15, Batch 30, Loss: 0.6251, learning_rate: 0.000100
+Epoch 15, Batch 60, Loss: 0.6626, learning_rate: 0.000100
+Epoch 15, Batch 90, Loss: 0.5883, learning_rate: 0.000100
+Epoch 15, Batch 120, Loss: 0.4827, learning_rate: 0.000100
+Epoch 15, Batch 150, Loss: 0.5744, learning_rate: 0.000100
+Epoch 15, Batch 180, Loss: 0.5573, learning_rate: 0.000100
+Epoch 15, Batch 210, Loss: 0.7271, learning_rate: 0.000100
+Epoch 15, Batch 240, Loss: 0.5579, learning_rate: 0.000100
+Epoch 15, Batch 270, Loss: 0.5544, learning_rate: 0.000100
+Epoch 15, Batch 300, Loss: 0.5812, learning_rate: 0.000099
+Epoch 15, Batch 330, Loss: 0.7412, learning_rate: 0.000099
+Epoch 15, Batch 360, Loss: 0.7555, learning_rate: 0.000099
+Epoch 15, Batch 390, Loss: 0.4893, learning_rate: 0.000099
+Epoch [15/100] - Loss: 0.6256, Accuracy: 77.65%
+starting validation......
+Validation Loss: 0.9084, Validation Accuracy: 68.61%
+Epoch 15/100, Val Loss: 0.9084, Val Acc: 68.61%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch13_Acc68.41.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch15_Acc68.61.pth
+Epoch 16/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 16, Batch 0, Loss: 0.4859, learning_rate: 0.000099
+Epoch 16, Batch 30, Loss: 0.7911, learning_rate: 0.000099
+Epoch 16, Batch 60, Loss: 0.6258, learning_rate: 0.000099
+Epoch 16, Batch 90, Loss: 0.4765, learning_rate: 0.000099
+Epoch 16, Batch 120, Loss: 0.6250, learning_rate: 0.000099
+Epoch 16, Batch 150, Loss: 0.5983, learning_rate: 0.000099
+Epoch 16, Batch 180, Loss: 0.5586, learning_rate: 0.000099
+Epoch 16, Batch 210, Loss: 0.6880, learning_rate: 0.000099
+Epoch 16, Batch 240, Loss: 0.7856, learning_rate: 0.000099
+Epoch 16, Batch 270, Loss: 0.4445, learning_rate: 0.000099
+Epoch 16, Batch 300, Loss: 0.5354, learning_rate: 0.000099
+Epoch 16, Batch 330, Loss: 0.7883, learning_rate: 0.000099
+Epoch 16, Batch 360, Loss: 0.6473, learning_rate: 0.000099
+Epoch 16, Batch 390, Loss: 0.4951, learning_rate: 0.000099
+Epoch [16/100] - Loss: 0.5765, Accuracy: 79.47%
+Epoch 17/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 17, Batch 0, Loss: 0.3783, learning_rate: 0.000099
+Epoch 17, Batch 30, Loss: 0.4444, learning_rate: 0.000099
+Epoch 17, Batch 60, Loss: 0.5041, learning_rate: 0.000099
+Epoch 17, Batch 90, Loss: 0.5508, learning_rate: 0.000099
+Epoch 17, Batch 120, Loss: 0.5223, learning_rate: 0.000099
+Epoch 17, Batch 150, Loss: 0.4655, learning_rate: 0.000099
+Epoch 17, Batch 180, Loss: 0.5097, learning_rate: 0.000099
+Epoch 17, Batch 210, Loss: 0.6346, learning_rate: 0.000099
+Epoch 17, Batch 240, Loss: 0.3702, learning_rate: 0.000099
+Epoch 17, Batch 270, Loss: 0.5573, learning_rate: 0.000099
+Epoch 17, Batch 300, Loss: 0.4308, learning_rate: 0.000099
+Epoch 17, Batch 330, Loss: 0.5111, learning_rate: 0.000099
+Epoch 17, Batch 360, Loss: 0.6672, learning_rate: 0.000099
+Epoch 17, Batch 390, Loss: 0.5748, learning_rate: 0.000099
+Epoch [17/100] - Loss: 0.5207, Accuracy: 81.43%
+starting validation......
+Validation Loss: 0.9197, Validation Accuracy: 69.86%
+Epoch 17/100, Val Loss: 0.9197, Val Acc: 69.86%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch15_Acc68.61.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch17_Acc69.86.pth
+Epoch 18/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 18, Batch 0, Loss: 0.3275, learning_rate: 0.000099
+Epoch 18, Batch 30, Loss: 0.5064, learning_rate: 0.000099
+Epoch 18, Batch 60, Loss: 0.3353, learning_rate: 0.000099
+Epoch 18, Batch 90, Loss: 0.3245, learning_rate: 0.000099
+Epoch 18, Batch 120, Loss: 0.4034, learning_rate: 0.000099
+Epoch 18, Batch 150, Loss: 0.4512, learning_rate: 0.000099
+Epoch 18, Batch 180, Loss: 0.5628, learning_rate: 0.000099
+Epoch 18, Batch 210, Loss: 0.4752, learning_rate: 0.000099
+Epoch 18, Batch 240, Loss: 0.4720, learning_rate: 0.000099
+Epoch 18, Batch 270, Loss: 0.3643, learning_rate: 0.000099
+Epoch 18, Batch 300, Loss: 0.3826, learning_rate: 0.000099
+Epoch 18, Batch 330, Loss: 0.4455, learning_rate: 0.000099
+Epoch 18, Batch 360, Loss: 0.5842, learning_rate: 0.000099
+Epoch 18, Batch 390, Loss: 0.5615, learning_rate: 0.000099
+Epoch [18/100] - Loss: 0.4762, Accuracy: 83.02%
+Epoch 19/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 19, Batch 0, Loss: 0.3506, learning_rate: 0.000099
+Epoch 19, Batch 30, Loss: 0.2670, learning_rate: 0.000099
+Epoch 19, Batch 60, Loss: 0.4339, learning_rate: 0.000099
+Epoch 19, Batch 90, Loss: 0.4205, learning_rate: 0.000099
+Epoch 19, Batch 120, Loss: 0.4763, learning_rate: 0.000098
+Epoch 19, Batch 150, Loss: 0.5538, learning_rate: 0.000098
+Epoch 19, Batch 180, Loss: 0.4695, learning_rate: 0.000098
+Epoch 19, Batch 210, Loss: 0.3744, learning_rate: 0.000098
+Epoch 19, Batch 240, Loss: 0.3135, learning_rate: 0.000098
+Epoch 19, Batch 270, Loss: 0.4965, learning_rate: 0.000098
+Epoch 19, Batch 300, Loss: 0.5094, learning_rate: 0.000098
+Epoch 19, Batch 330, Loss: 0.3930, learning_rate: 0.000098
+Epoch 19, Batch 360, Loss: 0.4469, learning_rate: 0.000098
+Epoch 19, Batch 390, Loss: 0.5373, learning_rate: 0.000098
+Epoch [19/100] - Loss: 0.4227, Accuracy: 84.86%
+starting validation......
+Validation Loss: 0.9473, Validation Accuracy: 70.09%
+Epoch 19/100, Val Loss: 0.9473, Val Acc: 70.09%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch17_Acc69.86.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch19_Acc70.09.pth
+Epoch 20/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 20, Batch 0, Loss: 0.3680, learning_rate: 0.000098
+Epoch 20, Batch 30, Loss: 0.3158, learning_rate: 0.000098
+Epoch 20, Batch 60, Loss: 0.4834, learning_rate: 0.000098
+Epoch 20, Batch 90, Loss: 0.3687, learning_rate: 0.000098
+Epoch 20, Batch 120, Loss: 0.3735, learning_rate: 0.000098
+Epoch 20, Batch 150, Loss: 0.4996, learning_rate: 0.000098
+Epoch 20, Batch 180, Loss: 0.3437, learning_rate: 0.000098
+Epoch 20, Batch 210, Loss: 0.5423, learning_rate: 0.000098
+Epoch 20, Batch 240, Loss: 0.4617, learning_rate: 0.000098
+Epoch 20, Batch 270, Loss: 0.5011, learning_rate: 0.000098
+Epoch 20, Batch 300, Loss: 0.3229, learning_rate: 0.000098
+Epoch 20, Batch 330, Loss: 0.4107, learning_rate: 0.000098
+Epoch 20, Batch 360, Loss: 0.3280, learning_rate: 0.000098
+Epoch 20, Batch 390, Loss: 0.3495, learning_rate: 0.000098
+Epoch [20/100] - Loss: 0.3726, Accuracy: 86.64%
+Epoch 21/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 21, Batch 0, Loss: 0.2980, learning_rate: 0.000098
+Epoch 21, Batch 30, Loss: 0.2267, learning_rate: 0.000098
+Epoch 21, Batch 60, Loss: 0.2427, learning_rate: 0.000098
+Epoch 21, Batch 90, Loss: 0.3957, learning_rate: 0.000098
+Epoch 21, Batch 120, Loss: 0.3356, learning_rate: 0.000098
+Epoch 21, Batch 150, Loss: 0.2779, learning_rate: 0.000098
+Epoch 21, Batch 180, Loss: 0.3458, learning_rate: 0.000098
+Epoch 21, Batch 210, Loss: 0.2972, learning_rate: 0.000098
+Epoch 21, Batch 240, Loss: 0.3167, learning_rate: 0.000098
+Epoch 21, Batch 270, Loss: 0.3532, learning_rate: 0.000097
+Epoch 21, Batch 300, Loss: 0.2953, learning_rate: 0.000097
+Epoch 21, Batch 330, Loss: 0.4251, learning_rate: 0.000097
+Epoch 21, Batch 360, Loss: 0.3471, learning_rate: 0.000097
+Epoch 21, Batch 390, Loss: 0.2494, learning_rate: 0.000097
+Epoch [21/100] - Loss: 0.3362, Accuracy: 87.94%
+starting validation......
+Validation Loss: 0.9903, Validation Accuracy: 70.04%
+Epoch 21/100, Val Loss: 0.9903, Val Acc: 70.04%
+Epoch 22/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 22, Batch 0, Loss: 0.2452, learning_rate: 0.000097
+Epoch 22, Batch 30, Loss: 0.1744, learning_rate: 0.000097
+Epoch 22, Batch 60, Loss: 0.2034, learning_rate: 0.000097
+Epoch 22, Batch 90, Loss: 0.3435, learning_rate: 0.000097
+Epoch 22, Batch 120, Loss: 0.2452, learning_rate: 0.000097
+Epoch 22, Batch 150, Loss: 0.1629, learning_rate: 0.000097
+Epoch 22, Batch 180, Loss: 0.3363, learning_rate: 0.000097
+Epoch 22, Batch 210, Loss: 0.3320, learning_rate: 0.000097
+Epoch 22, Batch 240, Loss: 0.4356, learning_rate: 0.000097
+Epoch 22, Batch 270, Loss: 0.3441, learning_rate: 0.000097
+Epoch 22, Batch 300, Loss: 0.3551, learning_rate: 0.000097
+Epoch 22, Batch 330, Loss: 0.3251, learning_rate: 0.000097
+Epoch 22, Batch 360, Loss: 0.2886, learning_rate: 0.000097
+Epoch 22, Batch 390, Loss: 0.2650, learning_rate: 0.000097
+Epoch [22/100] - Loss: 0.2954, Accuracy: 89.43%
+Epoch 23/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 23, Batch 0, Loss: 0.2972, learning_rate: 0.000097
+Epoch 23, Batch 30, Loss: 0.1736, learning_rate: 0.000097
+Epoch 23, Batch 60, Loss: 0.2346, learning_rate: 0.000097
+Epoch 23, Batch 90, Loss: 0.2299, learning_rate: 0.000097
+Epoch 23, Batch 120, Loss: 0.3145, learning_rate: 0.000097
+Epoch 23, Batch 150, Loss: 0.1854, learning_rate: 0.000097
+Epoch 23, Batch 180, Loss: 0.2520, learning_rate: 0.000097
+Epoch 23, Batch 210, Loss: 0.2482, learning_rate: 0.000097
+Epoch 23, Batch 240, Loss: 0.2903, learning_rate: 0.000097
+Epoch 23, Batch 270, Loss: 0.2474, learning_rate: 0.000096
+Epoch 23, Batch 300, Loss: 0.2064, learning_rate: 0.000096
+Epoch 23, Batch 330, Loss: 0.2239, learning_rate: 0.000096
+Epoch 23, Batch 360, Loss: 0.2468, learning_rate: 0.000096
+Epoch 23, Batch 390, Loss: 0.3237, learning_rate: 0.000096
+Epoch [23/100] - Loss: 0.2513, Accuracy: 90.98%
+starting validation......
+Validation Loss: 1.1534, Validation Accuracy: 70.28%
+Epoch 23/100, Val Loss: 1.1534, Val Acc: 70.28%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch19_Acc70.09.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch23_Acc70.28.pth
+Epoch 24/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 24, Batch 0, Loss: 0.1953, learning_rate: 0.000096
+Epoch 24, Batch 30, Loss: 0.1779, learning_rate: 0.000096
+Epoch 24, Batch 60, Loss: 0.1559, learning_rate: 0.000096
+Epoch 24, Batch 90, Loss: 0.1740, learning_rate: 0.000096
+Epoch 24, Batch 120, Loss: 0.2353, learning_rate: 0.000096
+Epoch 24, Batch 150, Loss: 0.2480, learning_rate: 0.000096
+Epoch 24, Batch 180, Loss: 0.1289, learning_rate: 0.000096
+Epoch 24, Batch 210, Loss: 0.1635, learning_rate: 0.000096
+Epoch 24, Batch 240, Loss: 0.2892, learning_rate: 0.000096
+Epoch 24, Batch 270, Loss: 0.1487, learning_rate: 0.000096
+Epoch 24, Batch 300, Loss: 0.2606, learning_rate: 0.000096
+Epoch 24, Batch 330, Loss: 0.2120, learning_rate: 0.000096
+Epoch 24, Batch 360, Loss: 0.2558, learning_rate: 0.000096
+Epoch 24, Batch 390, Loss: 0.3057, learning_rate: 0.000096
+Epoch [24/100] - Loss: 0.2302, Accuracy: 91.77%
+Epoch 25/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 25, Batch 0, Loss: 0.1812, learning_rate: 0.000096
+Epoch 25, Batch 30, Loss: 0.2404, learning_rate: 0.000096
+Epoch 25, Batch 60, Loss: 0.2122, learning_rate: 0.000096
+Epoch 25, Batch 90, Loss: 0.2239, learning_rate: 0.000096
+Epoch 25, Batch 120, Loss: 0.0800, learning_rate: 0.000096
+Epoch 25, Batch 150, Loss: 0.1831, learning_rate: 0.000095
+Epoch 25, Batch 180, Loss: 0.1580, learning_rate: 0.000095
+Epoch 25, Batch 210, Loss: 0.1161, learning_rate: 0.000095
+Epoch 25, Batch 240, Loss: 0.1009, learning_rate: 0.000095
+Epoch 25, Batch 270, Loss: 0.2850, learning_rate: 0.000095
+Epoch 25, Batch 300, Loss: 0.2661, learning_rate: 0.000095
+Epoch 25, Batch 330, Loss: 0.2647, learning_rate: 0.000095
+Epoch 25, Batch 360, Loss: 0.2695, learning_rate: 0.000095
+Epoch 25, Batch 390, Loss: 0.3640, learning_rate: 0.000095
+Epoch [25/100] - Loss: 0.2030, Accuracy: 92.72%
+starting validation......
+Validation Loss: 1.1130, Validation Accuracy: 70.96%
+Epoch 25/100, Val Loss: 1.1130, Val Acc: 70.96%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch23_Acc70.28.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch25_Acc70.96.pth
+Epoch 26/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 26, Batch 0, Loss: 0.1358, learning_rate: 0.000095
+Epoch 26, Batch 30, Loss: 0.1742, learning_rate: 0.000095
+Epoch 26, Batch 60, Loss: 0.1135, learning_rate: 0.000095
+Epoch 26, Batch 90, Loss: 0.1822, learning_rate: 0.000095
+Epoch 26, Batch 120, Loss: 0.1396, learning_rate: 0.000095
+Epoch 26, Batch 150, Loss: 0.1768, learning_rate: 0.000095
+Epoch 26, Batch 180, Loss: 0.1919, learning_rate: 0.000095
+Epoch 26, Batch 210, Loss: 0.2348, learning_rate: 0.000095
+Epoch 26, Batch 240, Loss: 0.2367, learning_rate: 0.000095
+Epoch 26, Batch 270, Loss: 0.1726, learning_rate: 0.000095
+Epoch 26, Batch 300, Loss: 0.1942, learning_rate: 0.000095
+Epoch 26, Batch 330, Loss: 0.2103, learning_rate: 0.000095
+Epoch 26, Batch 360, Loss: 0.1765, learning_rate: 0.000094
+Epoch 26, Batch 390, Loss: 0.2135, learning_rate: 0.000094
+Epoch [26/100] - Loss: 0.1728, Accuracy: 93.81%
+Epoch 27/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 27, Batch 0, Loss: 0.0794, learning_rate: 0.000094
+Epoch 27, Batch 30, Loss: 0.0876, learning_rate: 0.000094
+Epoch 27, Batch 60, Loss: 0.1325, learning_rate: 0.000094
+Epoch 27, Batch 90, Loss: 0.1509, learning_rate: 0.000094
+Epoch 27, Batch 120, Loss: 0.1463, learning_rate: 0.000094
+Epoch 27, Batch 150, Loss: 0.2094, learning_rate: 0.000094
+Epoch 27, Batch 180, Loss: 0.0791, learning_rate: 0.000094
+Epoch 27, Batch 210, Loss: 0.1877, learning_rate: 0.000094
+Epoch 27, Batch 240, Loss: 0.2101, learning_rate: 0.000094
+Epoch 27, Batch 270, Loss: 0.1200, learning_rate: 0.000094
+Epoch 27, Batch 300, Loss: 0.1538, learning_rate: 0.000094
+Epoch 27, Batch 330, Loss: 0.2261, learning_rate: 0.000094
+Epoch 27, Batch 360, Loss: 0.1622, learning_rate: 0.000094
+Epoch 27, Batch 390, Loss: 0.2207, learning_rate: 0.000094
+Epoch [27/100] - Loss: 0.1632, Accuracy: 94.21%
+starting validation......
+Validation Loss: 1.2139, Validation Accuracy: 70.75%
+Epoch 27/100, Val Loss: 1.2139, Val Acc: 70.75%
+Epoch 28/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 28, Batch 0, Loss: 0.1828, learning_rate: 0.000094
+Epoch 28, Batch 30, Loss: 0.0529, learning_rate: 0.000094
+Epoch 28, Batch 60, Loss: 0.1186, learning_rate: 0.000094
+Epoch 28, Batch 90, Loss: 0.1473, learning_rate: 0.000094
+Epoch 28, Batch 120, Loss: 0.1318, learning_rate: 0.000094
+Epoch 28, Batch 150, Loss: 0.1788, learning_rate: 0.000093
+Epoch 28, Batch 180, Loss: 0.1473, learning_rate: 0.000093
+Epoch 28, Batch 210, Loss: 0.1383, learning_rate: 0.000093
+Epoch 28, Batch 240, Loss: 0.1103, learning_rate: 0.000093
+Epoch 28, Batch 270, Loss: 0.1304, learning_rate: 0.000093
+Epoch 28, Batch 300, Loss: 0.2303, learning_rate: 0.000093
+Epoch 28, Batch 330, Loss: 0.2021, learning_rate: 0.000093
+Epoch 28, Batch 360, Loss: 0.1419, learning_rate: 0.000093
+Epoch 28, Batch 390, Loss: 0.2544, learning_rate: 0.000093
+Epoch [28/100] - Loss: 0.1451, Accuracy: 94.94%
+Epoch 29/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 29, Batch 0, Loss: 0.1506, learning_rate: 0.000093
+Epoch 29, Batch 30, Loss: 0.1654, learning_rate: 0.000093
+Epoch 29, Batch 60, Loss: 0.1632, learning_rate: 0.000093
+Epoch 29, Batch 90, Loss: 0.1313, learning_rate: 0.000093
+Epoch 29, Batch 120, Loss: 0.1243, learning_rate: 0.000093
+Epoch 29, Batch 150, Loss: 0.1034, learning_rate: 0.000093
+Epoch 29, Batch 180, Loss: 0.2210, learning_rate: 0.000093
+Epoch 29, Batch 210, Loss: 0.0865, learning_rate: 0.000093
+Epoch 29, Batch 240, Loss: 0.0805, learning_rate: 0.000093
+Epoch 29, Batch 270, Loss: 0.1305, learning_rate: 0.000092
+Epoch 29, Batch 300, Loss: 0.2355, learning_rate: 0.000092
+Epoch 29, Batch 330, Loss: 0.1187, learning_rate: 0.000092
+Epoch 29, Batch 360, Loss: 0.2635, learning_rate: 0.000092
+Epoch 29, Batch 390, Loss: 0.1726, learning_rate: 0.000092
+Epoch [29/100] - Loss: 0.1410, Accuracy: 95.04%
+starting validation......
+Validation Loss: 1.1853, Validation Accuracy: 71.39%
+Epoch 29/100, Val Loss: 1.1853, Val Acc: 71.39%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch25_Acc70.96.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch29_Acc71.39.pth
+Epoch 30/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 30, Batch 0, Loss: 0.1275, learning_rate: 0.000092
+Epoch 30, Batch 30, Loss: 0.0892, learning_rate: 0.000092
+Epoch 30, Batch 60, Loss: 0.0398, learning_rate: 0.000092
+Epoch 30, Batch 90, Loss: 0.1402, learning_rate: 0.000092
+Epoch 30, Batch 120, Loss: 0.1618, learning_rate: 0.000092
+Epoch 30, Batch 150, Loss: 0.0794, learning_rate: 0.000092
+Epoch 30, Batch 180, Loss: 0.1508, learning_rate: 0.000092
+Epoch 30, Batch 210, Loss: 0.0653, learning_rate: 0.000092
+Epoch 30, Batch 240, Loss: 0.1478, learning_rate: 0.000092
+Epoch 30, Batch 270, Loss: 0.1854, learning_rate: 0.000092
+Epoch 30, Batch 300, Loss: 0.1291, learning_rate: 0.000092
+Epoch 30, Batch 330, Loss: 0.1007, learning_rate: 0.000092
+Epoch 30, Batch 360, Loss: 0.1552, learning_rate: 0.000091
+Epoch 30, Batch 390, Loss: 0.0686, learning_rate: 0.000091
+Epoch [30/100] - Loss: 0.1258, Accuracy: 95.63%
+Epoch 31/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 31, Batch 0, Loss: 0.1763, learning_rate: 0.000091
+Epoch 31, Batch 30, Loss: 0.0618, learning_rate: 0.000091
+Epoch 31, Batch 60, Loss: 0.1629, learning_rate: 0.000091
+Epoch 31, Batch 90, Loss: 0.0554, learning_rate: 0.000091
+Epoch 31, Batch 120, Loss: 0.0509, learning_rate: 0.000091
+Epoch 31, Batch 150, Loss: 0.0876, learning_rate: 0.000091
+Epoch 31, Batch 180, Loss: 0.1749, learning_rate: 0.000091
+Epoch 31, Batch 210, Loss: 0.0973, learning_rate: 0.000091
+Epoch 31, Batch 240, Loss: 0.2653, learning_rate: 0.000091
+Epoch 31, Batch 270, Loss: 0.0805, learning_rate: 0.000091
+Epoch 31, Batch 300, Loss: 0.2759, learning_rate: 0.000091
+Epoch 31, Batch 330, Loss: 0.1653, learning_rate: 0.000091
+Epoch 31, Batch 360, Loss: 0.1862, learning_rate: 0.000091
+Epoch 31, Batch 390, Loss: 0.2112, learning_rate: 0.000091
+Epoch [31/100] - Loss: 0.1149, Accuracy: 96.01%
+starting validation......
+Validation Loss: 1.2368, Validation Accuracy: 70.87%
+Epoch 31/100, Val Loss: 1.2368, Val Acc: 70.87%
+Epoch 32/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 32, Batch 0, Loss: 0.0652, learning_rate: 0.000091
+Epoch 32, Batch 30, Loss: 0.0735, learning_rate: 0.000090
+Epoch 32, Batch 60, Loss: 0.0873, learning_rate: 0.000090
+Epoch 32, Batch 90, Loss: 0.1837, learning_rate: 0.000090
+Epoch 32, Batch 120, Loss: 0.0792, learning_rate: 0.000090
+Epoch 32, Batch 150, Loss: 0.1551, learning_rate: 0.000090
+Epoch 32, Batch 180, Loss: 0.0403, learning_rate: 0.000090
+Epoch 32, Batch 210, Loss: 0.0620, learning_rate: 0.000090
+Epoch 32, Batch 240, Loss: 0.0280, learning_rate: 0.000090
+Epoch 32, Batch 270, Loss: 0.1059, learning_rate: 0.000090
+Epoch 32, Batch 300, Loss: 0.1353, learning_rate: 0.000090
+Epoch 32, Batch 330, Loss: 0.1773, learning_rate: 0.000090
+Epoch 32, Batch 360, Loss: 0.1167, learning_rate: 0.000090
+Epoch 32, Batch 390, Loss: 0.0408, learning_rate: 0.000090
+Epoch [32/100] - Loss: 0.1143, Accuracy: 95.96%
+Epoch 33/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 33, Batch 0, Loss: 0.0727, learning_rate: 0.000090
+Epoch 33, Batch 30, Loss: 0.1816, learning_rate: 0.000090
+Epoch 33, Batch 60, Loss: 0.0424, learning_rate: 0.000090
+Epoch 33, Batch 90, Loss: 0.0679, learning_rate: 0.000089
+Epoch 33, Batch 120, Loss: 0.0782, learning_rate: 0.000089
+Epoch 33, Batch 150, Loss: 0.0696, learning_rate: 0.000089
+Epoch 33, Batch 180, Loss: 0.0802, learning_rate: 0.000089
+Epoch 33, Batch 210, Loss: 0.1011, learning_rate: 0.000089
+Epoch 33, Batch 240, Loss: 0.1421, learning_rate: 0.000089
+Epoch 33, Batch 270, Loss: 0.0716, learning_rate: 0.000089
+Epoch 33, Batch 300, Loss: 0.0542, learning_rate: 0.000089
+Epoch 33, Batch 330, Loss: 0.1043, learning_rate: 0.000089
+Epoch 33, Batch 360, Loss: 0.1214, learning_rate: 0.000089
+Epoch 33, Batch 390, Loss: 0.2317, learning_rate: 0.000089
+Epoch [33/100] - Loss: 0.0937, Accuracy: 96.67%
+starting validation......
+Validation Loss: 1.3151, Validation Accuracy: 71.96%
+Epoch 33/100, Val Loss: 1.3151, Val Acc: 71.96%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch29_Acc71.39.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch33_Acc71.96.pth
+Epoch 34/100: 100%|███████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 34, Batch 0, Loss: 0.0965, learning_rate: 0.000089
+Epoch 34, Batch 30, Loss: 0.1614, learning_rate: 0.000089
+Epoch 34, Batch 60, Loss: 0.0678, learning_rate: 0.000089
+Epoch 34, Batch 90, Loss: 0.0556, learning_rate: 0.000089
+Epoch 34, Batch 120, Loss: 0.0853, learning_rate: 0.000088
+Epoch 34, Batch 150, Loss: 0.1106, learning_rate: 0.000088
+Epoch 34, Batch 180, Loss: 0.0804, learning_rate: 0.000088
+Epoch 34, Batch 210, Loss: 0.0750, learning_rate: 0.000088
+Epoch 34, Batch 240, Loss: 0.0958, learning_rate: 0.000088
+Epoch 34, Batch 270, Loss: 0.0587, learning_rate: 0.000088
+Epoch 34, Batch 300, Loss: 0.0357, learning_rate: 0.000088
+Epoch 34, Batch 330, Loss: 0.0543, learning_rate: 0.000088
+Epoch 34, Batch 360, Loss: 0.0915, learning_rate: 0.000088
+Epoch 34, Batch 390, Loss: 0.1450, learning_rate: 0.000088
+Epoch [34/100] - Loss: 0.0948, Accuracy: 96.72%
+Epoch 35/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 35, Batch 0, Loss: 0.0245, learning_rate: 0.000088
+Epoch 35, Batch 30, Loss: 0.0596, learning_rate: 0.000088
+Epoch 35, Batch 60, Loss: 0.0458, learning_rate: 0.000088
+Epoch 35, Batch 90, Loss: 0.0865, learning_rate: 0.000088
+Epoch 35, Batch 120, Loss: 0.1434, learning_rate: 0.000088
+Epoch 35, Batch 150, Loss: 0.0762, learning_rate: 0.000087
+Epoch 35, Batch 180, Loss: 0.0821, learning_rate: 0.000087
+Epoch 35, Batch 210, Loss: 0.0844, learning_rate: 0.000087
+Epoch 35, Batch 240, Loss: 0.1051, learning_rate: 0.000087
+Epoch 35, Batch 270, Loss: 0.1004, learning_rate: 0.000087
+Epoch 35, Batch 300, Loss: 0.0916, learning_rate: 0.000087
+Epoch 35, Batch 330, Loss: 0.0881, learning_rate: 0.000087
+Epoch 35, Batch 360, Loss: 0.0655, learning_rate: 0.000087
+Epoch 35, Batch 390, Loss: 0.0613, learning_rate: 0.000087
+Epoch [35/100] - Loss: 0.1024, Accuracy: 96.45%
+starting validation......
+Validation Loss: 1.2790, Validation Accuracy: 71.84%
+Epoch 35/100, Val Loss: 1.2790, Val Acc: 71.84%
+Epoch 36/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 36, Batch 0, Loss: 0.0744, learning_rate: 0.000087
+Epoch 36, Batch 30, Loss: 0.0870, learning_rate: 0.000087
+Epoch 36, Batch 60, Loss: 0.0528, learning_rate: 0.000087
+Epoch 36, Batch 90, Loss: 0.0355, learning_rate: 0.000087
+Epoch 36, Batch 120, Loss: 0.1065, learning_rate: 0.000087
+Epoch 36, Batch 150, Loss: 0.0545, learning_rate: 0.000086
+Epoch 36, Batch 180, Loss: 0.0238, learning_rate: 0.000086
+Epoch 36, Batch 210, Loss: 0.0794, learning_rate: 0.000086
+Epoch 36, Batch 240, Loss: 0.0714, learning_rate: 0.000086
+Epoch 36, Batch 270, Loss: 0.0276, learning_rate: 0.000086
+Epoch 36, Batch 300, Loss: 0.0253, learning_rate: 0.000086
+Epoch 36, Batch 330, Loss: 0.1077, learning_rate: 0.000086
+Epoch 36, Batch 360, Loss: 0.1621, learning_rate: 0.000086
+Epoch 36, Batch 390, Loss: 0.2575, learning_rate: 0.000086
+Epoch [36/100] - Loss: 0.0795, Accuracy: 97.25%
+Epoch 37/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 37, Batch 0, Loss: 0.0947, learning_rate: 0.000086
+Epoch 37, Batch 30, Loss: 0.1185, learning_rate: 0.000086
+Epoch 37, Batch 60, Loss: 0.1011, learning_rate: 0.000086
+Epoch 37, Batch 90, Loss: 0.0446, learning_rate: 0.000086
+Epoch 37, Batch 120, Loss: 0.1282, learning_rate: 0.000085
+Epoch 37, Batch 150, Loss: 0.0381, learning_rate: 0.000085
+Epoch 37, Batch 180, Loss: 0.0923, learning_rate: 0.000085
+Epoch 37, Batch 210, Loss: 0.1197, learning_rate: 0.000085
+Epoch 37, Batch 240, Loss: 0.0550, learning_rate: 0.000085
+Epoch 37, Batch 270, Loss: 0.0516, learning_rate: 0.000085
+Epoch 37, Batch 300, Loss: 0.0815, learning_rate: 0.000085
+Epoch 37, Batch 330, Loss: 0.1022, learning_rate: 0.000085
+Epoch 37, Batch 360, Loss: 0.0695, learning_rate: 0.000085
+Epoch 37, Batch 390, Loss: 0.0176, learning_rate: 0.000085
+Epoch [37/100] - Loss: 0.0833, Accuracy: 97.08%
+starting validation......
+Validation Loss: 1.3106, Validation Accuracy: 72.22%
+Epoch 37/100, Val Loss: 1.3106, Val Acc: 72.22%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch33_Acc71.96.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch37_Acc72.22.pth
+Epoch 38/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 38, Batch 0, Loss: 0.0252, learning_rate: 0.000085
+Epoch 38, Batch 30, Loss: 0.0749, learning_rate: 0.000085
+Epoch 38, Batch 60, Loss: 0.0746, learning_rate: 0.000085
+Epoch 38, Batch 90, Loss: 0.1221, learning_rate: 0.000085
+Epoch 38, Batch 120, Loss: 0.0629, learning_rate: 0.000084
+Epoch 38, Batch 150, Loss: 0.0715, learning_rate: 0.000084
+Epoch 38, Batch 180, Loss: 0.0410, learning_rate: 0.000084
+Epoch 38, Batch 210, Loss: 0.0356, learning_rate: 0.000084
+Epoch 38, Batch 240, Loss: 0.0689, learning_rate: 0.000084
+Epoch 38, Batch 270, Loss: 0.0426, learning_rate: 0.000084
+Epoch 38, Batch 300, Loss: 0.0895, learning_rate: 0.000084
+Epoch 38, Batch 330, Loss: 0.0623, learning_rate: 0.000084
+Epoch 38, Batch 360, Loss: 0.0863, learning_rate: 0.000084
+Epoch 38, Batch 390, Loss: 0.1780, learning_rate: 0.000084
+Epoch [38/100] - Loss: 0.0762, Accuracy: 97.35%
+Epoch 39/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 39, Batch 0, Loss: 0.0480, learning_rate: 0.000084
+Epoch 39, Batch 30, Loss: 0.0735, learning_rate: 0.000084
+Epoch 39, Batch 60, Loss: 0.0244, learning_rate: 0.000084
+Epoch 39, Batch 90, Loss: 0.0362, learning_rate: 0.000083
+Epoch 39, Batch 120, Loss: 0.0689, learning_rate: 0.000083
+Epoch 39, Batch 150, Loss: 0.0360, learning_rate: 0.000083
+Epoch 39, Batch 180, Loss: 0.0175, learning_rate: 0.000083
+Epoch 39, Batch 210, Loss: 0.0393, learning_rate: 0.000083
+Epoch 39, Batch 240, Loss: 0.0799, learning_rate: 0.000083
+Epoch 39, Batch 270, Loss: 0.0384, learning_rate: 0.000083
+Epoch 39, Batch 300, Loss: 0.0727, learning_rate: 0.000083
+Epoch 39, Batch 330, Loss: 0.0368, learning_rate: 0.000083
+Epoch 39, Batch 360, Loss: 0.0500, learning_rate: 0.000083
+Epoch 39, Batch 390, Loss: 0.1139, learning_rate: 0.000083
+Epoch [39/100] - Loss: 0.0660, Accuracy: 97.77%
+starting validation......
+Validation Loss: 1.3984, Validation Accuracy: 71.68%
+Epoch 39/100, Val Loss: 1.3984, Val Acc: 71.68%
+Epoch 40/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 40, Batch 0, Loss: 0.0191, learning_rate: 0.000083
+Epoch 40, Batch 30, Loss: 0.0119, learning_rate: 0.000082
+Epoch 40, Batch 60, Loss: 0.0663, learning_rate: 0.000082
+Epoch 40, Batch 90, Loss: 0.0214, learning_rate: 0.000082
+Epoch 40, Batch 120, Loss: 0.0619, learning_rate: 0.000082
+Epoch 40, Batch 150, Loss: 0.0590, learning_rate: 0.000082
+Epoch 40, Batch 180, Loss: 0.0803, learning_rate: 0.000082
+Epoch 40, Batch 210, Loss: 0.0138, learning_rate: 0.000082
+Epoch 40, Batch 240, Loss: 0.0857, learning_rate: 0.000082
+Epoch 40, Batch 270, Loss: 0.0848, learning_rate: 0.000082
+Epoch 40, Batch 300, Loss: 0.1231, learning_rate: 0.000082
+Epoch 40, Batch 330, Loss: 0.0639, learning_rate: 0.000082
+Epoch 40, Batch 360, Loss: 0.0806, learning_rate: 0.000082
+Epoch 40, Batch 390, Loss: 0.0469, learning_rate: 0.000081
+Epoch [40/100] - Loss: 0.0701, Accuracy: 97.61%
+Epoch 41/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 41, Batch 0, Loss: 0.1346, learning_rate: 0.000081
+Epoch 41, Batch 30, Loss: 0.0676, learning_rate: 0.000081
+Epoch 41, Batch 60, Loss: 0.0882, learning_rate: 0.000081
+Epoch 41, Batch 90, Loss: 0.0778, learning_rate: 0.000081
+Epoch 41, Batch 120, Loss: 0.1186, learning_rate: 0.000081
+Epoch 41, Batch 150, Loss: 0.0237, learning_rate: 0.000081
+Epoch 41, Batch 180, Loss: 0.0497, learning_rate: 0.000081
+Epoch 41, Batch 210, Loss: 0.0377, learning_rate: 0.000081
+Epoch 41, Batch 240, Loss: 0.1036, learning_rate: 0.000081
+Epoch 41, Batch 270, Loss: 0.0849, learning_rate: 0.000081
+Epoch 41, Batch 300, Loss: 0.0440, learning_rate: 0.000081
+Epoch 41, Batch 330, Loss: 0.0689, learning_rate: 0.000080
+Epoch 41, Batch 360, Loss: 0.1612, learning_rate: 0.000080
+Epoch 41, Batch 390, Loss: 0.0235, learning_rate: 0.000080
+Epoch [41/100] - Loss: 0.0741, Accuracy: 97.36%
+starting validation......
+Validation Loss: 1.3995, Validation Accuracy: 71.15%
+Epoch 41/100, Val Loss: 1.3995, Val Acc: 71.15%
+Epoch 42/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 42, Batch 0, Loss: 0.0411, learning_rate: 0.000080
+Epoch 42, Batch 30, Loss: 0.0402, learning_rate: 0.000080
+Epoch 42, Batch 60, Loss: 0.0629, learning_rate: 0.000080
+Epoch 42, Batch 90, Loss: 0.0484, learning_rate: 0.000080
+Epoch 42, Batch 120, Loss: 0.0231, learning_rate: 0.000080
+Epoch 42, Batch 150, Loss: 0.0405, learning_rate: 0.000080
+Epoch 42, Batch 180, Loss: 0.0351, learning_rate: 0.000080
+Epoch 42, Batch 210, Loss: 0.0598, learning_rate: 0.000080
+Epoch 42, Batch 240, Loss: 0.0906, learning_rate: 0.000080
+Epoch 42, Batch 270, Loss: 0.0464, learning_rate: 0.000079
+Epoch 42, Batch 300, Loss: 0.0749, learning_rate: 0.000079
+Epoch 42, Batch 330, Loss: 0.0416, learning_rate: 0.000079
+Epoch 42, Batch 360, Loss: 0.0418, learning_rate: 0.000079
+Epoch 42, Batch 390, Loss: 0.0087, learning_rate: 0.000079
+Epoch [42/100] - Loss: 0.0612, Accuracy: 97.90%
+Epoch 43/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 43, Batch 0, Loss: 0.0229, learning_rate: 0.000079
+Epoch 43, Batch 30, Loss: 0.1353, learning_rate: 0.000079
+Epoch 43, Batch 60, Loss: 0.0193, learning_rate: 0.000079
+Epoch 43, Batch 90, Loss: 0.0371, learning_rate: 0.000079
+Epoch 43, Batch 120, Loss: 0.0339, learning_rate: 0.000079
+Epoch 43, Batch 150, Loss: 0.0669, learning_rate: 0.000079
+Epoch 43, Batch 180, Loss: 0.0518, learning_rate: 0.000079
+Epoch 43, Batch 210, Loss: 0.0519, learning_rate: 0.000078
+Epoch 43, Batch 240, Loss: 0.0758, learning_rate: 0.000078
+Epoch 43, Batch 270, Loss: 0.0438, learning_rate: 0.000078
+Epoch 43, Batch 300, Loss: 0.0731, learning_rate: 0.000078
+Epoch 43, Batch 330, Loss: 0.0451, learning_rate: 0.000078
+Epoch 43, Batch 360, Loss: 0.0412, learning_rate: 0.000078
+Epoch 43, Batch 390, Loss: 0.0317, learning_rate: 0.000078
+Epoch [43/100] - Loss: 0.0623, Accuracy: 97.90%
+starting validation......
+Validation Loss: 1.3610, Validation Accuracy: 71.70%
+Epoch 43/100, Val Loss: 1.3610, Val Acc: 71.70%
+Epoch 44/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 44, Batch 0, Loss: 0.0437, learning_rate: 0.000078
+Epoch 44, Batch 30, Loss: 0.0479, learning_rate: 0.000078
+Epoch 44, Batch 60, Loss: 0.0379, learning_rate: 0.000078
+Epoch 44, Batch 90, Loss: 0.0932, learning_rate: 0.000078
+Epoch 44, Batch 120, Loss: 0.0532, learning_rate: 0.000078
+Epoch 44, Batch 150, Loss: 0.0584, learning_rate: 0.000077
+Epoch 44, Batch 180, Loss: 0.0857, learning_rate: 0.000077
+Epoch 44, Batch 210, Loss: 0.0473, learning_rate: 0.000077
+Epoch 44, Batch 240, Loss: 0.0531, learning_rate: 0.000077
+Epoch 44, Batch 270, Loss: 0.0386, learning_rate: 0.000077
+Epoch 44, Batch 300, Loss: 0.0589, learning_rate: 0.000077
+Epoch 44, Batch 330, Loss: 0.0360, learning_rate: 0.000077
+Epoch 44, Batch 360, Loss: 0.0399, learning_rate: 0.000077
+Epoch 44, Batch 390, Loss: 0.0712, learning_rate: 0.000077
+Epoch [44/100] - Loss: 0.0560, Accuracy: 98.10%
+Epoch 45/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 45, Batch 0, Loss: 0.0797, learning_rate: 0.000077
+Epoch 45, Batch 30, Loss: 0.0905, learning_rate: 0.000077
+Epoch 45, Batch 60, Loss: 0.0144, learning_rate: 0.000076
+Epoch 45, Batch 90, Loss: 0.0446, learning_rate: 0.000076
+Epoch 45, Batch 120, Loss: 0.0803, learning_rate: 0.000076
+Epoch 45, Batch 150, Loss: 0.1040, learning_rate: 0.000076
+Epoch 45, Batch 180, Loss: 0.0483, learning_rate: 0.000076
+Epoch 45, Batch 210, Loss: 0.1124, learning_rate: 0.000076
+Epoch 45, Batch 240, Loss: 0.0505, learning_rate: 0.000076
+Epoch 45, Batch 270, Loss: 0.0510, learning_rate: 0.000076
+Epoch 45, Batch 300, Loss: 0.0753, learning_rate: 0.000076
+Epoch 45, Batch 330, Loss: 0.0798, learning_rate: 0.000076
+Epoch 45, Batch 360, Loss: 0.0455, learning_rate: 0.000076
+Epoch 45, Batch 390, Loss: 0.1080, learning_rate: 0.000075
+Epoch [45/100] - Loss: 0.0530, Accuracy: 98.15%
+starting validation......
+Validation Loss: 1.3929, Validation Accuracy: 71.66%
+Epoch 45/100, Val Loss: 1.3929, Val Acc: 71.66%
+Epoch 46/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 46, Batch 0, Loss: 0.0412, learning_rate: 0.000075
+Epoch 46, Batch 30, Loss: 0.0571, learning_rate: 0.000075
+Epoch 46, Batch 60, Loss: 0.0070, learning_rate: 0.000075
+Epoch 46, Batch 90, Loss: 0.0344, learning_rate: 0.000075
+Epoch 46, Batch 120, Loss: 0.0325, learning_rate: 0.000075
+Epoch 46, Batch 150, Loss: 0.0580, learning_rate: 0.000075
+Epoch 46, Batch 180, Loss: 0.0633, learning_rate: 0.000075
+Epoch 46, Batch 210, Loss: 0.0218, learning_rate: 0.000075
+Epoch 46, Batch 240, Loss: 0.0434, learning_rate: 0.000075
+Epoch 46, Batch 270, Loss: 0.0554, learning_rate: 0.000075
+Epoch 46, Batch 300, Loss: 0.0951, learning_rate: 0.000074
+Epoch 46, Batch 330, Loss: 0.0780, learning_rate: 0.000074
+Epoch 46, Batch 360, Loss: 0.1205, learning_rate: 0.000074
+Epoch 46, Batch 390, Loss: 0.2027, learning_rate: 0.000074
+Epoch [46/100] - Loss: 0.0540, Accuracy: 98.19%
+Epoch 47/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 47, Batch 0, Loss: 0.0305, learning_rate: 0.000074
+Epoch 47, Batch 30, Loss: 0.0440, learning_rate: 0.000074
+Epoch 47, Batch 60, Loss: 0.0316, learning_rate: 0.000074
+Epoch 47, Batch 90, Loss: 0.0681, learning_rate: 0.000074
+Epoch 47, Batch 120, Loss: 0.0099, learning_rate: 0.000074
+Epoch 47, Batch 150, Loss: 0.1756, learning_rate: 0.000074
+Epoch 47, Batch 180, Loss: 0.0352, learning_rate: 0.000074
+Epoch 47, Batch 210, Loss: 0.0574, learning_rate: 0.000073
+Epoch 47, Batch 240, Loss: 0.0288, learning_rate: 0.000073
+Epoch 47, Batch 270, Loss: 0.0327, learning_rate: 0.000073
+Epoch 47, Batch 300, Loss: 0.0493, learning_rate: 0.000073
+Epoch 47, Batch 330, Loss: 0.0199, learning_rate: 0.000073
+Epoch 47, Batch 360, Loss: 0.0287, learning_rate: 0.000073
+Epoch 47, Batch 390, Loss: 0.0387, learning_rate: 0.000073
+Epoch [47/100] - Loss: 0.0460, Accuracy: 98.50%
+starting validation......
+Validation Loss: 1.4381, Validation Accuracy: 72.06%
+Epoch 47/100, Val Loss: 1.4381, Val Acc: 72.06%
+Epoch 48/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 48, Batch 0, Loss: 0.0841, learning_rate: 0.000073
+Epoch 48, Batch 30, Loss: 0.0278, learning_rate: 0.000073
+Epoch 48, Batch 60, Loss: 0.0540, learning_rate: 0.000073
+Epoch 48, Batch 90, Loss: 0.0825, learning_rate: 0.000073
+Epoch 48, Batch 120, Loss: 0.1107, learning_rate: 0.000072
+Epoch 48, Batch 150, Loss: 0.0410, learning_rate: 0.000072
+Epoch 48, Batch 180, Loss: 0.0470, learning_rate: 0.000072
+Epoch 48, Batch 210, Loss: 0.0133, learning_rate: 0.000072
+Epoch 48, Batch 240, Loss: 0.0469, learning_rate: 0.000072
+Epoch 48, Batch 270, Loss: 0.0221, learning_rate: 0.000072
+Epoch 48, Batch 300, Loss: 0.0475, learning_rate: 0.000072
+Epoch 48, Batch 330, Loss: 0.0276, learning_rate: 0.000072
+Epoch 48, Batch 360, Loss: 0.0166, learning_rate: 0.000072
+Epoch 48, Batch 390, Loss: 0.0468, learning_rate: 0.000072
+Epoch [48/100] - Loss: 0.0511, Accuracy: 98.17%
+Epoch 49/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 49, Batch 0, Loss: 0.0496, learning_rate: 0.000072
+Epoch 49, Batch 30, Loss: 0.0224, learning_rate: 0.000071
+Epoch 49, Batch 60, Loss: 0.0121, learning_rate: 0.000071
+Epoch 49, Batch 90, Loss: 0.0493, learning_rate: 0.000071
+Epoch 49, Batch 120, Loss: 0.0417, learning_rate: 0.000071
+Epoch 49, Batch 150, Loss: 0.1148, learning_rate: 0.000071
+Epoch 49, Batch 180, Loss: 0.0279, learning_rate: 0.000071
+Epoch 49, Batch 210, Loss: 0.0525, learning_rate: 0.000071
+Epoch 49, Batch 240, Loss: 0.0276, learning_rate: 0.000071
+Epoch 49, Batch 270, Loss: 0.0330, learning_rate: 0.000071
+Epoch 49, Batch 300, Loss: 0.0813, learning_rate: 0.000071
+Epoch 49, Batch 330, Loss: 0.0748, learning_rate: 0.000070
+Epoch 49, Batch 360, Loss: 0.0110, learning_rate: 0.000070
+Epoch 49, Batch 390, Loss: 0.0279, learning_rate: 0.000070
+Epoch [49/100] - Loss: 0.0401, Accuracy: 98.59%
+starting validation......
+Validation Loss: 1.4562, Validation Accuracy: 71.74%
+Epoch 49/100, Val Loss: 1.4562, Val Acc: 71.74%
+Epoch 50/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 50, Batch 0, Loss: 0.0202, learning_rate: 0.000070
+Epoch 50, Batch 30, Loss: 0.0505, learning_rate: 0.000070
+Epoch 50, Batch 60, Loss: 0.0705, learning_rate: 0.000070
+Epoch 50, Batch 90, Loss: 0.0282, learning_rate: 0.000070
+Epoch 50, Batch 120, Loss: 0.0291, learning_rate: 0.000070
+Epoch 50, Batch 150, Loss: 0.0106, learning_rate: 0.000070
+Epoch 50, Batch 180, Loss: 0.0419, learning_rate: 0.000070
+Epoch 50, Batch 210, Loss: 0.0493, learning_rate: 0.000070
+Epoch 50, Batch 240, Loss: 0.0233, learning_rate: 0.000069
+Epoch 50, Batch 270, Loss: 0.0888, learning_rate: 0.000069
+Epoch 50, Batch 300, Loss: 0.0269, learning_rate: 0.000069
+Epoch 50, Batch 330, Loss: 0.0482, learning_rate: 0.000069
+Epoch 50, Batch 360, Loss: 0.0563, learning_rate: 0.000069
+Epoch 50, Batch 390, Loss: 0.0122, learning_rate: 0.000069
+Epoch [50/100] - Loss: 0.0380, Accuracy: 98.69%
+Epoch 51/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 51, Batch 0, Loss: 0.0275, learning_rate: 0.000069
+Epoch 51, Batch 30, Loss: 0.0562, learning_rate: 0.000069
+Epoch 51, Batch 60, Loss: 0.0214, learning_rate: 0.000069
+Epoch 51, Batch 90, Loss: 0.0602, learning_rate: 0.000069
+Epoch 51, Batch 120, Loss: 0.0182, learning_rate: 0.000068
+Epoch 51, Batch 150, Loss: 0.0596, learning_rate: 0.000068
+Epoch 51, Batch 180, Loss: 0.0357, learning_rate: 0.000068
+Epoch 51, Batch 210, Loss: 0.0594, learning_rate: 0.000068
+Epoch 51, Batch 240, Loss: 0.0086, learning_rate: 0.000068
+Epoch 51, Batch 270, Loss: 0.0960, learning_rate: 0.000068
+Epoch 51, Batch 300, Loss: 0.0490, learning_rate: 0.000068
+Epoch 51, Batch 330, Loss: 0.0455, learning_rate: 0.000068
+Epoch 51, Batch 360, Loss: 0.0273, learning_rate: 0.000068
+Epoch 51, Batch 390, Loss: 0.0052, learning_rate: 0.000068
+Epoch [51/100] - Loss: 0.0408, Accuracy: 98.67%
+starting validation......
+Validation Loss: 1.4582, Validation Accuracy: 72.51%
+Epoch 51/100, Val Loss: 1.4582, Val Acc: 72.51%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch37_Acc72.22.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch51_Acc72.51.pth
+Epoch 52/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 52, Batch 0, Loss: 0.0303, learning_rate: 0.000068
+Epoch 52, Batch 30, Loss: 0.0216, learning_rate: 0.000067
+Epoch 52, Batch 60, Loss: 0.0266, learning_rate: 0.000067
+Epoch 52, Batch 90, Loss: 0.0119, learning_rate: 0.000067
+Epoch 52, Batch 120, Loss: 0.0211, learning_rate: 0.000067
+Epoch 52, Batch 150, Loss: 0.0230, learning_rate: 0.000067
+Epoch 52, Batch 180, Loss: 0.0126, learning_rate: 0.000067
+Epoch 52, Batch 210, Loss: 0.0393, learning_rate: 0.000067
+Epoch 52, Batch 240, Loss: 0.0395, learning_rate: 0.000067
+Epoch 52, Batch 270, Loss: 0.0344, learning_rate: 0.000067
+Epoch 52, Batch 300, Loss: 0.0106, learning_rate: 0.000067
+Epoch 52, Batch 330, Loss: 0.0497, learning_rate: 0.000066
+Epoch 52, Batch 360, Loss: 0.0182, learning_rate: 0.000066
+Epoch 52, Batch 390, Loss: 0.0079, learning_rate: 0.000066
+Epoch [52/100] - Loss: 0.0334, Accuracy: 98.81%
+Epoch 53/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 53, Batch 0, Loss: 0.0312, learning_rate: 0.000066
+Epoch 53, Batch 30, Loss: 0.0179, learning_rate: 0.000066
+Epoch 53, Batch 60, Loss: 0.0102, learning_rate: 0.000066
+Epoch 53, Batch 90, Loss: 0.0101, learning_rate: 0.000066
+Epoch 53, Batch 120, Loss: 0.0321, learning_rate: 0.000066
+Epoch 53, Batch 150, Loss: 0.0651, learning_rate: 0.000066
+Epoch 53, Batch 180, Loss: 0.0521, learning_rate: 0.000066
+Epoch 53, Batch 210, Loss: 0.0177, learning_rate: 0.000065
+Epoch 53, Batch 240, Loss: 0.0293, learning_rate: 0.000065
+Epoch 53, Batch 270, Loss: 0.0335, learning_rate: 0.000065
+Epoch 53, Batch 300, Loss: 0.0163, learning_rate: 0.000065
+Epoch 53, Batch 330, Loss: 0.0182, learning_rate: 0.000065
+Epoch 53, Batch 360, Loss: 0.0479, learning_rate: 0.000065
+Epoch 53, Batch 390, Loss: 0.0189, learning_rate: 0.000065
+Epoch [53/100] - Loss: 0.0378, Accuracy: 98.69%
+starting validation......
+Validation Loss: 1.5022, Validation Accuracy: 73.46%
+Epoch 53/100, Val Loss: 1.5022, Val Acc: 73.46%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch51_Acc72.51.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch53_Acc73.46.pth
+Epoch 54/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 54, Batch 0, Loss: 0.0283, learning_rate: 0.000065
+Epoch 54, Batch 30, Loss: 0.0300, learning_rate: 0.000065
+Epoch 54, Batch 60, Loss: 0.0109, learning_rate: 0.000065
+Epoch 54, Batch 90, Loss: 0.0453, learning_rate: 0.000064
+Epoch 54, Batch 120, Loss: 0.0032, learning_rate: 0.000064
+Epoch 54, Batch 150, Loss: 0.0151, learning_rate: 0.000064
+Epoch 54, Batch 180, Loss: 0.0801, learning_rate: 0.000064
+Epoch 54, Batch 210, Loss: 0.0057, learning_rate: 0.000064
+Epoch 54, Batch 240, Loss: 0.0373, learning_rate: 0.000064
+Epoch 54, Batch 270, Loss: 0.0534, learning_rate: 0.000064
+Epoch 54, Batch 300, Loss: 0.0094, learning_rate: 0.000064
+Epoch 54, Batch 330, Loss: 0.0402, learning_rate: 0.000064
+Epoch 54, Batch 360, Loss: 0.0574, learning_rate: 0.000064
+Epoch 54, Batch 390, Loss: 0.0097, learning_rate: 0.000063
+Epoch [54/100] - Loss: 0.0334, Accuracy: 98.82%
+Epoch 55/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 55, Batch 0, Loss: 0.0164, learning_rate: 0.000063
+Epoch 55, Batch 30, Loss: 0.0283, learning_rate: 0.000063
+Epoch 55, Batch 60, Loss: 0.0365, learning_rate: 0.000063
+Epoch 55, Batch 90, Loss: 0.0282, learning_rate: 0.000063
+Epoch 55, Batch 120, Loss: 0.0550, learning_rate: 0.000063
+Epoch 55, Batch 150, Loss: 0.0460, learning_rate: 0.000063
+Epoch 55, Batch 180, Loss: 0.0057, learning_rate: 0.000063
+Epoch 55, Batch 210, Loss: 0.0675, learning_rate: 0.000063
+Epoch 55, Batch 240, Loss: 0.0170, learning_rate: 0.000063
+Epoch 55, Batch 270, Loss: 0.0500, learning_rate: 0.000062
+Epoch 55, Batch 300, Loss: 0.0234, learning_rate: 0.000062
+Epoch 55, Batch 330, Loss: 0.0237, learning_rate: 0.000062
+Epoch 55, Batch 360, Loss: 0.0813, learning_rate: 0.000062
+Epoch 55, Batch 390, Loss: 0.0167, learning_rate: 0.000062
+Epoch [55/100] - Loss: 0.0348, Accuracy: 98.87%
+starting validation......
+Validation Loss: 1.4583, Validation Accuracy: 72.26%
+Epoch 55/100, Val Loss: 1.4583, Val Acc: 72.26%
+Epoch 56/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 56, Batch 0, Loss: 0.0144, learning_rate: 0.000062
+Epoch 56, Batch 30, Loss: 0.0025, learning_rate: 0.000062
+Epoch 56, Batch 60, Loss: 0.0590, learning_rate: 0.000062
+Epoch 56, Batch 90, Loss: 0.0612, learning_rate: 0.000062
+Epoch 56, Batch 120, Loss: 0.0326, learning_rate: 0.000062
+Epoch 56, Batch 150, Loss: 0.0032, learning_rate: 0.000062
+Epoch 56, Batch 180, Loss: 0.0317, learning_rate: 0.000061
+Epoch 56, Batch 210, Loss: 0.0832, learning_rate: 0.000061
+Epoch 56, Batch 240, Loss: 0.0260, learning_rate: 0.000061
+Epoch 56, Batch 270, Loss: 0.0079, learning_rate: 0.000061
+Epoch 56, Batch 300, Loss: 0.0368, learning_rate: 0.000061
+Epoch 56, Batch 330, Loss: 0.0346, learning_rate: 0.000061
+Epoch 56, Batch 360, Loss: 0.0175, learning_rate: 0.000061
+Epoch 56, Batch 390, Loss: 0.0047, learning_rate: 0.000061
+Epoch [56/100] - Loss: 0.0304, Accuracy: 98.97%
+Epoch 57/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 57, Batch 0, Loss: 0.0036, learning_rate: 0.000061
+Epoch 57, Batch 30, Loss: 0.0198, learning_rate: 0.000061
+Epoch 57, Batch 60, Loss: 0.0059, learning_rate: 0.000060
+Epoch 57, Batch 90, Loss: 0.0954, learning_rate: 0.000060
+Epoch 57, Batch 120, Loss: 0.0085, learning_rate: 0.000060
+Epoch 57, Batch 150, Loss: 0.0154, learning_rate: 0.000060
+Epoch 57, Batch 180, Loss: 0.0052, learning_rate: 0.000060
+Epoch 57, Batch 210, Loss: 0.0078, learning_rate: 0.000060
+Epoch 57, Batch 240, Loss: 0.0208, learning_rate: 0.000060
+Epoch 57, Batch 270, Loss: 0.0127, learning_rate: 0.000060
+Epoch 57, Batch 300, Loss: 0.0370, learning_rate: 0.000060
+Epoch 57, Batch 330, Loss: 0.0119, learning_rate: 0.000059
+Epoch 57, Batch 360, Loss: 0.0131, learning_rate: 0.000059
+Epoch 57, Batch 390, Loss: 0.0112, learning_rate: 0.000059
+Epoch [57/100] - Loss: 0.0285, Accuracy: 99.02%
+starting validation......
+Validation Loss: 1.5399, Validation Accuracy: 72.85%
+Epoch 57/100, Val Loss: 1.5399, Val Acc: 72.85%
+Epoch 58/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 58, Batch 0, Loss: 0.0419, learning_rate: 0.000059
+Epoch 58, Batch 30, Loss: 0.0226, learning_rate: 0.000059
+Epoch 58, Batch 60, Loss: 0.0037, learning_rate: 0.000059
+Epoch 58, Batch 90, Loss: 0.0653, learning_rate: 0.000059
+Epoch 58, Batch 120, Loss: 0.0291, learning_rate: 0.000059
+Epoch 58, Batch 150, Loss: 0.0292, learning_rate: 0.000059
+Epoch 58, Batch 180, Loss: 0.0269, learning_rate: 0.000059
+Epoch 58, Batch 210, Loss: 0.0152, learning_rate: 0.000058
+Epoch 58, Batch 240, Loss: 0.0157, learning_rate: 0.000058
+Epoch 58, Batch 270, Loss: 0.0065, learning_rate: 0.000058
+Epoch 58, Batch 300, Loss: 0.0240, learning_rate: 0.000058
+Epoch 58, Batch 330, Loss: 0.0141, learning_rate: 0.000058
+Epoch 58, Batch 360, Loss: 0.0343, learning_rate: 0.000058
+Epoch 58, Batch 390, Loss: 0.0329, learning_rate: 0.000058
+Epoch [58/100] - Loss: 0.0268, Accuracy: 99.09%
+Epoch 59/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 59, Batch 0, Loss: 0.0462, learning_rate: 0.000058
+Epoch 59, Batch 30, Loss: 0.0055, learning_rate: 0.000058
+Epoch 59, Batch 60, Loss: 0.0269, learning_rate: 0.000058
+Epoch 59, Batch 90, Loss: 0.0059, learning_rate: 0.000058
+Epoch 59, Batch 120, Loss: 0.0066, learning_rate: 0.000057
+Epoch 59, Batch 150, Loss: 0.0093, learning_rate: 0.000057
+Epoch 59, Batch 180, Loss: 0.0689, learning_rate: 0.000057
+Epoch 59, Batch 210, Loss: 0.0075, learning_rate: 0.000057
+Epoch 59, Batch 240, Loss: 0.0213, learning_rate: 0.000057
+Epoch 59, Batch 270, Loss: 0.0023, learning_rate: 0.000057
+Epoch 59, Batch 300, Loss: 0.0596, learning_rate: 0.000057
+Epoch 59, Batch 330, Loss: 0.0587, learning_rate: 0.000057
+Epoch 59, Batch 360, Loss: 0.0414, learning_rate: 0.000057
+Epoch 59, Batch 390, Loss: 0.0024, learning_rate: 0.000056
+Epoch [59/100] - Loss: 0.0300, Accuracy: 98.90%
+starting validation......
+Validation Loss: 1.6218, Validation Accuracy: 72.05%
+Epoch 59/100, Val Loss: 1.6218, Val Acc: 72.05%
+Epoch 60/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 60, Batch 0, Loss: 0.0678, learning_rate: 0.000056
+Epoch 60, Batch 30, Loss: 0.0133, learning_rate: 0.000056
+Epoch 60, Batch 60, Loss: 0.0165, learning_rate: 0.000056
+Epoch 60, Batch 90, Loss: 0.0044, learning_rate: 0.000056
+Epoch 60, Batch 120, Loss: 0.0209, learning_rate: 0.000056
+Epoch 60, Batch 150, Loss: 0.0218, learning_rate: 0.000056
+Epoch 60, Batch 180, Loss: 0.0472, learning_rate: 0.000056
+Epoch 60, Batch 210, Loss: 0.0134, learning_rate: 0.000056
+Epoch 60, Batch 240, Loss: 0.0414, learning_rate: 0.000056
+Epoch 60, Batch 270, Loss: 0.0073, learning_rate: 0.000055
+Epoch 60, Batch 300, Loss: 0.0256, learning_rate: 0.000055
+Epoch 60, Batch 330, Loss: 0.0406, learning_rate: 0.000055
+Epoch 60, Batch 360, Loss: 0.0122, learning_rate: 0.000055
+Epoch 60, Batch 390, Loss: 0.0195, learning_rate: 0.000055
+Epoch [60/100] - Loss: 0.0220, Accuracy: 99.29%
+Epoch 61/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 61, Batch 0, Loss: 0.0208, learning_rate: 0.000055
+Epoch 61, Batch 30, Loss: 0.0032, learning_rate: 0.000055
+Epoch 61, Batch 60, Loss: 0.0045, learning_rate: 0.000055
+Epoch 61, Batch 90, Loss: 0.0180, learning_rate: 0.000055
+Epoch 61, Batch 120, Loss: 0.0535, learning_rate: 0.000055
+Epoch 61, Batch 150, Loss: 0.0134, learning_rate: 0.000054
+Epoch 61, Batch 180, Loss: 0.0135, learning_rate: 0.000054
+Epoch 61, Batch 210, Loss: 0.0210, learning_rate: 0.000054
+Epoch 61, Batch 240, Loss: 0.0094, learning_rate: 0.000054
+Epoch 61, Batch 270, Loss: 0.0332, learning_rate: 0.000054
+Epoch 61, Batch 300, Loss: 0.0225, learning_rate: 0.000054
+Epoch 61, Batch 330, Loss: 0.0169, learning_rate: 0.000054
+Epoch 61, Batch 360, Loss: 0.0079, learning_rate: 0.000054
+Epoch 61, Batch 390, Loss: 0.0027, learning_rate: 0.000054
+Epoch [61/100] - Loss: 0.0241, Accuracy: 99.18%
+starting validation......
+Validation Loss: 1.5376, Validation Accuracy: 72.78%
+Epoch 61/100, Val Loss: 1.5376, Val Acc: 72.78%
+Epoch 62/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 62, Batch 0, Loss: 0.0057, learning_rate: 0.000054
+Epoch 62, Batch 30, Loss: 0.0186, learning_rate: 0.000053
+Epoch 62, Batch 60, Loss: 0.0142, learning_rate: 0.000053
+Epoch 62, Batch 90, Loss: 0.0260, learning_rate: 0.000053
+Epoch 62, Batch 120, Loss: 0.0107, learning_rate: 0.000053
+Epoch 62, Batch 150, Loss: 0.0621, learning_rate: 0.000053
+Epoch 62, Batch 180, Loss: 0.0065, learning_rate: 0.000053
+Epoch 62, Batch 210, Loss: 0.0264, learning_rate: 0.000053
+Epoch 62, Batch 240, Loss: 0.0039, learning_rate: 0.000053
+Epoch 62, Batch 270, Loss: 0.0121, learning_rate: 0.000053
+Epoch 62, Batch 300, Loss: 0.0054, learning_rate: 0.000053
+Epoch 62, Batch 330, Loss: 0.0030, learning_rate: 0.000052
+Epoch 62, Batch 360, Loss: 0.0178, learning_rate: 0.000052
+Epoch 62, Batch 390, Loss: 0.0540, learning_rate: 0.000052
+Epoch [62/100] - Loss: 0.0204, Accuracy: 99.31%
+Epoch 63/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 63, Batch 0, Loss: 0.0156, learning_rate: 0.000052
+Epoch 63, Batch 30, Loss: 0.0015, learning_rate: 0.000052
+Epoch 63, Batch 60, Loss: 0.0242, learning_rate: 0.000052
+Epoch 63, Batch 90, Loss: 0.0064, learning_rate: 0.000052
+Epoch 63, Batch 120, Loss: 0.0066, learning_rate: 0.000052
+Epoch 63, Batch 150, Loss: 0.0038, learning_rate: 0.000052
+Epoch 63, Batch 180, Loss: 0.0025, learning_rate: 0.000052
+Epoch 63, Batch 210, Loss: 0.0034, learning_rate: 0.000051
+Epoch 63, Batch 240, Loss: 0.0301, learning_rate: 0.000051
+Epoch 63, Batch 270, Loss: 0.0212, learning_rate: 0.000051
+Epoch 63, Batch 300, Loss: 0.0242, learning_rate: 0.000051
+Epoch 63, Batch 330, Loss: 0.0092, learning_rate: 0.000051
+Epoch 63, Batch 360, Loss: 0.0069, learning_rate: 0.000051
+Epoch 63, Batch 390, Loss: 0.0364, learning_rate: 0.000051
+Epoch [63/100] - Loss: 0.0183, Accuracy: 99.36%
+starting validation......
+Validation Loss: 1.6128, Validation Accuracy: 73.32%
+Epoch 63/100, Val Loss: 1.6128, Val Acc: 73.32%
+Epoch 64/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 64, Batch 0, Loss: 0.0008, learning_rate: 0.000051
+Epoch 64, Batch 30, Loss: 0.0208, learning_rate: 0.000051
+Epoch 64, Batch 60, Loss: 0.0233, learning_rate: 0.000051
+Epoch 64, Batch 90, Loss: 0.0048, learning_rate: 0.000050
+Epoch 64, Batch 120, Loss: 0.0720, learning_rate: 0.000050
+Epoch 64, Batch 150, Loss: 0.0393, learning_rate: 0.000050
+Epoch 64, Batch 180, Loss: 0.0310, learning_rate: 0.000050
+Epoch 64, Batch 210, Loss: 0.0109, learning_rate: 0.000050
+Epoch 64, Batch 240, Loss: 0.0059, learning_rate: 0.000050
+Epoch 64, Batch 270, Loss: 0.0348, learning_rate: 0.000050
+Epoch 64, Batch 300, Loss: 0.0125, learning_rate: 0.000050
+Epoch 64, Batch 330, Loss: 0.0142, learning_rate: 0.000050
+Epoch 64, Batch 360, Loss: 0.0041, learning_rate: 0.000049
+Epoch 64, Batch 390, Loss: 0.0208, learning_rate: 0.000049
+Epoch [64/100] - Loss: 0.0208, Accuracy: 99.29%
+Epoch 65/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 65, Batch 0, Loss: 0.0083, learning_rate: 0.000049
+Epoch 65, Batch 30, Loss: 0.0771, learning_rate: 0.000049
+Epoch 65, Batch 60, Loss: 0.0012, learning_rate: 0.000049
+Epoch 65, Batch 90, Loss: 0.0260, learning_rate: 0.000049
+Epoch 65, Batch 120, Loss: 0.0022, learning_rate: 0.000049
+Epoch 65, Batch 150, Loss: 0.0061, learning_rate: 0.000049
+Epoch 65, Batch 180, Loss: 0.0454, learning_rate: 0.000049
+Epoch 65, Batch 210, Loss: 0.0356, learning_rate: 0.000049
+Epoch 65, Batch 240, Loss: 0.0017, learning_rate: 0.000049
+Epoch 65, Batch 270, Loss: 0.0201, learning_rate: 0.000048
+Epoch 65, Batch 300, Loss: 0.0056, learning_rate: 0.000048
+Epoch 65, Batch 330, Loss: 0.0055, learning_rate: 0.000048
+Epoch 65, Batch 360, Loss: 0.0067, learning_rate: 0.000048
+Epoch 65, Batch 390, Loss: 0.0248, learning_rate: 0.000048
+Epoch [65/100] - Loss: 0.0206, Accuracy: 99.30%
+starting validation......
+Validation Loss: 1.6011, Validation Accuracy: 72.50%
+Epoch 65/100, Val Loss: 1.6011, Val Acc: 72.50%
+Epoch 66/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 66, Batch 0, Loss: 0.0286, learning_rate: 0.000048
+Epoch 66, Batch 30, Loss: 0.0097, learning_rate: 0.000048
+Epoch 66, Batch 60, Loss: 0.0047, learning_rate: 0.000048
+Epoch 66, Batch 90, Loss: 0.0217, learning_rate: 0.000048
+Epoch 66, Batch 120, Loss: 0.0078, learning_rate: 0.000048
+Epoch 66, Batch 150, Loss: 0.0017, learning_rate: 0.000047
+Epoch 66, Batch 180, Loss: 0.0073, learning_rate: 0.000047
+Epoch 66, Batch 210, Loss: 0.0194, learning_rate: 0.000047
+Epoch 66, Batch 240, Loss: 0.0065, learning_rate: 0.000047
+Epoch 66, Batch 270, Loss: 0.0005, learning_rate: 0.000047
+Epoch 66, Batch 300, Loss: 0.0306, learning_rate: 0.000047
+Epoch 66, Batch 330, Loss: 0.0792, learning_rate: 0.000047
+Epoch 66, Batch 360, Loss: 0.0163, learning_rate: 0.000047
+Epoch 66, Batch 390, Loss: 0.0046, learning_rate: 0.000047
+Epoch [66/100] - Loss: 0.0163, Accuracy: 99.47%
+Epoch 67/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 67, Batch 0, Loss: 0.0068, learning_rate: 0.000047
+Epoch 67, Batch 30, Loss: 0.0043, learning_rate: 0.000046
+Epoch 67, Batch 60, Loss: 0.0053, learning_rate: 0.000046
+Epoch 67, Batch 90, Loss: 0.0019, learning_rate: 0.000046
+Epoch 67, Batch 120, Loss: 0.0026, learning_rate: 0.000046
+Epoch 67, Batch 150, Loss: 0.0089, learning_rate: 0.000046
+Epoch 67, Batch 180, Loss: 0.0041, learning_rate: 0.000046
+Epoch 67, Batch 210, Loss: 0.0213, learning_rate: 0.000046
+Epoch 67, Batch 240, Loss: 0.0012, learning_rate: 0.000046
+Epoch 67, Batch 270, Loss: 0.0043, learning_rate: 0.000046
+Epoch 67, Batch 300, Loss: 0.0062, learning_rate: 0.000046
+Epoch 67, Batch 330, Loss: 0.0426, learning_rate: 0.000045
+Epoch 67, Batch 360, Loss: 0.0051, learning_rate: 0.000045
+Epoch 67, Batch 390, Loss: 0.0100, learning_rate: 0.000045
+Epoch [67/100] - Loss: 0.0152, Accuracy: 99.50%
+starting validation......
+Validation Loss: 1.5350, Validation Accuracy: 72.65%
+Epoch 67/100, Val Loss: 1.5350, Val Acc: 72.65%
+Epoch 68/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 68, Batch 0, Loss: 0.0058, learning_rate: 0.000045
+Epoch 68, Batch 30, Loss: 0.0052, learning_rate: 0.000045
+Epoch 68, Batch 60, Loss: 0.0226, learning_rate: 0.000045
+Epoch 68, Batch 90, Loss: 0.0012, learning_rate: 0.000045
+Epoch 68, Batch 120, Loss: 0.0010, learning_rate: 0.000045
+Epoch 68, Batch 150, Loss: 0.0060, learning_rate: 0.000045
+Epoch 68, Batch 180, Loss: 0.0090, learning_rate: 0.000045
+Epoch 68, Batch 210, Loss: 0.0063, learning_rate: 0.000044
+Epoch 68, Batch 240, Loss: 0.0653, learning_rate: 0.000044
+Epoch 68, Batch 270, Loss: 0.0056, learning_rate: 0.000044
+Epoch 68, Batch 300, Loss: 0.0075, learning_rate: 0.000044
+Epoch 68, Batch 330, Loss: 0.0186, learning_rate: 0.000044
+Epoch 68, Batch 360, Loss: 0.0209, learning_rate: 0.000044
+Epoch 68, Batch 390, Loss: 0.0011, learning_rate: 0.000044
+Epoch [68/100] - Loss: 0.0145, Accuracy: 99.55%
+Epoch 69/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 69, Batch 0, Loss: 0.0048, learning_rate: 0.000044
+Epoch 69, Batch 30, Loss: 0.0217, learning_rate: 0.000044
+Epoch 69, Batch 60, Loss: 0.0085, learning_rate: 0.000044
+Epoch 69, Batch 90, Loss: 0.1093, learning_rate: 0.000043
+Epoch 69, Batch 120, Loss: 0.0118, learning_rate: 0.000043
+Epoch 69, Batch 150, Loss: 0.0020, learning_rate: 0.000043
+Epoch 69, Batch 180, Loss: 0.0013, learning_rate: 0.000043
+Epoch 69, Batch 210, Loss: 0.0151, learning_rate: 0.000043
+Epoch 69, Batch 240, Loss: 0.0054, learning_rate: 0.000043
+Epoch 69, Batch 270, Loss: 0.0126, learning_rate: 0.000043
+Epoch 69, Batch 300, Loss: 0.0105, learning_rate: 0.000043
+Epoch 69, Batch 330, Loss: 0.0281, learning_rate: 0.000043
+Epoch 69, Batch 360, Loss: 0.0077, learning_rate: 0.000043
+Epoch 69, Batch 390, Loss: 0.0004, learning_rate: 0.000042
+Epoch [69/100] - Loss: 0.0140, Accuracy: 99.55%
+starting validation......
+Validation Loss: 1.6145, Validation Accuracy: 73.19%
+Epoch 69/100, Val Loss: 1.6145, Val Acc: 73.19%
+Epoch 70/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 70, Batch 0, Loss: 0.0025, learning_rate: 0.000042
+Epoch 70, Batch 30, Loss: 0.0007, learning_rate: 0.000042
+Epoch 70, Batch 60, Loss: 0.0019, learning_rate: 0.000042
+Epoch 70, Batch 90, Loss: 0.0013, learning_rate: 0.000042
+Epoch 70, Batch 120, Loss: 0.0145, learning_rate: 0.000042
+Epoch 70, Batch 150, Loss: 0.0026, learning_rate: 0.000042
+Epoch 70, Batch 180, Loss: 0.0164, learning_rate: 0.000042
+Epoch 70, Batch 210, Loss: 0.0105, learning_rate: 0.000042
+Epoch 70, Batch 240, Loss: 0.0054, learning_rate: 0.000042
+Epoch 70, Batch 270, Loss: 0.0201, learning_rate: 0.000042
+Epoch 70, Batch 300, Loss: 0.0551, learning_rate: 0.000041
+Epoch 70, Batch 330, Loss: 0.0091, learning_rate: 0.000041
+Epoch 70, Batch 360, Loss: 0.0031, learning_rate: 0.000041
+Epoch 70, Batch 390, Loss: 0.0151, learning_rate: 0.000041
+Epoch [70/100] - Loss: 0.0131, Accuracy: 99.58%
+Epoch 71/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 71, Batch 0, Loss: 0.0816, learning_rate: 0.000041
+Epoch 71, Batch 30, Loss: 0.0173, learning_rate: 0.000041
+Epoch 71, Batch 60, Loss: 0.0128, learning_rate: 0.000041
+Epoch 71, Batch 90, Loss: 0.0032, learning_rate: 0.000041
+Epoch 71, Batch 120, Loss: 0.0028, learning_rate: 0.000041
+Epoch 71, Batch 150, Loss: 0.0089, learning_rate: 0.000041
+Epoch 71, Batch 180, Loss: 0.0030, learning_rate: 0.000040
+Epoch 71, Batch 210, Loss: 0.0101, learning_rate: 0.000040
+Epoch 71, Batch 240, Loss: 0.0239, learning_rate: 0.000040
+Epoch 71, Batch 270, Loss: 0.0369, learning_rate: 0.000040
+Epoch 71, Batch 300, Loss: 0.0045, learning_rate: 0.000040
+Epoch 71, Batch 330, Loss: 0.0513, learning_rate: 0.000040
+Epoch 71, Batch 360, Loss: 0.0209, learning_rate: 0.000040
+Epoch 71, Batch 390, Loss: 0.0189, learning_rate: 0.000040
+Epoch [71/100] - Loss: 0.0135, Accuracy: 99.52%
+starting validation......
+Validation Loss: 1.5773, Validation Accuracy: 73.11%
+Epoch 71/100, Val Loss: 1.5773, Val Acc: 73.11%
+Epoch 72/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 72, Batch 0, Loss: 0.0018, learning_rate: 0.000040
+Epoch 72, Batch 30, Loss: 0.0164, learning_rate: 0.000040
+Epoch 72, Batch 60, Loss: 0.0036, learning_rate: 0.000040
+Epoch 72, Batch 90, Loss: 0.0252, learning_rate: 0.000039
+Epoch 72, Batch 120, Loss: 0.0161, learning_rate: 0.000039
+Epoch 72, Batch 150, Loss: 0.0144, learning_rate: 0.000039
+Epoch 72, Batch 180, Loss: 0.0115, learning_rate: 0.000039
+Epoch 72, Batch 210, Loss: 0.0108, learning_rate: 0.000039
+Epoch 72, Batch 240, Loss: 0.0005, learning_rate: 0.000039
+Epoch 72, Batch 270, Loss: 0.0197, learning_rate: 0.000039
+Epoch 72, Batch 300, Loss: 0.0032, learning_rate: 0.000039
+Epoch 72, Batch 330, Loss: 0.0052, learning_rate: 0.000039
+Epoch 72, Batch 360, Loss: 0.0058, learning_rate: 0.000039
+Epoch 72, Batch 390, Loss: 0.0015, learning_rate: 0.000038
+Epoch [72/100] - Loss: 0.0105, Accuracy: 99.64%
+Epoch 73/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 73, Batch 0, Loss: 0.0008, learning_rate: 0.000038
+Epoch 73, Batch 30, Loss: 0.0144, learning_rate: 0.000038
+Epoch 73, Batch 60, Loss: 0.0013, learning_rate: 0.000038
+Epoch 73, Batch 90, Loss: 0.0011, learning_rate: 0.000038
+Epoch 73, Batch 120, Loss: 0.0005, learning_rate: 0.000038
+Epoch 73, Batch 150, Loss: 0.0009, learning_rate: 0.000038
+Epoch 73, Batch 180, Loss: 0.0245, learning_rate: 0.000038
+Epoch 73, Batch 210, Loss: 0.0081, learning_rate: 0.000038
+Epoch 73, Batch 240, Loss: 0.0044, learning_rate: 0.000038
+Epoch 73, Batch 270, Loss: 0.0415, learning_rate: 0.000038
+Epoch 73, Batch 300, Loss: 0.0031, learning_rate: 0.000037
+Epoch 73, Batch 330, Loss: 0.0098, learning_rate: 0.000037
+Epoch 73, Batch 360, Loss: 0.0090, learning_rate: 0.000037
+Epoch 73, Batch 390, Loss: 0.0001, learning_rate: 0.000037
+Epoch [73/100] - Loss: 0.0084, Accuracy: 99.74%
+starting validation......
+Validation Loss: 1.6726, Validation Accuracy: 73.40%
+Epoch 73/100, Val Loss: 1.6726, Val Acc: 73.40%
+Epoch 74/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:21<00:00,  1.28s/it]
+Epoch 74, Batch 0, Loss: 0.0201, learning_rate: 0.000037
+Epoch 74, Batch 30, Loss: 0.0048, learning_rate: 0.000037
+Epoch 74, Batch 60, Loss: 0.0035, learning_rate: 0.000037
+Epoch 74, Batch 90, Loss: 0.0023, learning_rate: 0.000037
+Epoch 74, Batch 120, Loss: 0.0252, learning_rate: 0.000037
+Epoch 74, Batch 150, Loss: 0.0012, learning_rate: 0.000037
+Epoch 74, Batch 180, Loss: 0.0045, learning_rate: 0.000037
+Epoch 74, Batch 210, Loss: 0.0081, learning_rate: 0.000036
+Epoch 74, Batch 240, Loss: 0.0038, learning_rate: 0.000036
+Epoch 74, Batch 270, Loss: 0.0053, learning_rate: 0.000036
+Epoch 74, Batch 300, Loss: 0.0007, learning_rate: 0.000036
+Epoch 74, Batch 330, Loss: 0.0149, learning_rate: 0.000036
+Epoch 74, Batch 360, Loss: 0.0013, learning_rate: 0.000036
+Epoch 74, Batch 390, Loss: 0.0010, learning_rate: 0.000036
+Epoch [74/100] - Loss: 0.0094, Accuracy: 99.68%
+Epoch 75/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 75, Batch 0, Loss: 0.0010, learning_rate: 0.000036
+Epoch 75, Batch 30, Loss: 0.0067, learning_rate: 0.000036
+Epoch 75, Batch 60, Loss: 0.0044, learning_rate: 0.000036
+Epoch 75, Batch 90, Loss: 0.0004, learning_rate: 0.000036
+Epoch 75, Batch 120, Loss: 0.0027, learning_rate: 0.000035
+Epoch 75, Batch 150, Loss: 0.0190, learning_rate: 0.000035
+Epoch 75, Batch 180, Loss: 0.0075, learning_rate: 0.000035
+Epoch 75, Batch 210, Loss: 0.0004, learning_rate: 0.000035
+Epoch 75, Batch 240, Loss: 0.0185, learning_rate: 0.000035
+Epoch 75, Batch 270, Loss: 0.0462, learning_rate: 0.000035
+Epoch 75, Batch 300, Loss: 0.0014, learning_rate: 0.000035
+Epoch 75, Batch 330, Loss: 0.0485, learning_rate: 0.000035
+Epoch 75, Batch 360, Loss: 0.0261, learning_rate: 0.000035
+Epoch 75, Batch 390, Loss: 0.0008, learning_rate: 0.000035
+Epoch [75/100] - Loss: 0.0121, Accuracy: 99.58%
+starting validation......
+Validation Loss: 1.6122, Validation Accuracy: 73.61%
+Epoch 75/100, Val Loss: 1.6122, Val Acc: 73.61%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch53_Acc73.46.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch75_Acc73.61.pth
+Epoch 76/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 76, Batch 0, Loss: 0.0156, learning_rate: 0.000035
+Epoch 76, Batch 30, Loss: 0.0046, learning_rate: 0.000034
+Epoch 76, Batch 60, Loss: 0.0082, learning_rate: 0.000034
+Epoch 76, Batch 90, Loss: 0.0014, learning_rate: 0.000034
+Epoch 76, Batch 120, Loss: 0.0057, learning_rate: 0.000034
+Epoch 76, Batch 150, Loss: 0.0376, learning_rate: 0.000034
+Epoch 76, Batch 180, Loss: 0.0060, learning_rate: 0.000034
+Epoch 76, Batch 210, Loss: 0.0242, learning_rate: 0.000034
+Epoch 76, Batch 240, Loss: 0.0015, learning_rate: 0.000034
+Epoch 76, Batch 270, Loss: 0.0040, learning_rate: 0.000034
+Epoch 76, Batch 300, Loss: 0.0018, learning_rate: 0.000034
+Epoch 76, Batch 330, Loss: 0.0016, learning_rate: 0.000034
+Epoch 76, Batch 360, Loss: 0.0003, learning_rate: 0.000033
+Epoch 76, Batch 390, Loss: 0.0187, learning_rate: 0.000033
+Epoch [76/100] - Loss: 0.0099, Accuracy: 99.66%
+Epoch 77/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 77, Batch 0, Loss: 0.0020, learning_rate: 0.000033
+Epoch 77, Batch 30, Loss: 0.0032, learning_rate: 0.000033
+Epoch 77, Batch 60, Loss: 0.0443, learning_rate: 0.000033
+Epoch 77, Batch 90, Loss: 0.0007, learning_rate: 0.000033
+Epoch 77, Batch 120, Loss: 0.0024, learning_rate: 0.000033
+Epoch 77, Batch 150, Loss: 0.0002, learning_rate: 0.000033
+Epoch 77, Batch 180, Loss: 0.0033, learning_rate: 0.000033
+Epoch 77, Batch 210, Loss: 0.0118, learning_rate: 0.000033
+Epoch 77, Batch 240, Loss: 0.0009, learning_rate: 0.000033
+Epoch 77, Batch 270, Loss: 0.0014, learning_rate: 0.000032
+Epoch 77, Batch 300, Loss: 0.0023, learning_rate: 0.000032
+Epoch 77, Batch 330, Loss: 0.0020, learning_rate: 0.000032
+Epoch 77, Batch 360, Loss: 0.0015, learning_rate: 0.000032
+Epoch 77, Batch 390, Loss: 0.0003, learning_rate: 0.000032
+Epoch [77/100] - Loss: 0.0075, Accuracy: 99.75%
+starting validation......
+Validation Loss: 1.6481, Validation Accuracy: 73.45%
+Epoch 77/100, Val Loss: 1.6481, Val Acc: 73.45%
+Epoch 78/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 78, Batch 0, Loss: 0.0048, learning_rate: 0.000032
+Epoch 78, Batch 30, Loss: 0.0012, learning_rate: 0.000032
+Epoch 78, Batch 60, Loss: 0.0153, learning_rate: 0.000032
+Epoch 78, Batch 90, Loss: 0.0004, learning_rate: 0.000032
+Epoch 78, Batch 120, Loss: 0.0006, learning_rate: 0.000032
+Epoch 78, Batch 150, Loss: 0.0110, learning_rate: 0.000032
+Epoch 78, Batch 180, Loss: 0.0004, learning_rate: 0.000032
+Epoch 78, Batch 210, Loss: 0.0078, learning_rate: 0.000031
+Epoch 78, Batch 240, Loss: 0.0007, learning_rate: 0.000031
+Epoch 78, Batch 270, Loss: 0.0022, learning_rate: 0.000031
+Epoch 78, Batch 300, Loss: 0.0003, learning_rate: 0.000031
+Epoch 78, Batch 330, Loss: 0.0023, learning_rate: 0.000031
+Epoch 78, Batch 360, Loss: 0.0010, learning_rate: 0.000031
+Epoch 78, Batch 390, Loss: 0.0010, learning_rate: 0.000031
+Epoch [78/100] - Loss: 0.0062, Accuracy: 99.79%
+Epoch 79/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 79, Batch 0, Loss: 0.0042, learning_rate: 0.000031
+Epoch 79, Batch 30, Loss: 0.0014, learning_rate: 0.000031
+Epoch 79, Batch 60, Loss: 0.0061, learning_rate: 0.000031
+Epoch 79, Batch 90, Loss: 0.0030, learning_rate: 0.000031
+Epoch 79, Batch 120, Loss: 0.0018, learning_rate: 0.000031
+Epoch 79, Batch 150, Loss: 0.0005, learning_rate: 0.000030
+Epoch 79, Batch 180, Loss: 0.0032, learning_rate: 0.000030
+Epoch 79, Batch 210, Loss: 0.0007, learning_rate: 0.000030
+Epoch 79, Batch 240, Loss: 0.0003, learning_rate: 0.000030
+Epoch 79, Batch 270, Loss: 0.0116, learning_rate: 0.000030
+Epoch 79, Batch 300, Loss: 0.0120, learning_rate: 0.000030
+Epoch 79, Batch 330, Loss: 0.0110, learning_rate: 0.000030
+Epoch 79, Batch 360, Loss: 0.0036, learning_rate: 0.000030
+Epoch 79, Batch 390, Loss: 0.0053, learning_rate: 0.000030
+Epoch [79/100] - Loss: 0.0070, Accuracy: 99.76%
+starting validation......
+Validation Loss: 1.7108, Validation Accuracy: 73.18%
+Epoch 79/100, Val Loss: 1.7108, Val Acc: 73.18%
+Epoch 80/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 80, Batch 0, Loss: 0.0005, learning_rate: 0.000030
+Epoch 80, Batch 30, Loss: 0.0078, learning_rate: 0.000030
+Epoch 80, Batch 60, Loss: 0.0003, learning_rate: 0.000030
+Epoch 80, Batch 90, Loss: 0.0005, learning_rate: 0.000029
+Epoch 80, Batch 120, Loss: 0.0003, learning_rate: 0.000029
+Epoch 80, Batch 150, Loss: 0.0075, learning_rate: 0.000029
+Epoch 80, Batch 180, Loss: 0.0016, learning_rate: 0.000029
+Epoch 80, Batch 210, Loss: 0.0002, learning_rate: 0.000029
+Epoch 80, Batch 240, Loss: 0.0014, learning_rate: 0.000029
+Epoch 80, Batch 270, Loss: 0.0040, learning_rate: 0.000029
+Epoch 80, Batch 300, Loss: 0.0265, learning_rate: 0.000029
+Epoch 80, Batch 330, Loss: 0.0149, learning_rate: 0.000029
+Epoch 80, Batch 360, Loss: 0.0097, learning_rate: 0.000029
+Epoch 80, Batch 390, Loss: 0.0002, learning_rate: 0.000029
+Epoch [80/100] - Loss: 0.0052, Accuracy: 99.84%
+Epoch 81/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 81, Batch 0, Loss: 0.0037, learning_rate: 0.000029
+Epoch 81, Batch 30, Loss: 0.0017, learning_rate: 0.000028
+Epoch 81, Batch 60, Loss: 0.0166, learning_rate: 0.000028
+Epoch 81, Batch 90, Loss: 0.0006, learning_rate: 0.000028
+Epoch 81, Batch 120, Loss: 0.0036, learning_rate: 0.000028
+Epoch 81, Batch 150, Loss: 0.0020, learning_rate: 0.000028
+Epoch 81, Batch 180, Loss: 0.0110, learning_rate: 0.000028
+Epoch 81, Batch 210, Loss: 0.0050, learning_rate: 0.000028
+Epoch 81, Batch 240, Loss: 0.0084, learning_rate: 0.000028
+Epoch 81, Batch 270, Loss: 0.0016, learning_rate: 0.000028
+Epoch 81, Batch 300, Loss: 0.0017, learning_rate: 0.000028
+Epoch 81, Batch 330, Loss: 0.0003, learning_rate: 0.000028
+Epoch 81, Batch 360, Loss: 0.0024, learning_rate: 0.000028
+Epoch 81, Batch 390, Loss: 0.0010, learning_rate: 0.000027
+Epoch [81/100] - Loss: 0.0060, Accuracy: 99.79%
+starting validation......
+Validation Loss: 1.7045, Validation Accuracy: 73.88%
+Epoch 81/100, Val Loss: 1.7045, Val Acc: 73.88%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch75_Acc73.61.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch81_Acc73.88.pth
+Epoch 82/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 82, Batch 0, Loss: 0.0007, learning_rate: 0.000027
+Epoch 82, Batch 30, Loss: 0.0022, learning_rate: 0.000027
+Epoch 82, Batch 60, Loss: 0.0062, learning_rate: 0.000027
+Epoch 82, Batch 90, Loss: 0.0011, learning_rate: 0.000027
+Epoch 82, Batch 120, Loss: 0.0010, learning_rate: 0.000027
+Epoch 82, Batch 150, Loss: 0.0002, learning_rate: 0.000027
+Epoch 82, Batch 180, Loss: 0.0069, learning_rate: 0.000027
+Epoch 82, Batch 210, Loss: 0.0130, learning_rate: 0.000027
+Epoch 82, Batch 240, Loss: 0.0019, learning_rate: 0.000027
+Epoch 82, Batch 270, Loss: 0.0116, learning_rate: 0.000027
+Epoch 82, Batch 300, Loss: 0.0003, learning_rate: 0.000027
+Epoch 82, Batch 330, Loss: 0.0086, learning_rate: 0.000026
+Epoch 82, Batch 360, Loss: 0.0003, learning_rate: 0.000026
+Epoch 82, Batch 390, Loss: 0.0066, learning_rate: 0.000026
+Epoch [82/100] - Loss: 0.0062, Accuracy: 99.78%
+Epoch 83/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 83, Batch 0, Loss: 0.0388, learning_rate: 0.000026
+Epoch 83, Batch 30, Loss: 0.0509, learning_rate: 0.000026
+Epoch 83, Batch 60, Loss: 0.0007, learning_rate: 0.000026
+Epoch 83, Batch 90, Loss: 0.0004, learning_rate: 0.000026
+Epoch 83, Batch 120, Loss: 0.0146, learning_rate: 0.000026
+Epoch 83, Batch 150, Loss: 0.0018, learning_rate: 0.000026
+Epoch 83, Batch 180, Loss: 0.0014, learning_rate: 0.000026
+Epoch 83, Batch 210, Loss: 0.0001, learning_rate: 0.000026
+Epoch 83, Batch 240, Loss: 0.0509, learning_rate: 0.000026
+Epoch 83, Batch 270, Loss: 0.0005, learning_rate: 0.000026
+Epoch 83, Batch 300, Loss: 0.0010, learning_rate: 0.000025
+Epoch 83, Batch 330, Loss: 0.0470, learning_rate: 0.000025
+Epoch 83, Batch 360, Loss: 0.0006, learning_rate: 0.000025
+Epoch 83, Batch 390, Loss: 0.0075, learning_rate: 0.000025
+Epoch [83/100] - Loss: 0.0059, Accuracy: 99.81%
+starting validation......
+Validation Loss: 1.7614, Validation Accuracy: 73.52%
+Epoch 83/100, Val Loss: 1.7614, Val Acc: 73.52%
+Epoch 84/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 84, Batch 0, Loss: 0.0182, learning_rate: 0.000025
+Epoch 84, Batch 30, Loss: 0.0011, learning_rate: 0.000025
+Epoch 84, Batch 60, Loss: 0.0080, learning_rate: 0.000025
+Epoch 84, Batch 90, Loss: 0.0106, learning_rate: 0.000025
+Epoch 84, Batch 120, Loss: 0.0180, learning_rate: 0.000025
+Epoch 84, Batch 150, Loss: 0.0016, learning_rate: 0.000025
+Epoch 84, Batch 180, Loss: 0.0187, learning_rate: 0.000025
+Epoch 84, Batch 210, Loss: 0.0002, learning_rate: 0.000025
+Epoch 84, Batch 240, Loss: 0.0073, learning_rate: 0.000025
+Epoch 84, Batch 270, Loss: 0.0017, learning_rate: 0.000025
+Epoch 84, Batch 300, Loss: 0.0004, learning_rate: 0.000024
+Epoch 84, Batch 330, Loss: 0.0203, learning_rate: 0.000024
+Epoch 84, Batch 360, Loss: 0.0002, learning_rate: 0.000024
+Epoch 84, Batch 390, Loss: 0.0002, learning_rate: 0.000024
+Epoch [84/100] - Loss: 0.0071, Accuracy: 99.78%
+Epoch 85/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:21<00:00,  1.28s/it]
+Epoch 85, Batch 0, Loss: 0.0522, learning_rate: 0.000024
+Epoch 85, Batch 30, Loss: 0.0002, learning_rate: 0.000024
+Epoch 85, Batch 60, Loss: 0.0013, learning_rate: 0.000024
+Epoch 85, Batch 90, Loss: 0.0005, learning_rate: 0.000024
+Epoch 85, Batch 120, Loss: 0.0015, learning_rate: 0.000024
+Epoch 85, Batch 150, Loss: 0.0004, learning_rate: 0.000024
+Epoch 85, Batch 180, Loss: 0.0171, learning_rate: 0.000024
+Epoch 85, Batch 210, Loss: 0.0001, learning_rate: 0.000024
+Epoch 85, Batch 240, Loss: 0.0005, learning_rate: 0.000024
+Epoch 85, Batch 270, Loss: 0.0076, learning_rate: 0.000023
+Epoch 85, Batch 300, Loss: 0.0007, learning_rate: 0.000023
+Epoch 85, Batch 330, Loss: 0.0010, learning_rate: 0.000023
+Epoch 85, Batch 360, Loss: 0.0010, learning_rate: 0.000023
+Epoch 85, Batch 390, Loss: 0.0092, learning_rate: 0.000023
+Epoch [85/100] - Loss: 0.0039, Accuracy: 99.87%
+starting validation......
+Validation Loss: 1.7407, Validation Accuracy: 73.99%
+Epoch 85/100, Val Loss: 1.7407, Val Acc: 73.99%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch81_Acc73.88.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch85_Acc73.99.pth
+Epoch 86/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 86, Batch 0, Loss: 0.0005, learning_rate: 0.000023
+Epoch 86, Batch 30, Loss: 0.0304, learning_rate: 0.000023
+Epoch 86, Batch 60, Loss: 0.0016, learning_rate: 0.000023
+Epoch 86, Batch 90, Loss: 0.0010, learning_rate: 0.000023
+Epoch 86, Batch 120, Loss: 0.0002, learning_rate: 0.000023
+Epoch 86, Batch 150, Loss: 0.0056, learning_rate: 0.000023
+Epoch 86, Batch 180, Loss: 0.0002, learning_rate: 0.000023
+Epoch 86, Batch 210, Loss: 0.0013, learning_rate: 0.000023
+Epoch 86, Batch 240, Loss: 0.0003, learning_rate: 0.000023
+Epoch 86, Batch 270, Loss: 0.0022, learning_rate: 0.000022
+Epoch 86, Batch 300, Loss: 0.0017, learning_rate: 0.000022
+Epoch 86, Batch 330, Loss: 0.0003, learning_rate: 0.000022
+Epoch 86, Batch 360, Loss: 0.0005, learning_rate: 0.000022
+Epoch 86, Batch 390, Loss: 0.0145, learning_rate: 0.000022
+Epoch [86/100] - Loss: 0.0030, Accuracy: 99.91%
+Epoch 87/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 87, Batch 0, Loss: 0.0018, learning_rate: 0.000022
+Epoch 87, Batch 30, Loss: 0.0001, learning_rate: 0.000022
+Epoch 87, Batch 60, Loss: 0.0008, learning_rate: 0.000022
+Epoch 87, Batch 90, Loss: 0.0001, learning_rate: 0.000022
+Epoch 87, Batch 120, Loss: 0.0001, learning_rate: 0.000022
+Epoch 87, Batch 150, Loss: 0.0001, learning_rate: 0.000022
+Epoch 87, Batch 180, Loss: 0.0003, learning_rate: 0.000022
+Epoch 87, Batch 210, Loss: 0.0018, learning_rate: 0.000022
+Epoch 87, Batch 240, Loss: 0.0005, learning_rate: 0.000022
+Epoch 87, Batch 270, Loss: 0.0009, learning_rate: 0.000022
+Epoch 87, Batch 300, Loss: 0.0004, learning_rate: 0.000021
+Epoch 87, Batch 330, Loss: 0.0019, learning_rate: 0.000021
+Epoch 87, Batch 360, Loss: 0.0006, learning_rate: 0.000021
+Epoch 87, Batch 390, Loss: 0.0000, learning_rate: 0.000021
+Epoch [87/100] - Loss: 0.0023, Accuracy: 99.93%
+starting validation......
+Validation Loss: 1.8196, Validation Accuracy: 74.10%
+Epoch 87/100, Val Loss: 1.8196, Val Acc: 74.10%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch85_Acc73.99.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch87_Acc74.10.pth
+Epoch 88/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 88, Batch 0, Loss: 0.0016, learning_rate: 0.000021
+Epoch 88, Batch 30, Loss: 0.0002, learning_rate: 0.000021
+Epoch 88, Batch 60, Loss: 0.0002, learning_rate: 0.000021
+Epoch 88, Batch 90, Loss: 0.0047, learning_rate: 0.000021
+Epoch 88, Batch 120, Loss: 0.0003, learning_rate: 0.000021
+Epoch 88, Batch 150, Loss: 0.0011, learning_rate: 0.000021
+Epoch 88, Batch 180, Loss: 0.0124, learning_rate: 0.000021
+Epoch 88, Batch 210, Loss: 0.0205, learning_rate: 0.000021
+Epoch 88, Batch 240, Loss: 0.0008, learning_rate: 0.000021
+Epoch 88, Batch 270, Loss: 0.0012, learning_rate: 0.000021
+Epoch 88, Batch 300, Loss: 0.0002, learning_rate: 0.000021
+Epoch 88, Batch 330, Loss: 0.0007, learning_rate: 0.000020
+Epoch 88, Batch 360, Loss: 0.0075, learning_rate: 0.000020
+Epoch 88, Batch 390, Loss: 0.0001, learning_rate: 0.000020
+Epoch [88/100] - Loss: 0.0043, Accuracy: 99.86%
+Epoch 89/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 89, Batch 0, Loss: 0.0055, learning_rate: 0.000020
+Epoch 89, Batch 30, Loss: 0.0016, learning_rate: 0.000020
+Epoch 89, Batch 60, Loss: 0.0001, learning_rate: 0.000020
+Epoch 89, Batch 90, Loss: 0.0004, learning_rate: 0.000020
+Epoch 89, Batch 120, Loss: 0.0002, learning_rate: 0.000020
+Epoch 89, Batch 150, Loss: 0.0022, learning_rate: 0.000020
+Epoch 89, Batch 180, Loss: 0.0001, learning_rate: 0.000020
+Epoch 89, Batch 210, Loss: 0.0004, learning_rate: 0.000020
+Epoch 89, Batch 240, Loss: 0.0141, learning_rate: 0.000020
+Epoch 89, Batch 270, Loss: 0.0008, learning_rate: 0.000020
+Epoch 89, Batch 300, Loss: 0.0029, learning_rate: 0.000020
+Epoch 89, Batch 330, Loss: 0.0002, learning_rate: 0.000020
+Epoch 89, Batch 360, Loss: 0.0007, learning_rate: 0.000020
+Epoch 89, Batch 390, Loss: 0.0002, learning_rate: 0.000019
+Epoch [89/100] - Loss: 0.0033, Accuracy: 99.88%
+starting validation......
+Validation Loss: 1.7313, Validation Accuracy: 74.63%
+Epoch 89/100, Val Loss: 1.7313, Val Acc: 74.63%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch87_Acc74.10.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch89_Acc74.63.pth
+Epoch 90/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 90, Batch 0, Loss: 0.0129, learning_rate: 0.000019
+Epoch 90, Batch 30, Loss: 0.0004, learning_rate: 0.000019
+Epoch 90, Batch 60, Loss: 0.0003, learning_rate: 0.000019
+Epoch 90, Batch 90, Loss: 0.0004, learning_rate: 0.000019
+Epoch 90, Batch 120, Loss: 0.0004, learning_rate: 0.000019
+Epoch 90, Batch 150, Loss: 0.0005, learning_rate: 0.000019
+Epoch 90, Batch 180, Loss: 0.0004, learning_rate: 0.000019
+Epoch 90, Batch 210, Loss: 0.0013, learning_rate: 0.000019
+Epoch 90, Batch 240, Loss: 0.0016, learning_rate: 0.000019
+Epoch 90, Batch 270, Loss: 0.0015, learning_rate: 0.000019
+Epoch 90, Batch 300, Loss: 0.0001, learning_rate: 0.000019
+Epoch 90, Batch 330, Loss: 0.0000, learning_rate: 0.000019
+Epoch 90, Batch 360, Loss: 0.0005, learning_rate: 0.000019
+Epoch 90, Batch 390, Loss: 0.0028, learning_rate: 0.000019
+Epoch [90/100] - Loss: 0.0022, Accuracy: 99.93%
+Epoch 91/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 91, Batch 0, Loss: 0.0004, learning_rate: 0.000019
+Epoch 91, Batch 30, Loss: 0.0001, learning_rate: 0.000019
+Epoch 91, Batch 60, Loss: 0.0002, learning_rate: 0.000018
+Epoch 91, Batch 90, Loss: 0.0004, learning_rate: 0.000018
+Epoch 91, Batch 120, Loss: 0.0001, learning_rate: 0.000018
+Epoch 91, Batch 150, Loss: 0.0037, learning_rate: 0.000018
+Epoch 91, Batch 180, Loss: 0.0024, learning_rate: 0.000018
+Epoch 91, Batch 210, Loss: 0.0003, learning_rate: 0.000018
+Epoch 91, Batch 240, Loss: 0.0003, learning_rate: 0.000018
+Epoch 91, Batch 270, Loss: 0.0005, learning_rate: 0.000018
+Epoch 91, Batch 300, Loss: 0.0044, learning_rate: 0.000018
+Epoch 91, Batch 330, Loss: 0.0003, learning_rate: 0.000018
+Epoch 91, Batch 360, Loss: 0.0000, learning_rate: 0.000018
+Epoch 91, Batch 390, Loss: 0.0003, learning_rate: 0.000018
+Epoch [91/100] - Loss: 0.0028, Accuracy: 99.90%
+starting validation......
+Validation Loss: 1.8142, Validation Accuracy: 73.61%
+Epoch 91/100, Val Loss: 1.8142, Val Acc: 73.61%
+Epoch 92/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 92, Batch 0, Loss: 0.0091, learning_rate: 0.000018
+Epoch 92, Batch 30, Loss: 0.0078, learning_rate: 0.000018
+Epoch 92, Batch 60, Loss: 0.0024, learning_rate: 0.000018
+Epoch 92, Batch 90, Loss: 0.0001, learning_rate: 0.000018
+Epoch 92, Batch 120, Loss: 0.0004, learning_rate: 0.000018
+Epoch 92, Batch 150, Loss: 0.0067, learning_rate: 0.000017
+Epoch 92, Batch 180, Loss: 0.0064, learning_rate: 0.000017
+Epoch 92, Batch 210, Loss: 0.0010, learning_rate: 0.000017
+Epoch 92, Batch 240, Loss: 0.0002, learning_rate: 0.000017
+Epoch 92, Batch 270, Loss: 0.0001, learning_rate: 0.000017
+Epoch 92, Batch 300, Loss: 0.0055, learning_rate: 0.000017
+Epoch 92, Batch 330, Loss: 0.0009, learning_rate: 0.000017
+Epoch 92, Batch 360, Loss: 0.0002, learning_rate: 0.000017
+Epoch 92, Batch 390, Loss: 0.0001, learning_rate: 0.000017
+Epoch [92/100] - Loss: 0.0028, Accuracy: 99.92%
+Epoch 93/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 93, Batch 0, Loss: 0.0002, learning_rate: 0.000017
+Epoch 93, Batch 30, Loss: 0.0066, learning_rate: 0.000017
+Epoch 93, Batch 60, Loss: 0.0199, learning_rate: 0.000017
+Epoch 93, Batch 90, Loss: 0.0018, learning_rate: 0.000017
+Epoch 93, Batch 120, Loss: 0.0002, learning_rate: 0.000017
+Epoch 93, Batch 150, Loss: 0.0002, learning_rate: 0.000017
+Epoch 93, Batch 180, Loss: 0.0004, learning_rate: 0.000017
+Epoch 93, Batch 210, Loss: 0.0000, learning_rate: 0.000017
+Epoch 93, Batch 240, Loss: 0.0004, learning_rate: 0.000017
+Epoch 93, Batch 270, Loss: 0.0001, learning_rate: 0.000016
+Epoch 93, Batch 300, Loss: 0.0008, learning_rate: 0.000016
+Epoch 93, Batch 330, Loss: 0.0058, learning_rate: 0.000016
+Epoch 93, Batch 360, Loss: 0.0294, learning_rate: 0.000016
+Epoch 93, Batch 390, Loss: 0.0000, learning_rate: 0.000016
+Epoch [93/100] - Loss: 0.0020, Accuracy: 99.94%
+starting validation......
+Validation Loss: 1.8619, Validation Accuracy: 74.29%
+Epoch 93/100, Val Loss: 1.8619, Val Acc: 74.29%
+Epoch 94/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 94, Batch 0, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 30, Loss: 0.0020, learning_rate: 0.000016
+Epoch 94, Batch 60, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 90, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 120, Loss: 0.0020, learning_rate: 0.000016
+Epoch 94, Batch 150, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 180, Loss: 0.0111, learning_rate: 0.000016
+Epoch 94, Batch 210, Loss: 0.0296, learning_rate: 0.000016
+Epoch 94, Batch 240, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 270, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 300, Loss: 0.0000, learning_rate: 0.000016
+Epoch 94, Batch 330, Loss: 0.0002, learning_rate: 0.000016
+Epoch 94, Batch 360, Loss: 0.0001, learning_rate: 0.000016
+Epoch 94, Batch 390, Loss: 0.0001, learning_rate: 0.000016
+Epoch [94/100] - Loss: 0.0027, Accuracy: 99.90%
+Epoch 95/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 95, Batch 0, Loss: 0.0015, learning_rate: 0.000016
+Epoch 95, Batch 30, Loss: 0.0001, learning_rate: 0.000016
+Epoch 95, Batch 60, Loss: 0.0135, learning_rate: 0.000015
+Epoch 95, Batch 90, Loss: 0.0001, learning_rate: 0.000015
+Epoch 95, Batch 120, Loss: 0.0001, learning_rate: 0.000015
+Epoch 95, Batch 150, Loss: 0.0001, learning_rate: 0.000015
+Epoch 95, Batch 180, Loss: 0.0027, learning_rate: 0.000015
+Epoch 95, Batch 210, Loss: 0.0067, learning_rate: 0.000015
+Epoch 95, Batch 240, Loss: 0.0005, learning_rate: 0.000015
+Epoch 95, Batch 270, Loss: 0.0000, learning_rate: 0.000015
+Epoch 95, Batch 300, Loss: 0.0004, learning_rate: 0.000015
+Epoch 95, Batch 330, Loss: 0.0160, learning_rate: 0.000015
+Epoch 95, Batch 360, Loss: 0.0116, learning_rate: 0.000015
+Epoch 95, Batch 390, Loss: 0.0001, learning_rate: 0.000015
+Epoch [95/100] - Loss: 0.0020, Accuracy: 99.92%
+starting validation......
+Validation Loss: 1.8397, Validation Accuracy: 73.93%
+Epoch 95/100, Val Loss: 1.8397, Val Acc: 73.93%
+Epoch 96/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 96, Batch 0, Loss: 0.0008, learning_rate: 0.000015
+Epoch 96, Batch 30, Loss: 0.0000, learning_rate: 0.000015
+Epoch 96, Batch 60, Loss: 0.0000, learning_rate: 0.000015
+Epoch 96, Batch 90, Loss: 0.0001, learning_rate: 0.000015
+Epoch 96, Batch 120, Loss: 0.0009, learning_rate: 0.000015
+Epoch 96, Batch 150, Loss: 0.0044, learning_rate: 0.000015
+Epoch 96, Batch 180, Loss: 0.0002, learning_rate: 0.000015
+Epoch 96, Batch 210, Loss: 0.0000, learning_rate: 0.000015
+Epoch 96, Batch 240, Loss: 0.0001, learning_rate: 0.000015
+Epoch 96, Batch 270, Loss: 0.0001, learning_rate: 0.000014
+Epoch 96, Batch 300, Loss: 0.0003, learning_rate: 0.000014
+Epoch 96, Batch 330, Loss: 0.0050, learning_rate: 0.000014
+Epoch 96, Batch 360, Loss: 0.0015, learning_rate: 0.000014
+Epoch 96, Batch 390, Loss: 0.0000, learning_rate: 0.000014
+Epoch [96/100] - Loss: 0.0018, Accuracy: 99.94%
+Epoch 97/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 97, Batch 0, Loss: 0.0000, learning_rate: 0.000014
+Epoch 97, Batch 30, Loss: 0.0002, learning_rate: 0.000014
+Epoch 97, Batch 60, Loss: 0.0001, learning_rate: 0.000014
+Epoch 97, Batch 90, Loss: 0.0000, learning_rate: 0.000014
+Epoch 97, Batch 120, Loss: 0.0008, learning_rate: 0.000014
+Epoch 97, Batch 150, Loss: 0.0001, learning_rate: 0.000014
+Epoch 97, Batch 180, Loss: 0.0000, learning_rate: 0.000014
+Epoch 97, Batch 210, Loss: 0.0008, learning_rate: 0.000014
+Epoch 97, Batch 240, Loss: 0.0001, learning_rate: 0.000014
+Epoch 97, Batch 270, Loss: 0.0001, learning_rate: 0.000014
+Epoch 97, Batch 300, Loss: 0.0002, learning_rate: 0.000014
+Epoch 97, Batch 330, Loss: 0.0002, learning_rate: 0.000014
+Epoch 97, Batch 360, Loss: 0.0003, learning_rate: 0.000014
+Epoch 97, Batch 390, Loss: 0.0002, learning_rate: 0.000014
+Epoch [97/100] - Loss: 0.0007, Accuracy: 99.98%
+starting validation......
+Validation Loss: 1.8359, Validation Accuracy: 74.67%
+Epoch 97/100, Val Loss: 1.8359, Val Acc: 74.67%
+删除旧的最佳模型: ./checkpoints/ViT_Original_Val_Epoch89_Acc74.63.pth
+save model to ./checkpoints/ViT_Original_Val_Epoch97_Acc74.67.pth
+Epoch 98/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:19<00:00,  1.28s/it]
+Epoch 98, Batch 0, Loss: 0.0002, learning_rate: 0.000014
+Epoch 98, Batch 30, Loss: 0.0002, learning_rate: 0.000014
+Epoch 98, Batch 60, Loss: 0.0000, learning_rate: 0.000014
+Epoch 98, Batch 90, Loss: 0.0007, learning_rate: 0.000014
+Epoch 98, Batch 120, Loss: 0.0001, learning_rate: 0.000014
+Epoch 98, Batch 150, Loss: 0.0001, learning_rate: 0.000013
+Epoch 98, Batch 180, Loss: 0.0000, learning_rate: 0.000013
+Epoch 98, Batch 210, Loss: 0.0000, learning_rate: 0.000013
+Epoch 98, Batch 240, Loss: 0.0002, learning_rate: 0.000013
+Epoch 98, Batch 270, Loss: 0.0001, learning_rate: 0.000013
+Epoch 98, Batch 300, Loss: 0.0001, learning_rate: 0.000013
+Epoch 98, Batch 330, Loss: 0.0002, learning_rate: 0.000013
+Epoch 98, Batch 360, Loss: 0.0000, learning_rate: 0.000013
+Epoch 98, Batch 390, Loss: 0.0001, learning_rate: 0.000013
+Epoch [98/100] - Loss: 0.0006, Accuracy: 99.99%
+Epoch 99/100: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 99, Batch 0, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 30, Loss: 0.0006, learning_rate: 0.000013
+Epoch 99, Batch 60, Loss: 0.0001, learning_rate: 0.000013
+Epoch 99, Batch 90, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 120, Loss: 0.0006, learning_rate: 0.000013
+Epoch 99, Batch 150, Loss: 0.0018, learning_rate: 0.000013
+Epoch 99, Batch 180, Loss: 0.0197, learning_rate: 0.000013
+Epoch 99, Batch 210, Loss: 0.0001, learning_rate: 0.000013
+Epoch 99, Batch 240, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 270, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 300, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 330, Loss: 0.0001, learning_rate: 0.000013
+Epoch 99, Batch 360, Loss: 0.0000, learning_rate: 0.000013
+Epoch 99, Batch 390, Loss: 0.0001, learning_rate: 0.000013
+Epoch [99/100] - Loss: 0.0013, Accuracy: 99.96%
+starting validation......
+Validation Loss: 1.8780, Validation Accuracy: 74.05%
+Epoch 99/100, Val Loss: 1.8780, Val Acc: 74.05%
+Epoch 100/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [08:20<00:00,  1.28s/it]
+Epoch 100, Batch 0, Loss: 0.0296, learning_rate: 0.000013
+Epoch 100, Batch 30, Loss: 0.0001, learning_rate: 0.000013
+Epoch 100, Batch 60, Loss: 0.0008, learning_rate: 0.000013
+Epoch 100, Batch 90, Loss: 0.0000, learning_rate: 0.000013
+Epoch 100, Batch 120, Loss: 0.0206, learning_rate: 0.000013
+Epoch 100, Batch 150, Loss: 0.0008, learning_rate: 0.000012
+Epoch 100, Batch 180, Loss: 0.0001, learning_rate: 0.000012
+Epoch 100, Batch 210, Loss: 0.0038, learning_rate: 0.000012
+Epoch 100, Batch 240, Loss: 0.0002, learning_rate: 0.000012
+Epoch 100, Batch 270, Loss: 0.0000, learning_rate: 0.000012
+Epoch 100, Batch 300, Loss: 0.0001, learning_rate: 0.000012
+Epoch 100, Batch 330, Loss: 0.0043, learning_rate: 0.000012
+Epoch 100, Batch 360, Loss: 0.0127, learning_rate: 0.000012
+Epoch 100, Batch 390, Loss: 0.0000, learning_rate: 0.000012
+Epoch [100/100] - Loss: 0.0018, Accuracy: 99.95%

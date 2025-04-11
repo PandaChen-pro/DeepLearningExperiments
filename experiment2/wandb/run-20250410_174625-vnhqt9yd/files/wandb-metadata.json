@@ -1,0 +1,42 @@
+{
+  "os": "Linux-5.19.0-50-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-10T09:46:25.797254Z",
+  "program": "/data/coding/deep_learning_experiments/experiment2/start.py",
+  "codePath": "experiment2/start.py",
+  "git": {
+    "remote": "https://github.com/PandaChen-pro/deep_learning_experiments.git",
+    "commit": "8d8fb5de19397f9bca5adc93d14fb60e1ba767ee"
+  },
+  "email": "lqcfcjx@gmail.com",
+  "root": "/data/coding/deep_learning_experiments/experiment2",
+  "host": "eeragfqhhmrcxxol-snow-7c9c98d454-79cn8",
+  "executable": "/data/miniconda/envs/cv/bin/python",
+  "codePathLocal": "start.py",
+  "cpu_count": 40,
+  "cpu_count_logical": 80,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "32194428928",
+      "used": "16208465920"
+    }
+  },
+  "memory": {
+    "total": "404300230656"
+  },
+  "cpu": {
+    "count": 40,
+    "countLogical": 80
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Tesla V100-SXM2-32GB",
+      "memoryTotal": "34359738368",
+      "cudaCores": 5120,
+      "architecture": "Volta"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

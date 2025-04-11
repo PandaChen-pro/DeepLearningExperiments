@@ -1,0 +1,32 @@
+Files already downloaded and verified
+Files already downloaded and verified
+/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/models/_utils.py:135: UserWarning: Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+  warnings.warn(
+Epoch 1/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 1, Batch 0, Loss: 2.2879, learning_rate: 0.000001
+Epoch 1, Batch 30, Loss: 2.2317, learning_rate: 0.000004
+Epoch 1, Batch 60, Loss: 2.0380, learning_rate: 0.000007
+Epoch 1, Batch 90, Loss: 1.7002, learning_rate: 0.000010
+Epoch [1/100] - Loss: 2.0644, Accuracy: 33.19%
+starting validation......
+Validation Loss: 1.5639, Validation Accuracy: 71.57%
+Epoch 1/100, Val Loss: 1.5639, Val Acc: 71.57%
+save model to ./checkpoints/Cancer_Val_Epoch1_Acc71.57.pth
+Epoch 2/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 2, Batch 0, Loss: 1.5565, learning_rate: 0.000011
+Epoch 2, Batch 30, Loss: 0.9623, learning_rate: 0.000014
+Epoch 2, Batch 60, Loss: 0.6083, learning_rate: 0.000017
+Epoch 2, Batch 90, Loss: 0.3846, learning_rate: 0.000020
+Epoch [2/100] - Loss: 0.8207, Accuracy: 86.88%
+Epoch 3/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [01:28<00:00,  1.11it/s]
+Epoch 3, Batch 0, Loss: 0.3502, learning_rate: 0.000021
+Epoch 3, Batch 30, Loss: 0.3356, learning_rate: 0.000024
+Epoch 3, Batch 60, Loss: 0.2339, learning_rate: 0.000027
+Epoch 3, Batch 90, Loss: 0.2305, learning_rate: 0.000030
+Epoch [3/100] - Loss: 0.2706, Accuracy: 93.21%
+starting validation......
+Validation Loss: 0.2163, Validation Accuracy: 93.68%
+Epoch 3/100, Val Loss: 0.2163, Val Acc: 93.68%
+删除旧的最佳模型: ./checkpoints/Cancer_Val_Epoch1_Acc71.57.pth
+save model to ./checkpoints/Cancer_Val_Epoch3_Acc93.68.pth
+验证集准确率 (93.68%) 已达到阈值 (90.00%)，提前结束训练

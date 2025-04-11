@@ -1,0 +1,7 @@
+{"time":"2025-04-10T10:26:24.594288494+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/data/coding/deep_learning_experiments/experiment2/wandb/run-20250410_102624-v4khzeba/logs/debug-core.log"}
+{"time":"2025-04-10T10:26:25.516281551+08:00","level":"INFO","msg":"created new stream","id":"v4khzeba"}
+{"time":"2025-04-10T10:26:25.516371828+08:00","level":"INFO","msg":"stream: started","id":"v4khzeba"}
+{"time":"2025-04-10T10:26:25.51640138+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"v4khzeba"}
+{"time":"2025-04-10T10:26:25.516431968+08:00","level":"INFO","msg":"handler: started","stream_id":"v4khzeba"}
+{"time":"2025-04-10T10:26:25.516443648+08:00","level":"INFO","msg":"sender: started","stream_id":"v4khzeba"}
+{"time":"2025-04-10T10:26:25.907654778+08:00","level":"INFO","msg":"Starting system monitor"}

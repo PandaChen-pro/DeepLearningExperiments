@@ -1,0 +1,29 @@
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_setup.py:_flush():67] Configure stats pid to 7415
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_setup.py:_flush():67] Loading settings from /root/.config/wandb/settings
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_setup.py:_flush():67] Loading settings from /data/coding/deep_learning_experiments/experiment2/wandb/settings
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-10 19:37:02,812 INFO    MainThread:7415 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /data/coding/deep_learning_experiments/experiment2/wandb/run-20250410_193702-tmujby65/logs/debug.log
+2025-04-10 19:37:02,813 INFO    MainThread:7415 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /data/coding/deep_learning_experiments/experiment2/wandb/run-20250410_193702-tmujby65/logs/debug-internal.log
+2025-04-10 19:37:02,813 INFO    MainThread:7415 [wandb_init.py:init():781] calling init triggers
+2025-04-10 19:37:02,813 INFO    MainThread:7415 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-10 19:37:02,813 INFO    MainThread:7415 [wandb_init.py:init():809] starting backend
+2025-04-10 19:37:02,813 INFO    MainThread:7415 [wandb_init.py:init():813] sending inform_init request
+2025-04-10 19:37:02,821 INFO    MainThread:7415 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-10 19:37:02,821 INFO    MainThread:7415 [wandb_init.py:init():823] backend started and connected
+2025-04-10 19:37:02,822 INFO    MainThread:7415 [wandb_init.py:init():915] updated telemetry
+2025-04-10 19:37:02,838 INFO    MainThread:7415 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-10 19:37:04,084 INFO    MainThread:7415 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-10 19:37:04,315 INFO    MainThread:7415 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-10 19:37:04,315 INFO    MainThread:7415 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-10 19:37:04,316 INFO    MainThread:7415 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-10 19:37:04,316 INFO    MainThread:7415 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-10 19:37:04,318 INFO    MainThread:7415 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-10 23:33:50,351 INFO    MainThread:7415 [wandb_run.py:_finish():2189] finishing run laccoliths/ViT-CIFAR10-original-0410/tmujby65
+2025-04-10 23:33:50,351 INFO    MainThread:7415 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-10 23:33:50,352 INFO    MainThread:7415 [wandb_run.py:_restore():2401] restore
+2025-04-10 23:33:50,352 INFO    MainThread:7415 [wandb_run.py:_restore():2407] restore done
+2025-04-10 23:33:53,625 INFO    MainThread:7415 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-10 23:33:53,630 INFO    MainThread:7415 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-10 23:33:53,631 INFO    MainThread:7415 [wandb_run.py:_footer_sync_info():4025] logging synced files
