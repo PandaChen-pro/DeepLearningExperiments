@@ -1,0 +1,93 @@
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_setup.py:_flush():67] Configure stats pid to 25614
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_setup.py:_flush():67] Loading settings from /root/.config/wandb/settings
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_setup.py:_flush():67] Loading settings from /data/coding/deep_learning_experiments/experiment2/wandb/settings
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /data/coding/deep_learning_experiments/experiment2/wandb/run-20250409_114141-o9dvfi95/logs/debug.log
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /data/coding/deep_learning_experiments/experiment2/wandb/run-20250409_114141-o9dvfi95/logs/debug-internal.log
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:init():781] calling init triggers
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:init():809] starting backend
+2025-04-09 11:41:41,817 INFO    MainThread:25614 [wandb_init.py:init():813] sending inform_init request
+2025-04-09 11:41:41,823 INFO    MainThread:25614 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-09 11:41:41,823 INFO    MainThread:25614 [wandb_init.py:init():823] backend started and connected
+2025-04-09 11:41:41,826 INFO    MainThread:25614 [wandb_init.py:init():915] updated telemetry
+2025-04-09 11:41:41,835 INFO    MainThread:25614 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-09 11:41:56,835 INFO    Thread-4 (wrapped_target):25614 [retry.py:__call__():175] [no run ID] Retry attempt failed:
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 773, in urlopen
+    self._prepare_proxy(conn)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _prepare_proxy
+    conn.connect()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connection.py", line 207, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7fbbf8e89660>, 'Connection to 172.17.0.2 timed out. (connect timeout=20)')
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fbbf8e89660>, 'Connection to 172.17.0.2 timed out. (connect timeout=20)'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fbbf8e89660>, 'Connection to 172.17.0.2 timed out. (connect timeout=20)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 402, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/requests/adapters.py", line 694, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by ProxyError('Unable to connect to proxy', ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fbbf8e89660>, 'Connection to 172.17.0.2 timed out. (connect timeout=20)')))
+2025-04-09 11:42:48,096 WARNING MainThread:25614 [wandb_init.py:init():1534] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 965, in init
+    result = wait_with_progress(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+  File "/data/miniconda/envs/cv/lib/python3.10/concurrent/futures/_base.py", line 453, in result
+    self._condition.wait(timeout)
+  File "/data/miniconda/envs/cv/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt

@@ -1,0 +1,47 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/100:   7%|█████████████▎                                                                                                                                                                                  | 27/391 [13:49<3:06:20, 30.72s/it]
+Epoch 1, Batch 0, Loss: 2.3816, learning_rate: 0.000001
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 74, in <module>
+    train_model(model, train_loader, val_loader, criterion, optimizer, scheduler,num_epochs)
+  File "/data/coding/deep_learning_experiments/experiment2/trainer.py", line 28, in train_model
+    for i, (images, labels) in tqdm(enumerate(train_loader), total=len(train_loader), desc=f"Epoch {epoch+1}/{num_epochs}"  ):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/tqdm/std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 673, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 277, in forward
+    return F.normalize(tensor, self.mean, self.std, self.inplace)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 350, in normalize
+    return F_t.normalize(tensor, mean=mean, std=std, inplace=inplace)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/transforms/_functional_tensor.py", line 926, in normalize
+    return tensor.sub_(mean).div_(std)
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7f74a826dab0>
+Traceback (most recent call last):
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 94, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 226, in teardown
+    self._router.join()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/wandb/sdk/interface/router.py", line 75, in join
+    self._thread.join()
+  File "/data/miniconda/envs/cv/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/data/miniconda/envs/cv/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt:

@@ -1,0 +1,42 @@
+{
+  "os": "Linux-5.19.0-50-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-09T03:43:55.385210Z",
+  "program": "/data/coding/deep_learning_experiments/experiment2/start.py",
+  "codePath": "experiment2/start.py",
+  "git": {
+    "remote": "https://github.com/PandaChen-pro/deep_learning_experiments.git",
+    "commit": "8d8fb5de19397f9bca5adc93d14fb60e1ba767ee"
+  },
+  "email": "lqcfcjx@gmail.com",
+  "root": "/data/coding/deep_learning_experiments/experiment2",
+  "host": "oeopbdieqpbjauiv-snow-7bd54b7bfc-ptlrw",
+  "executable": "/data/miniconda/envs/cv/bin/python",
+  "codePathLocal": "start.py",
+  "cpu_count": 48,
+  "cpu_count_logical": 96,
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "32194428928",
+      "used": "16055984128"
+    }
+  },
+  "memory": {
+    "total": "404309217280"
+  },
+  "cpu": {
+    "count": 48,
+    "countLogical": 96
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090",
+      "memoryTotal": "25757220864",
+      "cudaCores": 16384,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

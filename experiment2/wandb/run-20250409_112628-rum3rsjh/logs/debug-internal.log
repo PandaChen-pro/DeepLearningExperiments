@@ -1,0 +1,7 @@
+{"time":"2025-04-09T11:26:28.964894291+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/data/coding/deep_learning_experiments/experiment2/wandb/run-20250409_112628-rum3rsjh/logs/debug-core.log"}
+{"time":"2025-04-09T11:26:29.643905561+08:00","level":"INFO","msg":"created new stream","id":"rum3rsjh"}
+{"time":"2025-04-09T11:26:29.643980503+08:00","level":"INFO","msg":"stream: started","id":"rum3rsjh"}
+{"time":"2025-04-09T11:26:29.644002404+08:00","level":"INFO","msg":"handler: started","stream_id":"rum3rsjh"}
+{"time":"2025-04-09T11:26:29.644043241+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"rum3rsjh"}
+{"time":"2025-04-09T11:26:29.644019414+08:00","level":"INFO","msg":"sender: started","stream_id":"rum3rsjh"}
+{"time":"2025-04-09T11:26:29.968421736+08:00","level":"INFO","msg":"Starting system monitor"}

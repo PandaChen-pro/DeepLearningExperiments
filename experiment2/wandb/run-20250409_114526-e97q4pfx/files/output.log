@@ -1,0 +1,10 @@
+Files already downloaded and verified
+Files already downloaded and verified
+/data/miniconda/envs/cv/lib/python3.10/site-packages/torchvision/models/_utils.py:135: UserWarning: Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 49, in <module>
+    model.head = nn.Linear(model.head.in_features, num_classes)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'VisionTransformer' object has no attribute 'head'

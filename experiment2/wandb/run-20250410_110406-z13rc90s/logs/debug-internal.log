@@ -1,0 +1,10 @@
+{"time":"2025-04-10T11:04:06.564419432+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/data/coding/deep_learning_experiments/experiment2/wandb/run-20250410_110406-z13rc90s/logs/debug-core.log"}
+{"time":"2025-04-10T11:04:07.270867921+08:00","level":"INFO","msg":"created new stream","id":"z13rc90s"}
+{"time":"2025-04-10T11:04:07.27096418+08:00","level":"INFO","msg":"stream: started","id":"z13rc90s"}
+{"time":"2025-04-10T11:04:07.271016892+08:00","level":"INFO","msg":"handler: started","stream_id":"z13rc90s"}
+{"time":"2025-04-10T11:04:07.27099078+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"z13rc90s"}
+{"time":"2025-04-10T11:04:07.271059904+08:00","level":"INFO","msg":"sender: started","stream_id":"z13rc90s"}
+{"time":"2025-04-10T11:04:07.687351615+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-10T11:04:25.113816537+08:00","level":"INFO","msg":"stream: closing","id":"z13rc90s"}
+{"time":"2025-04-10T11:04:25.113865813+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-10T11:04:25.113965725+08:00","level":"INFO","msg":"Stopped system monitor"}

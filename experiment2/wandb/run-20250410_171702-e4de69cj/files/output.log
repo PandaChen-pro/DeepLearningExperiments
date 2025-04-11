@@ -1,0 +1,150 @@
+Files already downloaded and verified
+Files already downloaded and verified
+/data/coding/deep_learning_experiments/experiment2/start.py:64: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=device)
+Epoch 1/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:04<00:00,  1.27s/it]
+Epoch 1, Batch 0, Loss: 0.9073, learning_rate: 0.000001
+Epoch 1, Batch 30, Loss: 0.8543, learning_rate: 0.000004
+Epoch 1, Batch 60, Loss: 0.8697, learning_rate: 0.000007
+Epoch 1, Batch 90, Loss: 0.9196, learning_rate: 0.000010
+Epoch [1/50] - Loss: 0.8797, Accuracy: 83.10%
+Starting validation...
+Validation Loss: 1.0729, Validation Accuracy: 77.56%
+Epoch 1/50, Val Loss: 1.0729, Val Acc: 77.56%
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch1_Acc77.56.pth
+Epoch 2/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 2, Batch 0, Loss: 0.8638, learning_rate: 0.000011
+Epoch 2, Batch 30, Loss: 0.8367, learning_rate: 0.000014
+Epoch 2, Batch 60, Loss: 0.8302, learning_rate: 0.000017
+Epoch 2, Batch 90, Loss: 0.8800, learning_rate: 0.000020
+Epoch [2/50] - Loss: 0.8614, Accuracy: 84.18%
+Starting validation...
+Validation Loss: 1.1065, Validation Accuracy: 76.73%
+Epoch 2/50, Val Loss: 1.1065, Val Acc: 76.73%
+验证准确率未提升，早停计数: 1/10
+Epoch 3/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 3, Batch 0, Loss: 0.8073, learning_rate: 0.000021
+Epoch 3, Batch 30, Loss: 0.8672, learning_rate: 0.000024
+Epoch 3, Batch 60, Loss: 0.9250, learning_rate: 0.000027
+Epoch 3, Batch 90, Loss: 0.8570, learning_rate: 0.000030
+Epoch [3/50] - Loss: 0.8580, Accuracy: 84.47%
+Starting validation...
+Validation Loss: 1.0734, Validation Accuracy: 78.02%
+Epoch 3/50, Val Loss: 1.0734, Val Acc: 78.02%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch1_Acc77.56.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch3_Acc78.02.pth
+Epoch 4/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 4, Batch 0, Loss: 0.9399, learning_rate: 0.000031
+Epoch 4, Batch 30, Loss: 0.8911, learning_rate: 0.000034
+Epoch 4, Batch 60, Loss: 0.8905, learning_rate: 0.000037
+Epoch 4, Batch 90, Loss: 0.9329, learning_rate: 0.000040
+Epoch [4/50] - Loss: 0.9066, Accuracy: 81.81%
+Starting validation...
+Validation Loss: 1.1033, Validation Accuracy: 76.79%
+Epoch 4/50, Val Loss: 1.1033, Val Acc: 76.79%
+验证准确率未提升，早停计数: 1/10
+Epoch 5/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 5, Batch 0, Loss: 0.9569, learning_rate: 0.000041
+Epoch 5, Batch 30, Loss: 0.9647, learning_rate: 0.000044
+Epoch 5, Batch 60, Loss: 0.9396, learning_rate: 0.000047
+Epoch 5, Batch 90, Loss: 0.8820, learning_rate: 0.000050
+Epoch [5/50] - Loss: 0.9156, Accuracy: 81.37%
+Starting validation...
+Validation Loss: 1.0705, Validation Accuracy: 77.18%
+Epoch 5/50, Val Loss: 1.0705, Val Acc: 77.18%
+验证准确率未提升，早停计数: 2/10
+Epoch 6/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 6, Batch 0, Loss: 0.8857, learning_rate: 0.000051
+Epoch 6, Batch 30, Loss: 0.8913, learning_rate: 0.000054
+Epoch 6, Batch 60, Loss: 0.9505, learning_rate: 0.000057
+Epoch 6, Batch 90, Loss: 0.8909, learning_rate: 0.000060
+Epoch [6/50] - Loss: 0.9129, Accuracy: 81.51%
+Starting validation...
+Validation Loss: 1.1107, Validation Accuracy: 75.75%
+Epoch 6/50, Val Loss: 1.1107, Val Acc: 75.75%
+验证准确率未提升，早停计数: 3/10
+Epoch 7/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 7, Batch 0, Loss: 0.8860, learning_rate: 0.000060
+Epoch 7, Batch 30, Loss: 0.9229, learning_rate: 0.000063
+Epoch 7, Batch 60, Loss: 0.8889, learning_rate: 0.000066
+Epoch 7, Batch 90, Loss: 0.9325, learning_rate: 0.000069
+Epoch [7/50] - Loss: 0.9223, Accuracy: 81.10%
+Starting validation...
+Validation Loss: 1.0772, Validation Accuracy: 77.13%
+Epoch 7/50, Val Loss: 1.0772, Val Acc: 77.13%
+验证准确率未提升，早停计数: 4/10
+Epoch 8/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 8, Batch 0, Loss: 0.9784, learning_rate: 0.000070
+Epoch 8, Batch 30, Loss: 0.9641, learning_rate: 0.000073
+Epoch 8, Batch 60, Loss: 0.9036, learning_rate: 0.000076
+Epoch 8, Batch 90, Loss: 0.9584, learning_rate: 0.000079
+Epoch [8/50] - Loss: 0.9318, Accuracy: 80.53%
+Starting validation...
+Validation Loss: 1.1132, Validation Accuracy: 75.67%
+Epoch 8/50, Val Loss: 1.1132, Val Acc: 75.67%
+验证准确率未提升，早停计数: 5/10
+Epoch 9/50: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:05<00:00,  1.28s/it]
+Epoch 9, Batch 0, Loss: 0.9514, learning_rate: 0.000080
+Epoch 9, Batch 30, Loss: 0.8807, learning_rate: 0.000083
+Epoch 9, Batch 60, Loss: 0.9172, learning_rate: 0.000086
+Epoch 9, Batch 90, Loss: 0.9321, learning_rate: 0.000089
+Epoch [9/50] - Loss: 0.9353, Accuracy: 80.52%
+Starting validation...
+Validation Loss: 1.0799, Validation Accuracy: 76.99%
+Epoch 9/50, Val Loss: 1.0799, Val Acc: 76.99%
+验证准确率未提升，早停计数: 6/10
+Epoch 10/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 10, Batch 0, Loss: 0.9192, learning_rate: 0.000090
+Epoch 10, Batch 30, Loss: 0.9134, learning_rate: 0.000093
+Epoch 10, Batch 60, Loss: 0.9465, learning_rate: 0.000096
+Epoch 10, Batch 90, Loss: 1.0158, learning_rate: 0.000099
+Epoch [10/50] - Loss: 0.9456, Accuracy: 80.03%
+Starting validation...
+Validation Loss: 1.0925, Validation Accuracy: 76.45%
+Epoch 10/50, Val Loss: 1.0925, Val Acc: 76.45%
+验证准确率未提升，早停计数: 7/10
+Epoch 11/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:05<00:00,  1.28s/it]
+Epoch 11, Batch 0, Loss: 0.9394, learning_rate: 0.000100
+Epoch 11, Batch 30, Loss: 0.8843, learning_rate: 0.000100
+Epoch 11, Batch 60, Loss: 0.8702, learning_rate: 0.000100
+Epoch 11, Batch 90, Loss: 0.9491, learning_rate: 0.000100
+Epoch [11/50] - Loss: 0.9430, Accuracy: 79.83%
+Starting validation...
+Validation Loss: 1.0870, Validation Accuracy: 77.03%
+Epoch 11/50, Val Loss: 1.0870, Val Acc: 77.03%
+验证准确率未提升，早停计数: 8/10
+Epoch 12/50: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.34s/it]
+Epoch 12, Batch 0, Loss: 0.9428, learning_rate: 0.000100
+Epoch 12, Batch 30, Loss: 0.9257, learning_rate: 0.000100
+Epoch 12, Batch 60, Loss: 0.9524, learning_rate: 0.000100
+Epoch 12, Batch 90, Loss: 0.9603, learning_rate: 0.000100
+Epoch [12/50] - Loss: 0.9425, Accuracy: 80.02%
+Starting validation...
+Validation Loss: 1.1219, Validation Accuracy: 76.09%
+Epoch 12/50, Val Loss: 1.1219, Val Acc: 76.09%
+验证准确率未提升，早停计数: 9/10
+Epoch 13/50:  59%|██████████████████████████████████████████████████████████████████████████████                                                      | 58/98 [01:17<00:53,  1.34s/it]
+Epoch 13, Batch 0, Loss: 1.0248, learning_rate: 0.000100
+Epoch 13, Batch 30, Loss: 0.9974, learning_rate: 0.000100
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 87, in <module>
+    train_model(model, train_loader, val_loader, criterion, optimizer, scheduler,num_epochs)
+  File "/data/coding/deep_learning_experiments/experiment2/trainer.py", line 58, in train_model
+    optimizer.step()
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/adamw.py", line 227, in step
+    adamw(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/adamw.py", line 767, in adamw
+    func(
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/adamw.py", line 580, in _multi_tensor_adamw
+    bias_correction1 = [
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/adamw.py", line 581, in <listcomp>
+    1 - beta1 ** _get_value(step) for step in device_state_steps
+  File "/data/miniconda/envs/cv/lib/python3.10/site-packages/torch/optim/optimizer.py", line 104, in _get_value
+    return x.item() if isinstance(x, torch.Tensor) else x
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/50:   9%|█████▎                                                    | 18/196 [00:14<02:19,  1.28it/s]
+Epoch 1, Batch 0, Loss: 2.4283, learning_rate: 0.000001
+Traceback (most recent call last):
+  File "/data/coding/deep_learning_experiments/experiment2/start.py", line 84, in <module>
+    train_model(model, train_loader, val_loader, criterion, optimizer, scheduler,num_epochs)
+  File "/data/coding/deep_learning_experiments/experiment2/trainer.py", line 29, in train_model
+    images = images.to(device)
+KeyboardInterrupt
