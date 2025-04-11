@@ -1,0 +1,1389 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Epoch 1/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 1, Batch 0, Loss: 2.4506, learning_rate: 0.000001
+Epoch 1, Batch 30, Loss: 2.3120, learning_rate: 0.000002
+Epoch 1, Batch 60, Loss: 2.2443, learning_rate: 0.000002
+Epoch 1, Batch 90, Loss: 2.2629, learning_rate: 0.000003
+Epoch [1/300] - Loss: 2.3015, Accuracy: 14.93%
+Starting validation...
+Validation Loss: 2.1212, Validation Accuracy: 23.74%
+Epoch 1/300, Val Loss: 2.1212, Val Acc: 23.74%
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch1_Acc23.74.pth
+Epoch 2/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 2, Batch 0, Loss: 2.1691, learning_rate: 0.000003
+Epoch 2, Batch 30, Loss: 2.1809, learning_rate: 0.000003
+Epoch 2, Batch 60, Loss: 2.1669, learning_rate: 0.000004
+Epoch 2, Batch 90, Loss: 2.1586, learning_rate: 0.000004
+Epoch [2/300] - Loss: 2.1869, Accuracy: 19.81%
+Starting validation...
+Validation Loss: 2.0929, Validation Accuracy: 26.80%
+Epoch 2/300, Val Loss: 2.0929, Val Acc: 26.80%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch1_Acc23.74.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch2_Acc26.80.pth
+Epoch 3/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:05<00:00,  1.28s/it]
+Epoch 3, Batch 0, Loss: 2.1734, learning_rate: 0.000004
+Epoch 3, Batch 30, Loss: 2.1007, learning_rate: 0.000005
+Epoch 3, Batch 60, Loss: 2.1685, learning_rate: 0.000005
+Epoch 3, Batch 90, Loss: 2.1127, learning_rate: 0.000006
+Epoch [3/300] - Loss: 2.1443, Accuracy: 21.54%
+Starting validation...
+Validation Loss: 2.0493, Validation Accuracy: 28.15%
+Epoch 3/300, Val Loss: 2.0493, Val Acc: 28.15%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch2_Acc26.80.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch3_Acc28.15.pth
+Epoch 4/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 4, Batch 0, Loss: 2.1227, learning_rate: 0.000006
+Epoch 4, Batch 30, Loss: 2.0828, learning_rate: 0.000006
+Epoch 4, Batch 60, Loss: 2.1205, learning_rate: 0.000007
+Epoch 4, Batch 90, Loss: 2.0630, learning_rate: 0.000007
+Epoch [4/300] - Loss: 2.1047, Accuracy: 23.41%
+Starting validation...
+Validation Loss: 2.0231, Validation Accuracy: 28.58%
+Epoch 4/300, Val Loss: 2.0231, Val Acc: 28.58%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch3_Acc28.15.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch4_Acc28.58.pth
+Epoch 5/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:05<00:00,  1.29s/it]
+Epoch 5, Batch 0, Loss: 2.1311, learning_rate: 0.000008
+Epoch 5, Batch 30, Loss: 2.0777, learning_rate: 0.000008
+Epoch 5, Batch 60, Loss: 2.0457, learning_rate: 0.000009
+Epoch 5, Batch 90, Loss: 2.0679, learning_rate: 0.000009
+Epoch [5/300] - Loss: 2.0642, Accuracy: 25.00%
+Starting validation...
+Validation Loss: 1.9891, Validation Accuracy: 30.40%
+Epoch 5/300, Val Loss: 1.9891, Val Acc: 30.40%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch4_Acc28.58.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch5_Acc30.40.pth
+Epoch 6/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 6, Batch 0, Loss: 2.0041, learning_rate: 0.000009
+Epoch 6, Batch 30, Loss: 2.0084, learning_rate: 0.000010
+Epoch 6, Batch 60, Loss: 2.0216, learning_rate: 0.000010
+Epoch 6, Batch 90, Loss: 1.9504, learning_rate: 0.000011
+Epoch [6/300] - Loss: 2.0132, Accuracy: 27.42%
+Starting validation...
+Validation Loss: 1.9356, Validation Accuracy: 32.30%
+Epoch 6/300, Val Loss: 1.9356, Val Acc: 32.30%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch5_Acc30.40.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch6_Acc32.30.pth
+Epoch 7/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 7, Batch 0, Loss: 1.9813, learning_rate: 0.000011
+Epoch 7, Batch 30, Loss: 1.9506, learning_rate: 0.000011
+Epoch 7, Batch 60, Loss: 1.9638, learning_rate: 0.000012
+Epoch 7, Batch 90, Loss: 1.8904, learning_rate: 0.000012
+Epoch [7/300] - Loss: 1.9625, Accuracy: 29.62%
+Starting validation...
+Validation Loss: 1.9217, Validation Accuracy: 34.10%
+Epoch 7/300, Val Loss: 1.9217, Val Acc: 34.10%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch6_Acc32.30.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch7_Acc34.10.pth
+Epoch 8/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 8, Batch 0, Loss: 1.8985, learning_rate: 0.000013
+Epoch 8, Batch 30, Loss: 1.9269, learning_rate: 0.000013
+Epoch 8, Batch 60, Loss: 1.9418, learning_rate: 0.000014
+Epoch 8, Batch 90, Loss: 1.8755, learning_rate: 0.000014
+Epoch [8/300] - Loss: 1.9233, Accuracy: 31.48%
+Starting validation...
+Validation Loss: 1.8776, Validation Accuracy: 35.70%
+Epoch 8/300, Val Loss: 1.8776, Val Acc: 35.70%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch7_Acc34.10.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch8_Acc35.70.pth
+Epoch 9/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 9, Batch 0, Loss: 1.8721, learning_rate: 0.000014
+Epoch 9, Batch 30, Loss: 1.9261, learning_rate: 0.000015
+Epoch 9, Batch 60, Loss: 1.8815, learning_rate: 0.000015
+Epoch 9, Batch 90, Loss: 1.8487, learning_rate: 0.000016
+Epoch [9/300] - Loss: 1.8955, Accuracy: 32.91%
+Starting validation...
+Validation Loss: 1.8392, Validation Accuracy: 38.23%
+Epoch 9/300, Val Loss: 1.8392, Val Acc: 38.23%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch8_Acc35.70.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch9_Acc38.23.pth
+Epoch 10/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 10, Batch 0, Loss: 1.8881, learning_rate: 0.000016
+Epoch 10, Batch 30, Loss: 1.9059, learning_rate: 0.000016
+Epoch 10, Batch 60, Loss: 1.8821, learning_rate: 0.000017
+Epoch 10, Batch 90, Loss: 1.9053, learning_rate: 0.000017
+Epoch [10/300] - Loss: 1.8702, Accuracy: 34.66%
+Starting validation...
+Validation Loss: 1.8294, Validation Accuracy: 38.79%
+Epoch 10/300, Val Loss: 1.8294, Val Acc: 38.79%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch9_Acc38.23.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch10_Acc38.79.pth
+Epoch 11/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 11, Batch 0, Loss: 1.8739, learning_rate: 0.000018
+Epoch 11, Batch 30, Loss: 1.7948, learning_rate: 0.000018
+Epoch 11, Batch 60, Loss: 1.8158, learning_rate: 0.000019
+Epoch 11, Batch 90, Loss: 1.8378, learning_rate: 0.000019
+Epoch [11/300] - Loss: 1.8470, Accuracy: 35.86%
+Starting validation...
+Validation Loss: 1.7886, Validation Accuracy: 40.47%
+Epoch 11/300, Val Loss: 1.7886, Val Acc: 40.47%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch10_Acc38.79.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch11_Acc40.47.pth
+Epoch 12/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 12, Batch 0, Loss: 1.8469, learning_rate: 0.000019
+Epoch 12, Batch 30, Loss: 1.8386, learning_rate: 0.000020
+Epoch 12, Batch 60, Loss: 1.8541, learning_rate: 0.000020
+Epoch 12, Batch 90, Loss: 1.8910, learning_rate: 0.000021
+Epoch [12/300] - Loss: 1.8263, Accuracy: 37.00%
+Starting validation...
+Validation Loss: 1.7906, Validation Accuracy: 40.97%
+Epoch 12/300, Val Loss: 1.7906, Val Acc: 40.97%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch11_Acc40.47.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch12_Acc40.97.pth
+Epoch 13/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 13, Batch 0, Loss: 1.8237, learning_rate: 0.000021
+Epoch 13, Batch 30, Loss: 1.8421, learning_rate: 0.000021
+Epoch 13, Batch 60, Loss: 1.7499, learning_rate: 0.000022
+Epoch 13, Batch 90, Loss: 1.7825, learning_rate: 0.000022
+Epoch [13/300] - Loss: 1.8086, Accuracy: 38.04%
+Starting validation...
+Validation Loss: 1.7675, Validation Accuracy: 42.38%
+Epoch 13/300, Val Loss: 1.7675, Val Acc: 42.38%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch12_Acc40.97.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch13_Acc42.38.pth
+Epoch 14/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 14, Batch 0, Loss: 1.8011, learning_rate: 0.000022
+Epoch 14, Batch 30, Loss: 1.8193, learning_rate: 0.000023
+Epoch 14, Batch 60, Loss: 1.7721, learning_rate: 0.000023
+Epoch 14, Batch 90, Loss: 1.7475, learning_rate: 0.000024
+Epoch [14/300] - Loss: 1.7902, Accuracy: 39.16%
+Starting validation...
+Validation Loss: 1.7543, Validation Accuracy: 43.32%
+Epoch 14/300, Val Loss: 1.7543, Val Acc: 43.32%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch13_Acc42.38.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch14_Acc43.32.pth
+Epoch 15/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 15, Batch 0, Loss: 1.8199, learning_rate: 0.000024
+Epoch 15, Batch 30, Loss: 1.7466, learning_rate: 0.000025
+Epoch 15, Batch 60, Loss: 1.7609, learning_rate: 0.000025
+Epoch 15, Batch 90, Loss: 1.7710, learning_rate: 0.000026
+Epoch [15/300] - Loss: 1.7703, Accuracy: 40.12%
+Starting validation...
+Validation Loss: 1.7183, Validation Accuracy: 45.58%
+Epoch 15/300, Val Loss: 1.7183, Val Acc: 45.58%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch14_Acc43.32.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch15_Acc45.58.pth
+Epoch 16/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 16, Batch 0, Loss: 1.7719, learning_rate: 0.000026
+Epoch 16, Batch 30, Loss: 1.7931, learning_rate: 0.000026
+Epoch 16, Batch 60, Loss: 1.7613, learning_rate: 0.000027
+Epoch 16, Batch 90, Loss: 1.7196, learning_rate: 0.000027
+Epoch [16/300] - Loss: 1.7553, Accuracy: 41.28%
+Starting validation...
+Validation Loss: 1.7120, Validation Accuracy: 44.84%
+Epoch 16/300, Val Loss: 1.7120, Val Acc: 44.84%
+验证准确率未提升，早停计数: 1/10
+Epoch 17/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.35s/it]
+Epoch 17, Batch 0, Loss: 1.7624, learning_rate: 0.000027
+Epoch 17, Batch 30, Loss: 1.7553, learning_rate: 0.000028
+Epoch 17, Batch 60, Loss: 1.7609, learning_rate: 0.000028
+Epoch 17, Batch 90, Loss: 1.6693, learning_rate: 0.000029
+Epoch [17/300] - Loss: 1.7352, Accuracy: 42.34%
+Starting validation...
+Validation Loss: 1.7057, Validation Accuracy: 45.81%
+Epoch 17/300, Val Loss: 1.7057, Val Acc: 45.81%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch15_Acc45.58.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch17_Acc45.81.pth
+Epoch 18/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 18, Batch 0, Loss: 1.6965, learning_rate: 0.000029
+Epoch 18, Batch 30, Loss: 1.7216, learning_rate: 0.000030
+Epoch 18, Batch 60, Loss: 1.6579, learning_rate: 0.000030
+Epoch 18, Batch 90, Loss: 1.7550, learning_rate: 0.000031
+Epoch [18/300] - Loss: 1.7217, Accuracy: 43.05%
+Starting validation...
+Validation Loss: 1.7439, Validation Accuracy: 45.15%
+Epoch 18/300, Val Loss: 1.7439, Val Acc: 45.15%
+验证准确率未提升，早停计数: 1/10
+Epoch 19/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 19, Batch 0, Loss: 1.8002, learning_rate: 0.000031
+Epoch 19, Batch 30, Loss: 1.6535, learning_rate: 0.000031
+Epoch 19, Batch 60, Loss: 1.7008, learning_rate: 0.000032
+Epoch 19, Batch 90, Loss: 1.5988, learning_rate: 0.000032
+Epoch [19/300] - Loss: 1.7029, Accuracy: 43.96%
+Starting validation...
+Validation Loss: 1.6763, Validation Accuracy: 47.28%
+Epoch 19/300, Val Loss: 1.6763, Val Acc: 47.28%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch17_Acc45.81.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch19_Acc47.28.pth
+Epoch 20/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 20, Batch 0, Loss: 1.6772, learning_rate: 0.000032
+Epoch 20, Batch 30, Loss: 1.6682, learning_rate: 0.000033
+Epoch 20, Batch 60, Loss: 1.6369, learning_rate: 0.000033
+Epoch 20, Batch 90, Loss: 1.7130, learning_rate: 0.000034
+Epoch [20/300] - Loss: 1.6864, Accuracy: 44.72%
+Starting validation...
+Validation Loss: 1.6856, Validation Accuracy: 47.78%
+Epoch 20/300, Val Loss: 1.6856, Val Acc: 47.78%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch19_Acc47.28.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch20_Acc47.78.pth
+Epoch 21/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 21, Batch 0, Loss: 1.6972, learning_rate: 0.000034
+Epoch 21, Batch 30, Loss: 1.6673, learning_rate: 0.000035
+Epoch 21, Batch 60, Loss: 1.6588, learning_rate: 0.000035
+Epoch 21, Batch 90, Loss: 1.6737, learning_rate: 0.000036
+Epoch [21/300] - Loss: 1.6731, Accuracy: 45.48%
+Starting validation...
+Validation Loss: 1.6457, Validation Accuracy: 48.88%
+Epoch 21/300, Val Loss: 1.6457, Val Acc: 48.88%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch20_Acc47.78.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch21_Acc48.88.pth
+Epoch 22/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 22, Batch 0, Loss: 1.6099, learning_rate: 0.000036
+Epoch 22, Batch 30, Loss: 1.6294, learning_rate: 0.000036
+Epoch 22, Batch 60, Loss: 1.6294, learning_rate: 0.000037
+Epoch 22, Batch 90, Loss: 1.6852, learning_rate: 0.000037
+Epoch [22/300] - Loss: 1.6510, Accuracy: 46.73%
+Starting validation...
+Validation Loss: 1.6509, Validation Accuracy: 49.82%
+Epoch 22/300, Val Loss: 1.6509, Val Acc: 49.82%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch21_Acc48.88.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch22_Acc49.82.pth
+Epoch 23/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 23, Batch 0, Loss: 1.6460, learning_rate: 0.000037
+Epoch 23, Batch 30, Loss: 1.5872, learning_rate: 0.000038
+Epoch 23, Batch 60, Loss: 1.6349, learning_rate: 0.000038
+Epoch 23, Batch 90, Loss: 1.6319, learning_rate: 0.000039
+Epoch [23/300] - Loss: 1.6350, Accuracy: 47.64%
+Starting validation...
+Validation Loss: 1.7214, Validation Accuracy: 47.16%
+Epoch 23/300, Val Loss: 1.7214, Val Acc: 47.16%
+验证准确率未提升，早停计数: 1/10
+Epoch 24/300: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 24, Batch 0, Loss: 1.6232, learning_rate: 0.000039
+Epoch 24, Batch 30, Loss: 1.6207, learning_rate: 0.000039
+Epoch 24, Batch 60, Loss: 1.6558, learning_rate: 0.000040
+Epoch 24, Batch 90, Loss: 1.6318, learning_rate: 0.000040
+Epoch [24/300] - Loss: 1.6193, Accuracy: 48.12%
+Starting validation...
+Validation Loss: 1.6368, Validation Accuracy: 50.48%
+Epoch 24/300, Val Loss: 1.6368, Val Acc: 50.48%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch22_Acc49.82.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch24_Acc50.48.pth
+Epoch 25/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 25, Batch 0, Loss: 1.5869, learning_rate: 0.000041
+Epoch 25, Batch 30, Loss: 1.6664, learning_rate: 0.000041
+Epoch 25, Batch 60, Loss: 1.6052, learning_rate: 0.000042
+Epoch 25, Batch 90, Loss: 1.6419, learning_rate: 0.000042
+Epoch [25/300] - Loss: 1.5979, Accuracy: 49.16%
+Starting validation...
+Validation Loss: 1.6059, Validation Accuracy: 52.07%
+Epoch 25/300, Val Loss: 1.6059, Val Acc: 52.07%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch24_Acc50.48.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch25_Acc52.07.pth
+Epoch 26/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 26, Batch 0, Loss: 1.5668, learning_rate: 0.000042
+Epoch 26, Batch 30, Loss: 1.5798, learning_rate: 0.000043
+Epoch 26, Batch 60, Loss: 1.5957, learning_rate: 0.000043
+Epoch 26, Batch 90, Loss: 1.6259, learning_rate: 0.000044
+Epoch [26/300] - Loss: 1.5893, Accuracy: 49.78%
+Starting validation...
+Validation Loss: 1.6745, Validation Accuracy: 51.12%
+Epoch 26/300, Val Loss: 1.6745, Val Acc: 51.12%
+验证准确率未提升，早停计数: 1/10
+Epoch 27/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 27, Batch 0, Loss: 1.5567, learning_rate: 0.000044
+Epoch 27, Batch 30, Loss: 1.5065, learning_rate: 0.000044
+Epoch 27, Batch 60, Loss: 1.5220, learning_rate: 0.000045
+Epoch 27, Batch 90, Loss: 1.4955, learning_rate: 0.000045
+Epoch [27/300] - Loss: 1.5743, Accuracy: 50.56%
+Starting validation...
+Validation Loss: 1.5956, Validation Accuracy: 53.23%
+Epoch 27/300, Val Loss: 1.5956, Val Acc: 53.23%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch25_Acc52.07.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch27_Acc53.23.pth
+Epoch 28/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 28, Batch 0, Loss: 1.5411, learning_rate: 0.000046
+Epoch 28, Batch 30, Loss: 1.5776, learning_rate: 0.000046
+Epoch 28, Batch 60, Loss: 1.5466, learning_rate: 0.000047
+Epoch 28, Batch 90, Loss: 1.5963, learning_rate: 0.000047
+Epoch [28/300] - Loss: 1.5573, Accuracy: 51.23%
+Starting validation...
+Validation Loss: 1.5915, Validation Accuracy: 52.91%
+Epoch 28/300, Val Loss: 1.5915, Val Acc: 52.91%
+验证准确率未提升，早停计数: 1/10
+Epoch 29/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 29, Batch 0, Loss: 1.5412, learning_rate: 0.000047
+Epoch 29, Batch 30, Loss: 1.4920, learning_rate: 0.000048
+Epoch 29, Batch 60, Loss: 1.5280, learning_rate: 0.000048
+Epoch 29, Batch 90, Loss: 1.6049, learning_rate: 0.000049
+Epoch [29/300] - Loss: 1.5515, Accuracy: 51.78%
+Starting validation...
+Validation Loss: 1.6690, Validation Accuracy: 50.69%
+Epoch 29/300, Val Loss: 1.6690, Val Acc: 50.69%
+验证准确率未提升，早停计数: 2/10
+Epoch 30/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 30, Batch 0, Loss: 1.5324, learning_rate: 0.000049
+Epoch 30, Batch 30, Loss: 1.5684, learning_rate: 0.000049
+Epoch 30, Batch 60, Loss: 1.5591, learning_rate: 0.000050
+Epoch 30, Batch 90, Loss: 1.5693, learning_rate: 0.000050
+Epoch [30/300] - Loss: 1.5415, Accuracy: 52.08%
+Starting validation...
+Validation Loss: 1.5775, Validation Accuracy: 53.74%
+Epoch 30/300, Val Loss: 1.5775, Val Acc: 53.74%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch27_Acc53.23.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch30_Acc53.74.pth
+Epoch 31/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 31, Batch 0, Loss: 1.4941, learning_rate: 0.000051
+Epoch 31, Batch 30, Loss: 1.5210, learning_rate: 0.000051
+Epoch 31, Batch 60, Loss: 1.5305, learning_rate: 0.000052
+Epoch 31, Batch 90, Loss: 1.4900, learning_rate: 0.000052
+Epoch [31/300] - Loss: 1.5261, Accuracy: 52.80%
+Starting validation...
+Validation Loss: 1.5158, Validation Accuracy: 55.68%
+Epoch 31/300, Val Loss: 1.5158, Val Acc: 55.68%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch30_Acc53.74.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch31_Acc55.68.pth
+Epoch 32/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.36s/it]
+Epoch 32, Batch 0, Loss: 1.5010, learning_rate: 0.000052
+Epoch 32, Batch 30, Loss: 1.4943, learning_rate: 0.000053
+Epoch 32, Batch 60, Loss: 1.5489, learning_rate: 0.000053
+Epoch 32, Batch 90, Loss: 1.5775, learning_rate: 0.000054
+Epoch [32/300] - Loss: 1.5159, Accuracy: 53.33%
+Starting validation...
+Validation Loss: 1.6024, Validation Accuracy: 52.69%
+Epoch 32/300, Val Loss: 1.6024, Val Acc: 52.69%
+验证准确率未提升，早停计数: 1/10
+Epoch 33/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 33, Batch 0, Loss: 1.5053, learning_rate: 0.000054
+Epoch 33, Batch 30, Loss: 1.5176, learning_rate: 0.000054
+Epoch 33, Batch 60, Loss: 1.4993, learning_rate: 0.000055
+Epoch 33, Batch 90, Loss: 1.4699, learning_rate: 0.000055
+Epoch [33/300] - Loss: 1.5008, Accuracy: 54.04%
+Starting validation...
+Validation Loss: 1.5588, Validation Accuracy: 54.72%
+Epoch 33/300, Val Loss: 1.5588, Val Acc: 54.72%
+验证准确率未提升，早停计数: 2/10
+Epoch 34/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 34, Batch 0, Loss: 1.5340, learning_rate: 0.000055
+Epoch 34, Batch 30, Loss: 1.5278, learning_rate: 0.000056
+Epoch 34, Batch 60, Loss: 1.4473, learning_rate: 0.000056
+Epoch 34, Batch 90, Loss: 1.5106, learning_rate: 0.000057
+Epoch [34/300] - Loss: 1.4948, Accuracy: 54.27%
+Starting validation...
+Validation Loss: 1.4644, Validation Accuracy: 57.80%
+Epoch 34/300, Val Loss: 1.4644, Val Acc: 57.80%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch31_Acc55.68.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch34_Acc57.80.pth
+Epoch 35/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:14<00:00,  1.37s/it]
+Epoch 35, Batch 0, Loss: 1.5085, learning_rate: 0.000057
+Epoch 35, Batch 30, Loss: 1.4642, learning_rate: 0.000058
+Epoch 35, Batch 60, Loss: 1.4894, learning_rate: 0.000058
+Epoch 35, Batch 90, Loss: 1.4651, learning_rate: 0.000059
+Epoch [35/300] - Loss: 1.4757, Accuracy: 55.04%
+Starting validation...
+Validation Loss: 1.5067, Validation Accuracy: 56.24%
+Epoch 35/300, Val Loss: 1.5067, Val Acc: 56.24%
+验证准确率未提升，早停计数: 1/10
+Epoch 36/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 36, Batch 0, Loss: 1.4197, learning_rate: 0.000059
+Epoch 36, Batch 30, Loss: 1.4436, learning_rate: 0.000059
+Epoch 36, Batch 60, Loss: 1.5283, learning_rate: 0.000060
+Epoch 36, Batch 90, Loss: 1.5329, learning_rate: 0.000060
+Epoch [36/300] - Loss: 1.4676, Accuracy: 55.67%
+Starting validation...
+Validation Loss: 1.4631, Validation Accuracy: 57.26%
+Epoch 36/300, Val Loss: 1.4631, Val Acc: 57.26%
+验证准确率未提升，早停计数: 2/10
+Epoch 37/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:16<00:00,  1.39s/it]
+Epoch 37, Batch 0, Loss: 1.5495, learning_rate: 0.000060
+Epoch 37, Batch 30, Loss: 1.4507, learning_rate: 0.000061
+Epoch 37, Batch 60, Loss: 1.4888, learning_rate: 0.000061
+Epoch 37, Batch 90, Loss: 1.5283, learning_rate: 0.000062
+Epoch [37/300] - Loss: 1.4580, Accuracy: 56.26%
+Starting validation...
+Validation Loss: 1.4443, Validation Accuracy: 59.03%
+Epoch 37/300, Val Loss: 1.4443, Val Acc: 59.03%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch34_Acc57.80.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch37_Acc59.03.pth
+Epoch 38/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 38, Batch 0, Loss: 1.4416, learning_rate: 0.000062
+Epoch 38, Batch 30, Loss: 1.4243, learning_rate: 0.000063
+Epoch 38, Batch 60, Loss: 1.3958, learning_rate: 0.000063
+Epoch 38, Batch 90, Loss: 1.4266, learning_rate: 0.000064
+Epoch [38/300] - Loss: 1.4509, Accuracy: 56.52%
+Starting validation...
+Validation Loss: 1.4449, Validation Accuracy: 58.69%
+Epoch 38/300, Val Loss: 1.4449, Val Acc: 58.69%
+验证准确率未提升，早停计数: 1/10
+Epoch 39/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 39, Batch 0, Loss: 1.4486, learning_rate: 0.000064
+Epoch 39, Batch 30, Loss: 1.4665, learning_rate: 0.000064
+Epoch 39, Batch 60, Loss: 1.4145, learning_rate: 0.000065
+Epoch 39, Batch 90, Loss: 1.4422, learning_rate: 0.000065
+Epoch [39/300] - Loss: 1.4375, Accuracy: 57.15%
+Starting validation...
+Validation Loss: 1.4734, Validation Accuracy: 58.05%
+Epoch 39/300, Val Loss: 1.4734, Val Acc: 58.05%
+验证准确率未提升，早停计数: 2/10
+Epoch 40/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 40, Batch 0, Loss: 1.4782, learning_rate: 0.000065
+Epoch 40, Batch 30, Loss: 1.4283, learning_rate: 0.000066
+Epoch 40, Batch 60, Loss: 1.4766, learning_rate: 0.000066
+Epoch 40, Batch 90, Loss: 1.4323, learning_rate: 0.000067
+Epoch [40/300] - Loss: 1.4269, Accuracy: 57.79%
+Starting validation...
+Validation Loss: 1.4406, Validation Accuracy: 59.18%
+Epoch 40/300, Val Loss: 1.4406, Val Acc: 59.18%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch37_Acc59.03.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch40_Acc59.18.pth
+Epoch 41/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 41, Batch 0, Loss: 1.4009, learning_rate: 0.000067
+Epoch 41, Batch 30, Loss: 1.4906, learning_rate: 0.000068
+Epoch 41, Batch 60, Loss: 1.4341, learning_rate: 0.000068
+Epoch 41, Batch 90, Loss: 1.4160, learning_rate: 0.000069
+Epoch [41/300] - Loss: 1.4199, Accuracy: 58.08%
+Starting validation...
+Validation Loss: 1.4739, Validation Accuracy: 58.18%
+Epoch 41/300, Val Loss: 1.4739, Val Acc: 58.18%
+验证准确率未提升，早停计数: 1/10
+Epoch 42/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 42, Batch 0, Loss: 1.3542, learning_rate: 0.000069
+Epoch 42, Batch 30, Loss: 1.3800, learning_rate: 0.000069
+Epoch 42, Batch 60, Loss: 1.3840, learning_rate: 0.000070
+Epoch 42, Batch 90, Loss: 1.4132, learning_rate: 0.000070
+Epoch [42/300] - Loss: 1.4060, Accuracy: 58.65%
+Starting validation...
+Validation Loss: 1.4090, Validation Accuracy: 61.64%
+Epoch 42/300, Val Loss: 1.4090, Val Acc: 61.64%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch40_Acc59.18.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch42_Acc61.64.pth
+Epoch 43/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 43, Batch 0, Loss: 1.4051, learning_rate: 0.000070
+Epoch 43, Batch 30, Loss: 1.3846, learning_rate: 0.000071
+Epoch 43, Batch 60, Loss: 1.3491, learning_rate: 0.000071
+Epoch 43, Batch 90, Loss: 1.3809, learning_rate: 0.000072
+Epoch [43/300] - Loss: 1.3945, Accuracy: 59.18%
+Starting validation...
+Validation Loss: 1.4269, Validation Accuracy: 59.15%
+Epoch 43/300, Val Loss: 1.4269, Val Acc: 59.15%
+验证准确率未提升，早停计数: 1/10
+Epoch 44/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 44, Batch 0, Loss: 1.4277, learning_rate: 0.000072
+Epoch 44, Batch 30, Loss: 1.4091, learning_rate: 0.000072
+Epoch 44, Batch 60, Loss: 1.4741, learning_rate: 0.000073
+Epoch 44, Batch 90, Loss: 1.3900, learning_rate: 0.000073
+Epoch [44/300] - Loss: 1.3916, Accuracy: 59.00%
+Starting validation...
+Validation Loss: 1.4010, Validation Accuracy: 61.02%
+Epoch 44/300, Val Loss: 1.4010, Val Acc: 61.02%
+验证准确率未提升，早停计数: 2/10
+Epoch 45/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 45, Batch 0, Loss: 1.3744, learning_rate: 0.000074
+Epoch 45, Batch 30, Loss: 1.3739, learning_rate: 0.000074
+Epoch 45, Batch 60, Loss: 1.4056, learning_rate: 0.000075
+Epoch 45, Batch 90, Loss: 1.3531, learning_rate: 0.000075
+Epoch [45/300] - Loss: 1.3833, Accuracy: 59.83%
+Starting validation...
+Validation Loss: 1.3626, Validation Accuracy: 62.62%
+Epoch 45/300, Val Loss: 1.3626, Val Acc: 62.62%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch42_Acc61.64.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch45_Acc62.62.pth
+Epoch 46/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.31s/it]
+Epoch 46, Batch 0, Loss: 1.3438, learning_rate: 0.000075
+Epoch 46, Batch 30, Loss: 1.3035, learning_rate: 0.000076
+Epoch 46, Batch 60, Loss: 1.4264, learning_rate: 0.000076
+Epoch 46, Batch 90, Loss: 1.3729, learning_rate: 0.000077
+Epoch [46/300] - Loss: 1.3705, Accuracy: 60.47%
+Starting validation...
+Validation Loss: 1.3690, Validation Accuracy: 62.61%
+Epoch 46/300, Val Loss: 1.3690, Val Acc: 62.61%
+验证准确率未提升，早停计数: 1/10
+Epoch 47/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 47, Batch 0, Loss: 1.4160, learning_rate: 0.000077
+Epoch 47, Batch 30, Loss: 1.3750, learning_rate: 0.000077
+Epoch 47, Batch 60, Loss: 1.3827, learning_rate: 0.000078
+Epoch 47, Batch 90, Loss: 1.3589, learning_rate: 0.000078
+Epoch [47/300] - Loss: 1.3649, Accuracy: 60.86%
+Starting validation...
+Validation Loss: 1.3398, Validation Accuracy: 63.47%
+Epoch 47/300, Val Loss: 1.3398, Val Acc: 63.47%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch45_Acc62.62.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch47_Acc63.47.pth
+Epoch 48/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 48, Batch 0, Loss: 1.4091, learning_rate: 0.000079
+Epoch 48, Batch 30, Loss: 1.3692, learning_rate: 0.000079
+Epoch 48, Batch 60, Loss: 1.3714, learning_rate: 0.000080
+Epoch 48, Batch 90, Loss: 1.4036, learning_rate: 0.000080
+Epoch [48/300] - Loss: 1.3537, Accuracy: 61.12%
+Starting validation...
+Validation Loss: 1.3378, Validation Accuracy: 63.21%
+Epoch 48/300, Val Loss: 1.3378, Val Acc: 63.21%
+验证准确率未提升，早停计数: 1/10
+Epoch 49/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 49, Batch 0, Loss: 1.4113, learning_rate: 0.000080
+Epoch 49, Batch 30, Loss: 1.3760, learning_rate: 0.000081
+Epoch 49, Batch 60, Loss: 1.2958, learning_rate: 0.000081
+Epoch 49, Batch 90, Loss: 1.2967, learning_rate: 0.000082
+Epoch [49/300] - Loss: 1.3434, Accuracy: 61.65%
+Starting validation...
+Validation Loss: 1.3781, Validation Accuracy: 62.44%
+Epoch 49/300, Val Loss: 1.3781, Val Acc: 62.44%
+验证准确率未提升，早停计数: 2/10
+Epoch 50/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 50, Batch 0, Loss: 1.3499, learning_rate: 0.000082
+Epoch 50, Batch 30, Loss: 1.3541, learning_rate: 0.000082
+Epoch 50, Batch 60, Loss: 1.3023, learning_rate: 0.000083
+Epoch 50, Batch 90, Loss: 1.3529, learning_rate: 0.000083
+Epoch [50/300] - Loss: 1.3407, Accuracy: 61.84%
+Starting validation...
+Validation Loss: 1.3284, Validation Accuracy: 64.06%
+Epoch 50/300, Val Loss: 1.3284, Val Acc: 64.06%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch47_Acc63.47.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch50_Acc64.06.pth
+Epoch 51/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 51, Batch 0, Loss: 1.3878, learning_rate: 0.000084
+Epoch 51, Batch 30, Loss: 1.3440, learning_rate: 0.000084
+Epoch 51, Batch 60, Loss: 1.3822, learning_rate: 0.000085
+Epoch 51, Batch 90, Loss: 1.2953, learning_rate: 0.000085
+Epoch [51/300] - Loss: 1.3326, Accuracy: 62.18%
+Starting validation...
+Validation Loss: 1.3214, Validation Accuracy: 64.42%
+Epoch 51/300, Val Loss: 1.3214, Val Acc: 64.42%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch50_Acc64.06.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch51_Acc64.42.pth
+Epoch 52/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 52, Batch 0, Loss: 1.2802, learning_rate: 0.000085
+Epoch 52, Batch 30, Loss: 1.3481, learning_rate: 0.000086
+Epoch 52, Batch 60, Loss: 1.3548, learning_rate: 0.000086
+Epoch 52, Batch 90, Loss: 1.3331, learning_rate: 0.000087
+Epoch [52/300] - Loss: 1.3292, Accuracy: 62.30%
+Starting validation...
+Validation Loss: 1.3638, Validation Accuracy: 62.93%
+Epoch 52/300, Val Loss: 1.3638, Val Acc: 62.93%
+验证准确率未提升，早停计数: 1/10
+Epoch 53/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.35s/it]
+Epoch 53, Batch 0, Loss: 1.3715, learning_rate: 0.000087
+Epoch 53, Batch 30, Loss: 1.3370, learning_rate: 0.000087
+Epoch 53, Batch 60, Loss: 1.3569, learning_rate: 0.000088
+Epoch 53, Batch 90, Loss: 1.3649, learning_rate: 0.000088
+Epoch [53/300] - Loss: 1.3155, Accuracy: 63.19%
+Starting validation...
+Validation Loss: 1.3356, Validation Accuracy: 63.68%
+Epoch 53/300, Val Loss: 1.3356, Val Acc: 63.68%
+验证准确率未提升，早停计数: 2/10
+Epoch 54/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:14<00:00,  1.37s/it]
+Epoch 54, Batch 0, Loss: 1.2687, learning_rate: 0.000088
+Epoch 54, Batch 30, Loss: 1.2324, learning_rate: 0.000089
+Epoch 54, Batch 60, Loss: 1.2613, learning_rate: 0.000089
+Epoch 54, Batch 90, Loss: 1.2818, learning_rate: 0.000090
+Epoch [54/300] - Loss: 1.3100, Accuracy: 63.25%
+Starting validation...
+Validation Loss: 1.3062, Validation Accuracy: 64.82%
+Epoch 54/300, Val Loss: 1.3062, Val Acc: 64.82%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch51_Acc64.42.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch54_Acc64.82.pth
+Epoch 55/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 55, Batch 0, Loss: 1.3276, learning_rate: 0.000090
+Epoch 55, Batch 30, Loss: 1.3063, learning_rate: 0.000091
+Epoch 55, Batch 60, Loss: 1.1882, learning_rate: 0.000091
+Epoch 55, Batch 90, Loss: 1.4109, learning_rate: 0.000092
+Epoch [55/300] - Loss: 1.3075, Accuracy: 63.29%
+Starting validation...
+Validation Loss: 1.2598, Validation Accuracy: 66.09%
+Epoch 55/300, Val Loss: 1.2598, Val Acc: 66.09%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch54_Acc64.82.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch55_Acc66.09.pth
+Epoch 56/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 56, Batch 0, Loss: 1.2933, learning_rate: 0.000092
+Epoch 56, Batch 30, Loss: 1.3183, learning_rate: 0.000092
+Epoch 56, Batch 60, Loss: 1.3135, learning_rate: 0.000093
+Epoch 56, Batch 90, Loss: 1.3300, learning_rate: 0.000093
+Epoch [56/300] - Loss: 1.3013, Accuracy: 63.46%
+Starting validation...
+Validation Loss: 1.2811, Validation Accuracy: 65.98%
+Epoch 56/300, Val Loss: 1.2811, Val Acc: 65.98%
+验证准确率未提升，早停计数: 1/10
+Epoch 57/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 57, Batch 0, Loss: 1.2473, learning_rate: 0.000093
+Epoch 57, Batch 30, Loss: 1.3253, learning_rate: 0.000094
+Epoch 57, Batch 60, Loss: 1.2955, learning_rate: 0.000094
+Epoch 57, Batch 90, Loss: 1.2963, learning_rate: 0.000095
+Epoch [57/300] - Loss: 1.2916, Accuracy: 64.13%
+Starting validation...
+Validation Loss: 1.2911, Validation Accuracy: 65.71%
+Epoch 57/300, Val Loss: 1.2911, Val Acc: 65.71%
+验证准确率未提升，早停计数: 2/10
+Epoch 58/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 58, Batch 0, Loss: 1.2809, learning_rate: 0.000095
+Epoch 58, Batch 30, Loss: 1.3031, learning_rate: 0.000096
+Epoch 58, Batch 60, Loss: 1.2746, learning_rate: 0.000096
+Epoch 58, Batch 90, Loss: 1.2671, learning_rate: 0.000097
+Epoch [58/300] - Loss: 1.2839, Accuracy: 64.58%
+Starting validation...
+Validation Loss: 1.3296, Validation Accuracy: 64.45%
+Epoch 58/300, Val Loss: 1.3296, Val Acc: 64.45%
+验证准确率未提升，早停计数: 3/10
+Epoch 59/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.34s/it]
+Epoch 59, Batch 0, Loss: 1.2870, learning_rate: 0.000097
+Epoch 59, Batch 30, Loss: 1.2547, learning_rate: 0.000097
+Epoch 59, Batch 60, Loss: 1.2400, learning_rate: 0.000098
+Epoch 59, Batch 90, Loss: 1.2580, learning_rate: 0.000098
+Epoch [59/300] - Loss: 1.2794, Accuracy: 64.61%
+Starting validation...
+Validation Loss: 1.2440, Validation Accuracy: 67.51%
+Epoch 59/300, Val Loss: 1.2440, Val Acc: 67.51%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch55_Acc66.09.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch59_Acc67.51.pth
+Epoch 60/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 60, Batch 0, Loss: 1.2767, learning_rate: 0.000098
+Epoch 60, Batch 30, Loss: 1.2331, learning_rate: 0.000099
+Epoch 60, Batch 60, Loss: 1.2466, learning_rate: 0.000099
+Epoch 60, Batch 90, Loss: 1.2621, learning_rate: 0.000100
+Epoch [60/300] - Loss: 1.2768, Accuracy: 64.90%
+Starting validation...
+Validation Loss: 1.2600, Validation Accuracy: 67.37%
+Epoch 60/300, Val Loss: 1.2600, Val Acc: 67.37%
+验证准确率未提升，早停计数: 1/10
+Epoch 61/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 61, Batch 0, Loss: 1.2354, learning_rate: 0.000100
+Epoch 61, Batch 30, Loss: 1.2677, learning_rate: 0.000100
+Epoch 61, Batch 60, Loss: 1.2366, learning_rate: 0.000100
+Epoch 61, Batch 90, Loss: 1.1924, learning_rate: 0.000100
+Epoch [61/300] - Loss: 1.2688, Accuracy: 65.01%
+Starting validation...
+Validation Loss: 1.2553, Validation Accuracy: 67.56%
+Epoch 61/300, Val Loss: 1.2553, Val Acc: 67.56%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch59_Acc67.51.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch61_Acc67.56.pth
+Epoch 62/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 62, Batch 0, Loss: 1.2627, learning_rate: 0.000100
+Epoch 62, Batch 30, Loss: 1.2800, learning_rate: 0.000100
+Epoch 62, Batch 60, Loss: 1.2669, learning_rate: 0.000100
+Epoch 62, Batch 90, Loss: 1.2416, learning_rate: 0.000100
+Epoch [62/300] - Loss: 1.2614, Accuracy: 65.50%
+Starting validation...
+Validation Loss: 1.2898, Validation Accuracy: 66.43%
+Epoch 62/300, Val Loss: 1.2898, Val Acc: 66.43%
+验证准确率未提升，早停计数: 1/10
+Epoch 63/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:16<00:00,  1.39s/it]
+Epoch 63, Batch 0, Loss: 1.3363, learning_rate: 0.000100
+Epoch 63, Batch 30, Loss: 1.2043, learning_rate: 0.000100
+Epoch 63, Batch 60, Loss: 1.2649, learning_rate: 0.000100
+Epoch 63, Batch 90, Loss: 1.2102, learning_rate: 0.000100
+Epoch [63/300] - Loss: 1.2490, Accuracy: 66.12%
+Starting validation...
+Validation Loss: 1.2682, Validation Accuracy: 67.32%
+Epoch 63/300, Val Loss: 1.2682, Val Acc: 67.32%
+验证准确率未提升，早停计数: 2/10
+Epoch 64/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:15<00:00,  1.38s/it]
+Epoch 64, Batch 0, Loss: 1.2501, learning_rate: 0.000100
+Epoch 64, Batch 30, Loss: 1.2103, learning_rate: 0.000100
+Epoch 64, Batch 60, Loss: 1.2880, learning_rate: 0.000100
+Epoch 64, Batch 90, Loss: 1.2353, learning_rate: 0.000100
+Epoch [64/300] - Loss: 1.2488, Accuracy: 66.11%
+Starting validation...
+Validation Loss: 1.2521, Validation Accuracy: 67.58%
+Epoch 64/300, Val Loss: 1.2521, Val Acc: 67.58%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch61_Acc67.56.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch64_Acc67.58.pth
+Epoch 65/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 65, Batch 0, Loss: 1.2546, learning_rate: 0.000100
+Epoch 65, Batch 30, Loss: 1.2159, learning_rate: 0.000100
+Epoch 65, Batch 60, Loss: 1.2085, learning_rate: 0.000100
+Epoch 65, Batch 90, Loss: 1.2821, learning_rate: 0.000100
+Epoch [65/300] - Loss: 1.2362, Accuracy: 66.64%
+Starting validation...
+Validation Loss: 1.2318, Validation Accuracy: 68.26%
+Epoch 65/300, Val Loss: 1.2318, Val Acc: 68.26%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch64_Acc67.58.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch65_Acc68.26.pth
+Epoch 66/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 66, Batch 0, Loss: 1.2375, learning_rate: 0.000100
+Epoch 66, Batch 30, Loss: 1.1916, learning_rate: 0.000100
+Epoch 66, Batch 60, Loss: 1.1717, learning_rate: 0.000100
+Epoch 66, Batch 90, Loss: 1.2509, learning_rate: 0.000100
+Epoch [66/300] - Loss: 1.2271, Accuracy: 67.32%
+Starting validation...
+Validation Loss: 1.2446, Validation Accuracy: 68.03%
+Epoch 66/300, Val Loss: 1.2446, Val Acc: 68.03%
+验证准确率未提升，早停计数: 1/10
+Epoch 67/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 67, Batch 0, Loss: 1.2193, learning_rate: 0.000100
+Epoch 67, Batch 30, Loss: 1.2208, learning_rate: 0.000100
+Epoch 67, Batch 60, Loss: 1.1802, learning_rate: 0.000100
+Epoch 67, Batch 90, Loss: 1.2040, learning_rate: 0.000100
+Epoch [67/300] - Loss: 1.2202, Accuracy: 67.53%
+Starting validation...
+Validation Loss: 1.2148, Validation Accuracy: 68.95%
+Epoch 67/300, Val Loss: 1.2148, Val Acc: 68.95%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch65_Acc68.26.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch67_Acc68.95.pth
+Epoch 68/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 68, Batch 0, Loss: 1.2409, learning_rate: 0.000100
+Epoch 68, Batch 30, Loss: 1.2580, learning_rate: 0.000100
+Epoch 68, Batch 60, Loss: 1.2574, learning_rate: 0.000100
+Epoch 68, Batch 90, Loss: 1.2999, learning_rate: 0.000100
+Epoch [68/300] - Loss: 1.2171, Accuracy: 67.64%
+Starting validation...
+Validation Loss: 1.2909, Validation Accuracy: 67.62%
+Epoch 68/300, Val Loss: 1.2909, Val Acc: 67.62%
+验证准确率未提升，早停计数: 1/10
+Epoch 69/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 69, Batch 0, Loss: 1.2389, learning_rate: 0.000100
+Epoch 69, Batch 30, Loss: 1.2143, learning_rate: 0.000100
+Epoch 69, Batch 60, Loss: 1.1828, learning_rate: 0.000100
+Epoch 69, Batch 90, Loss: 1.2450, learning_rate: 0.000100
+Epoch [69/300] - Loss: 1.2130, Accuracy: 67.59%
+Starting validation...
+Validation Loss: 1.2271, Validation Accuracy: 68.50%
+Epoch 69/300, Val Loss: 1.2271, Val Acc: 68.50%
+验证准确率未提升，早停计数: 2/10
+Epoch 70/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 70, Batch 0, Loss: 1.2298, learning_rate: 0.000100
+Epoch 70, Batch 30, Loss: 1.2403, learning_rate: 0.000100
+Epoch 70, Batch 60, Loss: 1.1846, learning_rate: 0.000100
+Epoch 70, Batch 90, Loss: 1.2373, learning_rate: 0.000100
+Epoch [70/300] - Loss: 1.2111, Accuracy: 67.61%
+Starting validation...
+Validation Loss: 1.1971, Validation Accuracy: 69.83%
+Epoch 70/300, Val Loss: 1.1971, Val Acc: 69.83%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch67_Acc68.95.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch70_Acc69.83.pth
+Epoch 71/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 71, Batch 0, Loss: 1.2073, learning_rate: 0.000100
+Epoch 71, Batch 30, Loss: 1.1927, learning_rate: 0.000100
+Epoch 71, Batch 60, Loss: 1.2764, learning_rate: 0.000100
+Epoch 71, Batch 90, Loss: 1.1994, learning_rate: 0.000100
+Epoch [71/300] - Loss: 1.1999, Accuracy: 68.44%
+Starting validation...
+Validation Loss: 1.2187, Validation Accuracy: 69.44%
+Epoch 71/300, Val Loss: 1.2187, Val Acc: 69.44%
+验证准确率未提升，早停计数: 1/10
+Epoch 72/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 72, Batch 0, Loss: 1.1392, learning_rate: 0.000100
+Epoch 72, Batch 30, Loss: 1.2398, learning_rate: 0.000100
+Epoch 72, Batch 60, Loss: 1.2327, learning_rate: 0.000100
+Epoch 72, Batch 90, Loss: 1.1733, learning_rate: 0.000100
+Epoch [72/300] - Loss: 1.1908, Accuracy: 68.88%
+Starting validation...
+Validation Loss: 1.2019, Validation Accuracy: 69.78%
+Epoch 72/300, Val Loss: 1.2019, Val Acc: 69.78%
+验证准确率未提升，早停计数: 2/10
+Epoch 73/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 73, Batch 0, Loss: 1.2052, learning_rate: 0.000100
+Epoch 73, Batch 30, Loss: 1.2348, learning_rate: 0.000100
+Epoch 73, Batch 60, Loss: 1.1928, learning_rate: 0.000100
+Epoch 73, Batch 90, Loss: 1.1570, learning_rate: 0.000100
+Epoch [73/300] - Loss: 1.1863, Accuracy: 69.03%
+Starting validation...
+Validation Loss: 1.2110, Validation Accuracy: 70.11%
+Epoch 73/300, Val Loss: 1.2110, Val Acc: 70.11%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch70_Acc69.83.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch73_Acc70.11.pth
+Epoch 74/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 74, Batch 0, Loss: 1.2105, learning_rate: 0.000100
+Epoch 74, Batch 30, Loss: 1.0873, learning_rate: 0.000100
+Epoch 74, Batch 60, Loss: 1.1578, learning_rate: 0.000100
+Epoch 74, Batch 90, Loss: 1.1656, learning_rate: 0.000100
+Epoch [74/300] - Loss: 1.1829, Accuracy: 69.10%
+Starting validation...
+Validation Loss: 1.2314, Validation Accuracy: 69.38%
+Epoch 74/300, Val Loss: 1.2314, Val Acc: 69.38%
+验证准确率未提升，早停计数: 1/10
+Epoch 75/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 75, Batch 0, Loss: 1.2214, learning_rate: 0.000100
+Epoch 75, Batch 30, Loss: 1.1965, learning_rate: 0.000099
+Epoch 75, Batch 60, Loss: 1.1481, learning_rate: 0.000099
+Epoch 75, Batch 90, Loss: 1.2421, learning_rate: 0.000099
+Epoch [75/300] - Loss: 1.1707, Accuracy: 69.74%
+Starting validation...
+Validation Loss: 1.1921, Validation Accuracy: 70.31%
+Epoch 75/300, Val Loss: 1.1921, Val Acc: 70.31%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch73_Acc70.11.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch75_Acc70.31.pth
+Epoch 76/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.34s/it]
+Epoch 76, Batch 0, Loss: 1.1964, learning_rate: 0.000099
+Epoch 76, Batch 30, Loss: 1.1656, learning_rate: 0.000099
+Epoch 76, Batch 60, Loss: 1.1565, learning_rate: 0.000099
+Epoch 76, Batch 90, Loss: 1.1864, learning_rate: 0.000099
+Epoch [76/300] - Loss: 1.1750, Accuracy: 69.58%
+Starting validation...
+Validation Loss: 1.2199, Validation Accuracy: 70.31%
+Epoch 76/300, Val Loss: 1.2199, Val Acc: 70.31%
+验证准确率未提升，早停计数: 1/10
+Epoch 77/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.35s/it]
+Epoch 77, Batch 0, Loss: 1.0834, learning_rate: 0.000099
+Epoch 77, Batch 30, Loss: 1.1251, learning_rate: 0.000099
+Epoch 77, Batch 60, Loss: 1.1356, learning_rate: 0.000099
+Epoch 77, Batch 90, Loss: 1.1388, learning_rate: 0.000099
+Epoch [77/300] - Loss: 1.1632, Accuracy: 70.19%
+Starting validation...
+Validation Loss: 1.2553, Validation Accuracy: 68.71%
+Epoch 77/300, Val Loss: 1.2553, Val Acc: 68.71%
+验证准确率未提升，早停计数: 2/10
+Epoch 78/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 78, Batch 0, Loss: 1.2066, learning_rate: 0.000099
+Epoch 78, Batch 30, Loss: 1.1841, learning_rate: 0.000099
+Epoch 78, Batch 60, Loss: 1.1512, learning_rate: 0.000099
+Epoch 78, Batch 90, Loss: 1.1412, learning_rate: 0.000099
+Epoch [78/300] - Loss: 1.1637, Accuracy: 70.23%
+Starting validation...
+Validation Loss: 1.1977, Validation Accuracy: 69.55%
+Epoch 78/300, Val Loss: 1.1977, Val Acc: 69.55%
+验证准确率未提升，早停计数: 3/10
+Epoch 79/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 79, Batch 0, Loss: 1.1657, learning_rate: 0.000099
+Epoch 79, Batch 30, Loss: 1.1220, learning_rate: 0.000099
+Epoch 79, Batch 60, Loss: 1.1452, learning_rate: 0.000099
+Epoch 79, Batch 90, Loss: 1.1636, learning_rate: 0.000099
+Epoch [79/300] - Loss: 1.1535, Accuracy: 70.59%
+Starting validation...
+Validation Loss: 1.1949, Validation Accuracy: 70.93%
+Epoch 79/300, Val Loss: 1.1949, Val Acc: 70.93%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch75_Acc70.31.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch79_Acc70.93.pth
+Epoch 80/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 80, Batch 0, Loss: 1.0881, learning_rate: 0.000099
+Epoch 80, Batch 30, Loss: 1.1580, learning_rate: 0.000099
+Epoch 80, Batch 60, Loss: 1.1551, learning_rate: 0.000099
+Epoch 80, Batch 90, Loss: 1.1298, learning_rate: 0.000099
+Epoch [80/300] - Loss: 1.1433, Accuracy: 70.82%
+Starting validation...
+Validation Loss: 1.2327, Validation Accuracy: 69.54%
+Epoch 80/300, Val Loss: 1.2327, Val Acc: 69.54%
+验证准确率未提升，早停计数: 1/10
+Epoch 81/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 81, Batch 0, Loss: 1.1800, learning_rate: 0.000099
+Epoch 81, Batch 30, Loss: 1.0749, learning_rate: 0.000099
+Epoch 81, Batch 60, Loss: 1.0806, learning_rate: 0.000099
+Epoch 81, Batch 90, Loss: 1.1876, learning_rate: 0.000099
+Epoch [81/300] - Loss: 1.1425, Accuracy: 71.05%
+Starting validation...
+Validation Loss: 1.2369, Validation Accuracy: 69.21%
+Epoch 81/300, Val Loss: 1.2369, Val Acc: 69.21%
+验证准确率未提升，早停计数: 2/10
+Epoch 82/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.30s/it]
+Epoch 82, Batch 0, Loss: 1.1386, learning_rate: 0.000099
+Epoch 82, Batch 30, Loss: 1.1121, learning_rate: 0.000099
+Epoch 82, Batch 60, Loss: 1.1711, learning_rate: 0.000099
+Epoch 82, Batch 90, Loss: 1.0903, learning_rate: 0.000099
+Epoch [82/300] - Loss: 1.1410, Accuracy: 70.99%
+Starting validation...
+Validation Loss: 1.1639, Validation Accuracy: 71.70%
+Epoch 82/300, Val Loss: 1.1639, Val Acc: 71.70%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch79_Acc70.93.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch82_Acc71.70.pth
+Epoch 83/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 83, Batch 0, Loss: 1.1006, learning_rate: 0.000099
+Epoch 83, Batch 30, Loss: 1.1040, learning_rate: 0.000099
+Epoch 83, Batch 60, Loss: 1.1366, learning_rate: 0.000099
+Epoch 83, Batch 90, Loss: 1.1008, learning_rate: 0.000099
+Epoch [83/300] - Loss: 1.1343, Accuracy: 71.62%
+Starting validation...
+Validation Loss: 1.1989, Validation Accuracy: 71.29%
+Epoch 83/300, Val Loss: 1.1989, Val Acc: 71.29%
+验证准确率未提升，早停计数: 1/10
+Epoch 84/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 84, Batch 0, Loss: 1.1230, learning_rate: 0.000099
+Epoch 84, Batch 30, Loss: 1.1272, learning_rate: 0.000099
+Epoch 84, Batch 60, Loss: 1.1017, learning_rate: 0.000099
+Epoch 84, Batch 90, Loss: 1.0749, learning_rate: 0.000099
+Epoch [84/300] - Loss: 1.1290, Accuracy: 71.70%
+Starting validation...
+Validation Loss: 1.1619, Validation Accuracy: 72.36%
+Epoch 84/300, Val Loss: 1.1619, Val Acc: 72.36%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch82_Acc71.70.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch84_Acc72.36.pth
+Epoch 85/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.35s/it]
+Epoch 85, Batch 0, Loss: 1.1417, learning_rate: 0.000099
+Epoch 85, Batch 30, Loss: 1.1896, learning_rate: 0.000099
+Epoch 85, Batch 60, Loss: 1.1295, learning_rate: 0.000099
+Epoch 85, Batch 90, Loss: 1.1366, learning_rate: 0.000098
+Epoch [85/300] - Loss: 1.1194, Accuracy: 72.06%
+Starting validation...
+Validation Loss: 1.2088, Validation Accuracy: 71.11%
+Epoch 85/300, Val Loss: 1.2088, Val Acc: 71.11%
+验证准确率未提升，早停计数: 1/10
+Epoch 86/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.31s/it]
+Epoch 86, Batch 0, Loss: 1.1375, learning_rate: 0.000098
+Epoch 86, Batch 30, Loss: 1.0942, learning_rate: 0.000098
+Epoch 86, Batch 60, Loss: 1.1922, learning_rate: 0.000098
+Epoch 86, Batch 90, Loss: 1.1350, learning_rate: 0.000098
+Epoch [86/300] - Loss: 1.1187, Accuracy: 72.21%
+Starting validation...
+Validation Loss: 1.1381, Validation Accuracy: 73.11%
+Epoch 86/300, Val Loss: 1.1381, Val Acc: 73.11%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch84_Acc72.36.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch86_Acc73.11.pth
+Epoch 87/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.30s/it]
+Epoch 87, Batch 0, Loss: 1.0950, learning_rate: 0.000098
+Epoch 87, Batch 30, Loss: 1.1791, learning_rate: 0.000098
+Epoch 87, Batch 60, Loss: 1.1009, learning_rate: 0.000098
+Epoch 87, Batch 90, Loss: 1.0924, learning_rate: 0.000098
+Epoch [87/300] - Loss: 1.1146, Accuracy: 72.16%
+Starting validation...
+Validation Loss: 1.1684, Validation Accuracy: 71.56%
+Epoch 87/300, Val Loss: 1.1684, Val Acc: 71.56%
+验证准确率未提升，早停计数: 1/10
+Epoch 88/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 88, Batch 0, Loss: 1.1341, learning_rate: 0.000098
+Epoch 88, Batch 30, Loss: 1.1109, learning_rate: 0.000098
+Epoch 88, Batch 60, Loss: 1.1554, learning_rate: 0.000098
+Epoch 88, Batch 90, Loss: 1.1015, learning_rate: 0.000098
+Epoch [88/300] - Loss: 1.1120, Accuracy: 72.28%
+Starting validation...
+Validation Loss: 1.1205, Validation Accuracy: 73.60%
+Epoch 88/300, Val Loss: 1.1205, Val Acc: 73.60%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch86_Acc73.11.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch88_Acc73.60.pth
+Epoch 89/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 89, Batch 0, Loss: 1.1455, learning_rate: 0.000098
+Epoch 89, Batch 30, Loss: 1.0375, learning_rate: 0.000098
+Epoch 89, Batch 60, Loss: 1.0943, learning_rate: 0.000098
+Epoch 89, Batch 90, Loss: 1.1379, learning_rate: 0.000098
+Epoch [89/300] - Loss: 1.1031, Accuracy: 72.82%
+Starting validation...
+Validation Loss: 1.1643, Validation Accuracy: 72.49%
+Epoch 89/300, Val Loss: 1.1643, Val Acc: 72.49%
+验证准确率未提升，早停计数: 1/10
+Epoch 90/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.35s/it]
+Epoch 90, Batch 0, Loss: 1.0836, learning_rate: 0.000098
+Epoch 90, Batch 30, Loss: 1.0787, learning_rate: 0.000098
+Epoch 90, Batch 60, Loss: 1.1032, learning_rate: 0.000098
+Epoch 90, Batch 90, Loss: 1.0477, learning_rate: 0.000098
+Epoch [90/300] - Loss: 1.0991, Accuracy: 73.10%
+Starting validation...
+Validation Loss: 1.1139, Validation Accuracy: 73.95%
+Epoch 90/300, Val Loss: 1.1139, Val Acc: 73.95%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch88_Acc73.60.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch90_Acc73.95.pth
+Epoch 91/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 91, Batch 0, Loss: 1.1333, learning_rate: 0.000098
+Epoch 91, Batch 30, Loss: 1.1145, learning_rate: 0.000098
+Epoch 91, Batch 60, Loss: 1.0816, learning_rate: 0.000098
+Epoch 91, Batch 90, Loss: 1.1077, learning_rate: 0.000098
+Epoch [91/300] - Loss: 1.0885, Accuracy: 73.41%
+Starting validation...
+Validation Loss: 1.2414, Validation Accuracy: 70.93%
+Epoch 91/300, Val Loss: 1.2414, Val Acc: 70.93%
+验证准确率未提升，早停计数: 1/10
+Epoch 92/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 92, Batch 0, Loss: 1.0775, learning_rate: 0.000098
+Epoch 92, Batch 30, Loss: 1.1072, learning_rate: 0.000098
+Epoch 92, Batch 60, Loss: 1.1044, learning_rate: 0.000098
+Epoch 92, Batch 90, Loss: 1.0924, learning_rate: 0.000098
+Epoch [92/300] - Loss: 1.0965, Accuracy: 73.09%
+Starting validation...
+Validation Loss: 1.1856, Validation Accuracy: 71.48%
+Epoch 92/300, Val Loss: 1.1856, Val Acc: 71.48%
+验证准确率未提升，早停计数: 2/10
+Epoch 93/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 93, Batch 0, Loss: 1.0532, learning_rate: 0.000097
+Epoch 93, Batch 30, Loss: 1.0554, learning_rate: 0.000097
+Epoch 93, Batch 60, Loss: 1.0646, learning_rate: 0.000097
+Epoch 93, Batch 90, Loss: 1.1039, learning_rate: 0.000097
+Epoch [93/300] - Loss: 1.0836, Accuracy: 73.73%
+Starting validation...
+Validation Loss: 1.1675, Validation Accuracy: 71.88%
+Epoch 93/300, Val Loss: 1.1675, Val Acc: 71.88%
+验证准确率未提升，早停计数: 3/10
+Epoch 94/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:15<00:00,  1.38s/it]
+Epoch 94, Batch 0, Loss: 1.1475, learning_rate: 0.000097
+Epoch 94, Batch 30, Loss: 1.0627, learning_rate: 0.000097
+Epoch 94, Batch 60, Loss: 1.0311, learning_rate: 0.000097
+Epoch 94, Batch 90, Loss: 1.0221, learning_rate: 0.000097
+Epoch [94/300] - Loss: 1.0776, Accuracy: 73.89%
+Starting validation...
+Validation Loss: 1.1682, Validation Accuracy: 71.95%
+Epoch 94/300, Val Loss: 1.1682, Val Acc: 71.95%
+验证准确率未提升，早停计数: 4/10
+Epoch 95/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 95, Batch 0, Loss: 1.0399, learning_rate: 0.000097
+Epoch 95, Batch 30, Loss: 1.0233, learning_rate: 0.000097
+Epoch 95, Batch 60, Loss: 1.1450, learning_rate: 0.000097
+Epoch 95, Batch 90, Loss: 1.0575, learning_rate: 0.000097
+Epoch [95/300] - Loss: 1.0776, Accuracy: 73.86%
+Starting validation...
+Validation Loss: 1.1423, Validation Accuracy: 73.55%
+Epoch 95/300, Val Loss: 1.1423, Val Acc: 73.55%
+验证准确率未提升，早停计数: 5/10
+Epoch 96/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.32s/it]
+Epoch 96, Batch 0, Loss: 1.1091, learning_rate: 0.000097
+Epoch 96, Batch 30, Loss: 1.0634, learning_rate: 0.000097
+Epoch 96, Batch 60, Loss: 1.0344, learning_rate: 0.000097
+Epoch 96, Batch 90, Loss: 1.0664, learning_rate: 0.000097
+Epoch [96/300] - Loss: 1.0743, Accuracy: 74.33%
+Starting validation...
+Validation Loss: 1.1499, Validation Accuracy: 73.15%
+Epoch 96/300, Val Loss: 1.1499, Val Acc: 73.15%
+验证准确率未提升，早停计数: 6/10
+Epoch 97/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 97, Batch 0, Loss: 1.0969, learning_rate: 0.000097
+Epoch 97, Batch 30, Loss: 1.1041, learning_rate: 0.000097
+Epoch 97, Batch 60, Loss: 0.9989, learning_rate: 0.000097
+Epoch 97, Batch 90, Loss: 1.0421, learning_rate: 0.000097
+Epoch [97/300] - Loss: 1.0620, Accuracy: 74.67%
+Starting validation...
+Validation Loss: 1.1604, Validation Accuracy: 72.50%
+Epoch 97/300, Val Loss: 1.1604, Val Acc: 72.50%
+验证准确率未提升，早停计数: 7/10
+Epoch 98/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:15<00:00,  1.38s/it]
+Epoch 98, Batch 0, Loss: 1.0521, learning_rate: 0.000097
+Epoch 98, Batch 30, Loss: 1.1132, learning_rate: 0.000097
+Epoch 98, Batch 60, Loss: 1.0155, learning_rate: 0.000097
+Epoch 98, Batch 90, Loss: 1.0254, learning_rate: 0.000096
+Epoch [98/300] - Loss: 1.0613, Accuracy: 74.80%
+Starting validation...
+Validation Loss: 1.1326, Validation Accuracy: 74.09%
+Epoch 98/300, Val Loss: 1.1326, Val Acc: 74.09%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch90_Acc73.95.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch98_Acc74.09.pth
+Epoch 99/300: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 99, Batch 0, Loss: 1.0612, learning_rate: 0.000096
+Epoch 99, Batch 30, Loss: 1.0681, learning_rate: 0.000096
+Epoch 99, Batch 60, Loss: 1.0167, learning_rate: 0.000096
+Epoch 99, Batch 90, Loss: 1.1062, learning_rate: 0.000096
+Epoch [99/300] - Loss: 1.0540, Accuracy: 75.08%
+Starting validation...
+Validation Loss: 1.1325, Validation Accuracy: 73.94%
+Epoch 99/300, Val Loss: 1.1325, Val Acc: 73.94%
+验证准确率未提升，早停计数: 1/10
+Epoch 100/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 100, Batch 0, Loss: 1.0847, learning_rate: 0.000096
+Epoch 100, Batch 30, Loss: 1.0979, learning_rate: 0.000096
+Epoch 100, Batch 60, Loss: 1.0375, learning_rate: 0.000096
+Epoch 100, Batch 90, Loss: 1.0012, learning_rate: 0.000096
+Epoch [100/300] - Loss: 1.0543, Accuracy: 74.93%
+Starting validation...
+Validation Loss: 1.1151, Validation Accuracy: 74.47%
+Epoch 100/300, Val Loss: 1.1151, Val Acc: 74.47%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch98_Acc74.09.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch100_Acc74.47.pth
+Epoch 101/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.34s/it]
+Epoch 101, Batch 0, Loss: 1.0254, learning_rate: 0.000096
+Epoch 101, Batch 30, Loss: 1.0878, learning_rate: 0.000096
+Epoch 101, Batch 60, Loss: 1.0519, learning_rate: 0.000096
+Epoch 101, Batch 90, Loss: 1.0400, learning_rate: 0.000096
+Epoch [101/300] - Loss: 1.0486, Accuracy: 75.30%
+Starting validation...
+Validation Loss: 1.1348, Validation Accuracy: 74.12%
+Epoch 101/300, Val Loss: 1.1348, Val Acc: 74.12%
+验证准确率未提升，早停计数: 1/10
+Epoch 102/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:10<00:00,  1.33s/it]
+Epoch 102, Batch 0, Loss: 1.0581, learning_rate: 0.000096
+Epoch 102, Batch 30, Loss: 1.0133, learning_rate: 0.000096
+Epoch 102, Batch 60, Loss: 1.0353, learning_rate: 0.000096
+Epoch 102, Batch 90, Loss: 1.0634, learning_rate: 0.000096
+Epoch [102/300] - Loss: 1.0459, Accuracy: 75.73%
+Starting validation...
+Validation Loss: 1.1367, Validation Accuracy: 73.95%
+Epoch 102/300, Val Loss: 1.1367, Val Acc: 73.95%
+验证准确率未提升，早停计数: 2/10
+Epoch 103/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 103, Batch 0, Loss: 1.0278, learning_rate: 0.000096
+Epoch 103, Batch 30, Loss: 1.0548, learning_rate: 0.000096
+Epoch 103, Batch 60, Loss: 1.1131, learning_rate: 0.000096
+Epoch 103, Batch 90, Loss: 1.0317, learning_rate: 0.000096
+Epoch [103/300] - Loss: 1.0412, Accuracy: 75.69%
+Starting validation...
+Validation Loss: 1.0741, Validation Accuracy: 76.00%
+Epoch 103/300, Val Loss: 1.0741, Val Acc: 76.00%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch100_Acc74.47.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch103_Acc76.00.pth
+Epoch 104/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 104, Batch 0, Loss: 1.0140, learning_rate: 0.000096
+Epoch 104, Batch 30, Loss: 1.0173, learning_rate: 0.000095
+Epoch 104, Batch 60, Loss: 1.0429, learning_rate: 0.000095
+Epoch 104, Batch 90, Loss: 1.0639, learning_rate: 0.000095
+Epoch [104/300] - Loss: 1.0345, Accuracy: 75.82%
+Starting validation...
+Validation Loss: 1.1204, Validation Accuracy: 74.06%
+Epoch 104/300, Val Loss: 1.1204, Val Acc: 74.06%
+验证准确率未提升，早停计数: 1/10
+Epoch 105/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 105, Batch 0, Loss: 0.9930, learning_rate: 0.000095
+Epoch 105, Batch 30, Loss: 1.0421, learning_rate: 0.000095
+Epoch 105, Batch 60, Loss: 0.9756, learning_rate: 0.000095
+Epoch 105, Batch 90, Loss: 1.0510, learning_rate: 0.000095
+Epoch [105/300] - Loss: 1.0335, Accuracy: 75.92%
+Starting validation...
+Validation Loss: 1.1124, Validation Accuracy: 74.42%
+Epoch 105/300, Val Loss: 1.1124, Val Acc: 74.42%
+验证准确率未提升，早停计数: 2/10
+Epoch 106/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 106, Batch 0, Loss: 0.9569, learning_rate: 0.000095
+Epoch 106, Batch 30, Loss: 1.0177, learning_rate: 0.000095
+Epoch 106, Batch 60, Loss: 1.0226, learning_rate: 0.000095
+Epoch 106, Batch 90, Loss: 0.9741, learning_rate: 0.000095
+Epoch [106/300] - Loss: 1.0240, Accuracy: 76.48%
+Starting validation...
+Validation Loss: 1.1016, Validation Accuracy: 75.49%
+Epoch 106/300, Val Loss: 1.1016, Val Acc: 75.49%
+验证准确率未提升，早停计数: 3/10
+Epoch 107/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 107, Batch 0, Loss: 1.0816, learning_rate: 0.000095
+Epoch 107, Batch 30, Loss: 0.9688, learning_rate: 0.000095
+Epoch 107, Batch 60, Loss: 0.9905, learning_rate: 0.000095
+Epoch 107, Batch 90, Loss: 0.9448, learning_rate: 0.000095
+Epoch [107/300] - Loss: 1.0248, Accuracy: 76.42%
+Starting validation...
+Validation Loss: 1.1529, Validation Accuracy: 73.56%
+Epoch 107/300, Val Loss: 1.1529, Val Acc: 73.56%
+验证准确率未提升，早停计数: 4/10
+Epoch 108/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 108, Batch 0, Loss: 1.0036, learning_rate: 0.000095
+Epoch 108, Batch 30, Loss: 1.0218, learning_rate: 0.000095
+Epoch 108, Batch 60, Loss: 1.0118, learning_rate: 0.000095
+Epoch 108, Batch 90, Loss: 1.0447, learning_rate: 0.000094
+Epoch [108/300] - Loss: 1.0175, Accuracy: 76.77%
+Starting validation...
+Validation Loss: 1.1137, Validation Accuracy: 75.24%
+Epoch 108/300, Val Loss: 1.1137, Val Acc: 75.24%
+验证准确率未提升，早停计数: 5/10
+Epoch 109/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 109, Batch 0, Loss: 1.0008, learning_rate: 0.000094
+Epoch 109, Batch 30, Loss: 0.9990, learning_rate: 0.000094
+Epoch 109, Batch 60, Loss: 1.0279, learning_rate: 0.000094
+Epoch 109, Batch 90, Loss: 1.0079, learning_rate: 0.000094
+Epoch [109/300] - Loss: 1.0138, Accuracy: 76.92%
+Starting validation...
+Validation Loss: 1.0850, Validation Accuracy: 76.26%
+Epoch 109/300, Val Loss: 1.0850, Val Acc: 76.26%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch103_Acc76.00.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch109_Acc76.26.pth
+Epoch 110/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 110, Batch 0, Loss: 1.0220, learning_rate: 0.000094
+Epoch 110, Batch 30, Loss: 0.9790, learning_rate: 0.000094
+Epoch 110, Batch 60, Loss: 1.0261, learning_rate: 0.000094
+Epoch 110, Batch 90, Loss: 0.9705, learning_rate: 0.000094
+Epoch [110/300] - Loss: 1.0103, Accuracy: 77.07%
+Starting validation...
+Validation Loss: 1.1364, Validation Accuracy: 74.28%
+Epoch 110/300, Val Loss: 1.1364, Val Acc: 74.28%
+验证准确率未提升，早停计数: 1/10
+Epoch 111/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 111, Batch 0, Loss: 0.9948, learning_rate: 0.000094
+Epoch 111, Batch 30, Loss: 0.9736, learning_rate: 0.000094
+Epoch 111, Batch 60, Loss: 0.9667, learning_rate: 0.000094
+Epoch 111, Batch 90, Loss: 0.9378, learning_rate: 0.000094
+Epoch [111/300] - Loss: 1.0079, Accuracy: 77.14%
+Starting validation...
+Validation Loss: 1.1048, Validation Accuracy: 75.34%
+Epoch 111/300, Val Loss: 1.1048, Val Acc: 75.34%
+验证准确率未提升，早停计数: 2/10
+Epoch 112/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 112, Batch 0, Loss: 0.9281, learning_rate: 0.000094
+Epoch 112, Batch 30, Loss: 0.9916, learning_rate: 0.000094
+Epoch 112, Batch 60, Loss: 0.9363, learning_rate: 0.000094
+Epoch 112, Batch 90, Loss: 0.9491, learning_rate: 0.000094
+Epoch [112/300] - Loss: 1.0043, Accuracy: 77.31%
+Starting validation...
+Validation Loss: 1.1470, Validation Accuracy: 74.18%
+Epoch 112/300, Val Loss: 1.1470, Val Acc: 74.18%
+验证准确率未提升，早停计数: 3/10
+Epoch 113/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 113, Batch 0, Loss: 0.9744, learning_rate: 0.000093
+Epoch 113, Batch 30, Loss: 1.0856, learning_rate: 0.000093
+Epoch 113, Batch 60, Loss: 0.9933, learning_rate: 0.000093
+Epoch 113, Batch 90, Loss: 0.9985, learning_rate: 0.000093
+Epoch [113/300] - Loss: 1.0022, Accuracy: 77.30%
+Starting validation...
+Validation Loss: 1.1587, Validation Accuracy: 73.33%
+Epoch 113/300, Val Loss: 1.1587, Val Acc: 73.33%
+验证准确率未提升，早停计数: 4/10
+Epoch 114/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 114, Batch 0, Loss: 1.0148, learning_rate: 0.000093
+Epoch 114, Batch 30, Loss: 0.9604, learning_rate: 0.000093
+Epoch 114, Batch 60, Loss: 1.0031, learning_rate: 0.000093
+Epoch 114, Batch 90, Loss: 1.0516, learning_rate: 0.000093
+Epoch [114/300] - Loss: 0.9948, Accuracy: 77.75%
+Starting validation...
+Validation Loss: 1.1423, Validation Accuracy: 74.00%
+Epoch 114/300, Val Loss: 1.1423, Val Acc: 74.00%
+验证准确率未提升，早停计数: 5/10
+Epoch 115/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 115, Batch 0, Loss: 1.0148, learning_rate: 0.000093
+Epoch 115, Batch 30, Loss: 0.9522, learning_rate: 0.000093
+Epoch 115, Batch 60, Loss: 1.0490, learning_rate: 0.000093
+Epoch 115, Batch 90, Loss: 0.9521, learning_rate: 0.000093
+Epoch [115/300] - Loss: 0.9891, Accuracy: 78.06%
+Starting validation...
+Validation Loss: 1.1197, Validation Accuracy: 75.12%
+Epoch 115/300, Val Loss: 1.1197, Val Acc: 75.12%
+验证准确率未提升，早停计数: 6/10
+Epoch 116/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 116, Batch 0, Loss: 1.0328, learning_rate: 0.000093
+Epoch 116, Batch 30, Loss: 0.9115, learning_rate: 0.000093
+Epoch 116, Batch 60, Loss: 0.9768, learning_rate: 0.000093
+Epoch 116, Batch 90, Loss: 1.0319, learning_rate: 0.000093
+Epoch [116/300] - Loss: 0.9829, Accuracy: 78.34%
+Starting validation...
+Validation Loss: 1.0873, Validation Accuracy: 76.41%
+Epoch 116/300, Val Loss: 1.0873, Val Acc: 76.41%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch109_Acc76.26.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch116_Acc76.41.pth
+Epoch 117/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.34s/it]
+Epoch 117, Batch 0, Loss: 0.9751, learning_rate: 0.000092
+Epoch 117, Batch 30, Loss: 0.9803, learning_rate: 0.000092
+Epoch 117, Batch 60, Loss: 1.0573, learning_rate: 0.000092
+Epoch 117, Batch 90, Loss: 0.9231, learning_rate: 0.000092
+Epoch [117/300] - Loss: 0.9865, Accuracy: 78.16%
+Starting validation...
+Validation Loss: 1.1400, Validation Accuracy: 74.78%
+Epoch 117/300, Val Loss: 1.1400, Val Acc: 74.78%
+验证准确率未提升，早停计数: 1/10
+Epoch 118/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 118, Batch 0, Loss: 1.0419, learning_rate: 0.000092
+Epoch 118, Batch 30, Loss: 0.9601, learning_rate: 0.000092
+Epoch 118, Batch 60, Loss: 1.0071, learning_rate: 0.000092
+Epoch 118, Batch 90, Loss: 1.0016, learning_rate: 0.000092
+Epoch [118/300] - Loss: 0.9856, Accuracy: 78.36%
+Starting validation...
+Validation Loss: 1.0768, Validation Accuracy: 76.29%
+Epoch 118/300, Val Loss: 1.0768, Val Acc: 76.29%
+验证准确率未提升，早停计数: 2/10
+Epoch 119/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:09<00:00,  1.32s/it]
+Epoch 119, Batch 0, Loss: 1.0454, learning_rate: 0.000092
+Epoch 119, Batch 30, Loss: 1.0025, learning_rate: 0.000092
+Epoch 119, Batch 60, Loss: 1.0405, learning_rate: 0.000092
+Epoch 119, Batch 90, Loss: 1.0131, learning_rate: 0.000092
+Epoch [119/300] - Loss: 0.9755, Accuracy: 78.62%
+Starting validation...
+Validation Loss: 1.1014, Validation Accuracy: 75.88%
+Epoch 119/300, Val Loss: 1.1014, Val Acc: 75.88%
+验证准确率未提升，早停计数: 3/10
+Epoch 120/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 120, Batch 0, Loss: 1.0192, learning_rate: 0.000092
+Epoch 120, Batch 30, Loss: 0.9532, learning_rate: 0.000092
+Epoch 120, Batch 60, Loss: 0.9567, learning_rate: 0.000092
+Epoch 120, Batch 90, Loss: 0.9534, learning_rate: 0.000091
+Epoch [120/300] - Loss: 0.9725, Accuracy: 78.76%
+Starting validation...
+Validation Loss: 1.0814, Validation Accuracy: 76.43%
+Epoch 120/300, Val Loss: 1.0814, Val Acc: 76.43%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch116_Acc76.41.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch120_Acc76.43.pth
+Epoch 121/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 121, Batch 0, Loss: 0.9762, learning_rate: 0.000091
+Epoch 121, Batch 30, Loss: 0.9322, learning_rate: 0.000091
+Epoch 121, Batch 60, Loss: 0.9615, learning_rate: 0.000091
+Epoch 121, Batch 90, Loss: 0.9447, learning_rate: 0.000091
+Epoch [121/300] - Loss: 0.9702, Accuracy: 78.98%
+Starting validation...
+Validation Loss: 1.1079, Validation Accuracy: 76.22%
+Epoch 121/300, Val Loss: 1.1079, Val Acc: 76.22%
+验证准确率未提升，早停计数: 1/10
+Epoch 122/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:12<00:00,  1.35s/it]
+Epoch 122, Batch 0, Loss: 0.9304, learning_rate: 0.000091
+Epoch 122, Batch 30, Loss: 0.9408, learning_rate: 0.000091
+Epoch 122, Batch 60, Loss: 0.9469, learning_rate: 0.000091
+Epoch 122, Batch 90, Loss: 1.0102, learning_rate: 0.000091
+Epoch [122/300] - Loss: 0.9689, Accuracy: 79.01%
+Starting validation...
+Validation Loss: 1.1268, Validation Accuracy: 74.93%
+Epoch 122/300, Val Loss: 1.1268, Val Acc: 74.93%
+验证准确率未提升，早停计数: 2/10
+Epoch 123/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 123, Batch 0, Loss: 0.9158, learning_rate: 0.000091
+Epoch 123, Batch 30, Loss: 1.0180, learning_rate: 0.000091
+Epoch 123, Batch 60, Loss: 0.9226, learning_rate: 0.000091
+Epoch 123, Batch 90, Loss: 0.9538, learning_rate: 0.000091
+Epoch [123/300] - Loss: 0.9617, Accuracy: 79.40%
+Starting validation...
+Validation Loss: 1.0655, Validation Accuracy: 77.51%
+Epoch 123/300, Val Loss: 1.0655, Val Acc: 77.51%
+删除旧的最佳模型: ./checkpoints/ViT_Original_0410_Val_Epoch120_Acc76.43.pth
+保存模型到 ./checkpoints/ViT_Original_0410_Val_Epoch123_Acc77.51.pth
+Epoch 124/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 124, Batch 0, Loss: 0.9319, learning_rate: 0.000091
+Epoch 124, Batch 30, Loss: 0.9586, learning_rate: 0.000090
+Epoch 124, Batch 60, Loss: 0.9616, learning_rate: 0.000090
+Epoch 124, Batch 90, Loss: 1.0135, learning_rate: 0.000090
+Epoch [124/300] - Loss: 0.9577, Accuracy: 79.59%
+Starting validation...
+Validation Loss: 1.0783, Validation Accuracy: 77.27%
+Epoch 124/300, Val Loss: 1.0783, Val Acc: 77.27%
+验证准确率未提升，早停计数: 1/10
+Epoch 125/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.32s/it]
+Epoch 125, Batch 0, Loss: 1.0066, learning_rate: 0.000090
+Epoch 125, Batch 30, Loss: 0.9541, learning_rate: 0.000090
+Epoch 125, Batch 60, Loss: 0.9258, learning_rate: 0.000090
+Epoch 125, Batch 90, Loss: 0.9832, learning_rate: 0.000090
+Epoch [125/300] - Loss: 0.9549, Accuracy: 79.44%
+Starting validation...
+Validation Loss: 1.0926, Validation Accuracy: 76.35%
+Epoch 125/300, Val Loss: 1.0926, Val Acc: 76.35%
+验证准确率未提升，早停计数: 2/10
+Epoch 126/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:08<00:00,  1.31s/it]
+Epoch 126, Batch 0, Loss: 1.0051, learning_rate: 0.000090
+Epoch 126, Batch 30, Loss: 0.9427, learning_rate: 0.000090
+Epoch 126, Batch 60, Loss: 0.9461, learning_rate: 0.000090
+Epoch 126, Batch 90, Loss: 0.9533, learning_rate: 0.000090
+Epoch [126/300] - Loss: 0.9495, Accuracy: 79.82%
+Starting validation...
+Validation Loss: 1.0993, Validation Accuracy: 76.25%
+Epoch 126/300, Val Loss: 1.0993, Val Acc: 76.25%
+验证准确率未提升，早停计数: 3/10
+Epoch 127/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:15<00:00,  1.38s/it]
+Epoch 127, Batch 0, Loss: 0.9125, learning_rate: 0.000090
+Epoch 127, Batch 30, Loss: 0.9059, learning_rate: 0.000090
+Epoch 127, Batch 60, Loss: 0.9372, learning_rate: 0.000089
+Epoch 127, Batch 90, Loss: 0.9312, learning_rate: 0.000089
+Epoch [127/300] - Loss: 0.9444, Accuracy: 80.02%
+Starting validation...
+Validation Loss: 1.0774, Validation Accuracy: 76.74%
+Epoch 127/300, Val Loss: 1.0774, Val Acc: 76.74%
+验证准确率未提升，早停计数: 4/10
+Epoch 128/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.34s/it]
+Epoch 128, Batch 0, Loss: 0.9616, learning_rate: 0.000089
+Epoch 128, Batch 30, Loss: 0.8906, learning_rate: 0.000089
+Epoch 128, Batch 60, Loss: 1.0034, learning_rate: 0.000089
+Epoch 128, Batch 90, Loss: 0.9051, learning_rate: 0.000089
+Epoch [128/300] - Loss: 0.9443, Accuracy: 79.83%
+Starting validation...
+Validation Loss: 1.0756, Validation Accuracy: 76.95%
+Epoch 128/300, Val Loss: 1.0756, Val Acc: 76.95%
+验证准确率未提升，早停计数: 5/10
+Epoch 129/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:06<00:00,  1.29s/it]
+Epoch 129, Batch 0, Loss: 1.0013, learning_rate: 0.000089
+Epoch 129, Batch 30, Loss: 0.9170, learning_rate: 0.000089
+Epoch 129, Batch 60, Loss: 0.9950, learning_rate: 0.000089
+Epoch 129, Batch 90, Loss: 0.9334, learning_rate: 0.000089
+Epoch [129/300] - Loss: 0.9417, Accuracy: 80.13%
+Starting validation...
+Validation Loss: 1.1076, Validation Accuracy: 76.37%
+Epoch 129/300, Val Loss: 1.1076, Val Acc: 76.37%
+验证准确率未提升，早停计数: 6/10
+Epoch 130/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:11<00:00,  1.34s/it]
+Epoch 130, Batch 0, Loss: 0.9481, learning_rate: 0.000089
+Epoch 130, Batch 30, Loss: 0.9197, learning_rate: 0.000089
+Epoch 130, Batch 60, Loss: 0.9314, learning_rate: 0.000089
+Epoch 130, Batch 90, Loss: 0.9490, learning_rate: 0.000088
+Epoch [130/300] - Loss: 0.9379, Accuracy: 80.24%
+Starting validation...
+Validation Loss: 1.0831, Validation Accuracy: 76.64%
+Epoch 130/300, Val Loss: 1.0831, Val Acc: 76.64%
+验证准确率未提升，早停计数: 7/10
+Epoch 131/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:14<00:00,  1.37s/it]
+Epoch 131, Batch 0, Loss: 0.9268, learning_rate: 0.000088
+Epoch 131, Batch 30, Loss: 0.9139, learning_rate: 0.000088
+Epoch 131, Batch 60, Loss: 0.9277, learning_rate: 0.000088
+Epoch 131, Batch 90, Loss: 0.9438, learning_rate: 0.000088
+Epoch [131/300] - Loss: 0.9386, Accuracy: 80.27%
+Starting validation...
+Validation Loss: 1.0703, Validation Accuracy: 77.48%
+Epoch 131/300, Val Loss: 1.0703, Val Acc: 77.48%
+验证准确率未提升，早停计数: 8/10
+Epoch 132/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:07<00:00,  1.30s/it]
+Epoch 132, Batch 0, Loss: 0.8933, learning_rate: 0.000088
+Epoch 132, Batch 30, Loss: 0.9038, learning_rate: 0.000088
+Epoch 132, Batch 60, Loss: 0.9089, learning_rate: 0.000088
+Epoch 132, Batch 90, Loss: 0.9404, learning_rate: 0.000088
+Epoch [132/300] - Loss: 0.9348, Accuracy: 80.47%
+Starting validation...
+Validation Loss: 1.0798, Validation Accuracy: 76.79%
+Epoch 132/300, Val Loss: 1.0798, Val Acc: 76.79%
+验证准确率未提升，早停计数: 9/10
+Epoch 133/300: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 98/98 [02:05<00:00,  1.28s/it]
+Epoch 133, Batch 0, Loss: 0.9558, learning_rate: 0.000088
+Epoch 133, Batch 30, Loss: 0.8689, learning_rate: 0.000088
+Epoch 133, Batch 60, Loss: 0.9141, learning_rate: 0.000088
+Epoch 133, Batch 90, Loss: 0.9251, learning_rate: 0.000088
+Epoch [133/300] - Loss: 0.9235, Accuracy: 80.97%
+Starting validation...
+Validation Loss: 1.1115, Validation Accuracy: 75.84%
+Epoch 133/300, Val Loss: 1.1115, Val Acc: 75.84%
+验证准确率未提升，早停计数: 10/10
+验证准确率连续 10 个epoch未提升，触发早停
+训练完成。最佳验证准确率: 77.51%

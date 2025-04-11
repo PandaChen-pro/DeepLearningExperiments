@@ -1,0 +1,8 @@
+
+            Epoch 1/100: 100%|████████| 98/98 [02:09<00:00,  1.32s/it]
+            Epoch [1/100] - Loss: 2.0123, Accuracy: 24.57%
+            Epoch 1/100, Val Loss: 1.9876, Val Acc: 31.22%
+            Epoch 2/100: 100%|████████| 98/98 [02:11<00:00,  1.34s/it]
+            Epoch [2/100] - Loss: 1.9654, Accuracy: 26.93%
+            Epoch 2/100, Val Loss: 1.9211, Val Acc: 33.45%
+            

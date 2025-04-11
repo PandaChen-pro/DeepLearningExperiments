@@ -1,0 +1,11 @@
+
+            Epoch 1/300: 100%|████████| 98/98 [02:07<00:00,  1.30s/it]
+            Epoch [1/300] - Loss: 2.3015, Accuracy: 14.93%
+            Epoch 1/300, Val Loss: 2.1212, Val Acc: 23.74%
+            Epoch 2/300: 100%|████████| 98/98 [02:10<00:00,  1.33s/it]
+            Epoch [2/300] - Loss: 2.1869, Accuracy: 19.81%
+            Epoch 2/300, Val Loss: 2.0929, Val Acc: 26.80%
+            Epoch 3/300: 100%|████████| 98/98 [02:05<00:00,  1.28s/it]
+            Epoch [3/300] - Loss: 2.0987, Accuracy: 22.14%
+            Epoch 3/300, Val Loss: 2.0543, Val Acc: 29.31%
+            
